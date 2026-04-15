@@ -1,0 +1,66 @@
+Replicating a tool like AAWP for your custom static-site setup is a brilliant way to maintain the "Content Factory" momentum without the bloat of WordPress. By creating a custom Affiliate Search & Curation Dashboard, you move from manual "link fishing" to a structured, data-driven workflow.
+
+Here is a high-level blueprint for building this tool and integrating it into your existing Grok v1.1 pipeline.
+
+1. The "Affiliate Curator" UI Concept
+Since you are a developer, you don't need a full WordPress back-end. You can build a simple local HTML/JS dashboard (running on localhost) that does the following:
+
+Search Bar: You paste an Amazon URL or ASIN.
+
+Scraper Engine: A small Node.js backend uses Puppeteer or a scraping API to "sniff" the product title, primary image, and price.
+
+The "Add to Vault" Button: When clicked, it:
+
+Downloads the high-res product image to your /assets/products/ folder.
+
+Generates the affiliate link using your tag.
+
+Appends a new entry to a product-vault.json file.
+
+2. The product-vault.json Schema
+This file becomes the "Single Source of Truth" that your main build script will reference.
+
+JSON
+{
+  "beekeeping-for-dummies-blackiston": {
+    "fullName": "Beekeeping For Dummies by Howland Blackiston",
+    "affiliateUrl": "https://amzn.to/example-link",
+    "imageLocalPath": "/assets/products/beekeeping-dummies.jpg",
+    "pricePoint": "$18.99",
+    "lastUpdated": "2026-04-15"
+  }
+}
+3. Pipeline Integration (The "Injection" Phase)
+In your pipeline-apiary-batch.js script, you would add a helper function to swap placeholders for real data.
+
+Step A: In your manifest or notes, you just use the slug: {{product:beekeeping-for-dummies-blackiston}}.
+
+Step B: During Pass 2 (Haiku), the script looks up the slug in product-vault.json.
+
+Step C: It injects a standardized "Product Box" HTML component into the page:
+
+JavaScript
+function injectProductBox(slug) {
+  const data = productVault[slug];
+  return `
+    <div class="product-box">
+      <img src="${data.imageLocalPath}" alt="${data.fullName}">
+      <h3>${data.fullName}</h3>
+      <p class="price">${data.pricePoint}</p>
+      <a href="${data.affiliateUrl}" class="button-accent">View on Amazon</a>
+    </div>
+  `;
+}
+4. Why This Beats WordPress
+Performance: There are no database queries or heavy plugins slowing down the site. Your pages remain static and lightning-fast.
+
+Compliance: By downloading images to your own server, you avoid "hotlinking" (which Amazon sometimes dislikes) and ensure your site doesn't break if an image URL changes.
+
+Scalability: Once a product is in the "Vault," you can mention it across 100 different pages by just using its slug. If the price changes, you update it in one JSON file, and a re-build updates the whole site.
+
+5. Automation Warning: The "API Gate"
+Amazon recently retired their old "Product Advertising API" and replaced it with the Creators API.
+
+The Pro Move: If you don't have API access yet, your "Affiliate Curator" dashboard can use a simple Chrome Extension or a Bookmarklet. When you are on an Amazon page, you click the bookmarklet, and it sends the product data to your local Node.js server.
+
+Would you like me to draft the "Bookmarklet" code and the Node.js "Vault" receiver script to get this started?
