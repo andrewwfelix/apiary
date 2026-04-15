@@ -1,0 +1,181 @@
+🔴 CRITICAL FINDING
+
+Your child page is NOT compatible with your index UI system.
+
+It introduces:
+
+.inner-hero (not in CSS)
+.page-layout, .page-main, .page-sidebar (not in CSS)
+.inner-nav (different nav system)
+sidebar TOC layout (not in index system)
+classic “SEO article template” structure
+
+👉 This is a different product UI, not a page type.
+
+🧠 WHAT YOU ACTUALLY WANT
+
+You want:
+
+ONE design system (apiary.css)
+MANY content types (pages)
+
+NOT:
+
+multiple page architectures competing with each other
+
+✅ FIX STRATEGY (IMPORTANT)
+
+You need to DELETE the concept of “inner page layout system.”
+
+Replace it with:
+
+“Every page is just index.html sections + content blocks”
+
+1️⃣ NEW RULE: SINGLE UI SYSTEM ONLY
+
+All pages (including comparisons, guides, roundups) must use ONLY:
+
+From your CSS:
+
+.hero
+.section-inner
+.section-heading
+.section-sub
+.services-grid
+.steps
+.tools-grid
+.pricing-card
+footer/nav from index
+
+🚫 DO NOT USE:
+
+page-layout
+sidebar layouts
+inner-hero
+custom nav variants
+2️⃣ WHAT TO DO WITH THIS CHILD PAGE
+
+Your current page:
+
+Langstroth vs Top Bar vs Warre
+
+Should be refactored into:
+
+✅ NEW STRUCTURE (INDEX-STYLE ONLY)
+HERO (same system as homepage)
+.hero
+title + intro + quick summary card
+SECTION BLOCKS (replace sidebar + TOC model)
+
+Each section becomes:
+
+<section>
+  <div class="section-inner">
+    <div class="section-eyebrow">Comparison</div>
+    <h2 class="section-heading">Langstroth Hive</h2>
+    <p class="section-sub">...</p>
+  </div>
+</section>
+TABLES (special rule)
+
+Your comparison table:
+
+✔ OK to keep
+BUT wrap it like this:
+
+<section>
+  <div class="section-inner">
+    <h2 class="section-heading">Quick Comparison</h2>
+    <div class="table-wrapper">
+      <table>...</table>
+    </div>
+  </div>
+</section>
+
+Then style .table-wrapper in CSS.
+
+REMOVE COMPLETELY
+
+Delete:
+
+<aside class="page-sidebar">
+TOC system
+.page-layout
+.page-main
+.page-sidebar
+.inner-nav
+duplicate H1 (you have TWO H1s right now — major SEO issue)
+3️⃣ NAVIGATION FIX (IMPORTANT)
+
+Your child page currently has:
+
+<nav class="inner-nav">
+
+❌ This breaks your system
+
+Replace with EXACT index nav:
+
+<nav>
+
+Same markup everywhere.
+
+4️⃣ CRITICAL BUG IN CURRENT CHILD PAGE
+
+You have:
+
+❌ Duplicate H1 problem
+<h1 class="page-h1">...</h1>
+...
+<h1>Langstroth vs Top Bar vs Warre Hive</h1>
+
+👉 This hurts:
+
+SEO
+accessibility
+semantic structure
+5️⃣ FINAL ARCHITECTURE (WHAT YOU SHOULD AIM FOR)
+EVERY PAGE = SAME SHELL
+NAV (identical)
+HERO (index system)
+SECTION BLOCKS (repeatable pattern)
+FOOTER (identical)
+
+NO EXCEPTIONS.
+
+6️⃣ WHAT TO CHANGE IN YOUR PIPELINE
+
+Your renderPage() must:
+
+❌ STOP DOING
+sidebar generation
+layout switching
+page-type templates
+✅ START DOING
+emit sections only
+wrap everything in index system
+reuse same hero structure
+enforce no new classes
+7️⃣ SIMPLE RULE TO GIVE YOUR LLM
+
+Add this:
+
+All pages must use the same UI system as index.html.
+Do not generate sidebar layouts, inner page templates, or new structural containers.
+Only generate section content inside existing APIARY.CSS classes.
+🔥 BIG PICTURE (THIS IS THE REAL INSIGHT)
+
+Right now you have:
+
+“multiple competing frontend frameworks inside one site”
+
+You need:
+
+“one design system + infinite content injection”
+
+If you want next step
+
+I can rewrite your child page into a clean index-consistent version (zero UI changes, only structural normalization), OR
+
+I can refactor your entire pipeline so it physically cannot generate broken layouts anymore.
+
+That second option is what actually makes this scalable.
