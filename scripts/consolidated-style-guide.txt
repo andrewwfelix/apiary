@@ -1,0 +1,3736 @@
+
+================================================================================
+FILE: apex-search-linked.html
+================================================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apex Search Co. — SEO That Pays For Itself</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="apex-search.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-brand">Apex Search Co.</a>
+  <ul class="nav-links">
+    <li><a href="#how">How it works</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#contact" class="nav-cta">Get a free audit</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section style="padding: 0;">
+  <div class="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow">Performance-based SEO</div>
+      <h1>You only pay when the numbers <em>move.</em></h1>
+      <p class="hero-desc">We baseline your traffic, rankings, and leads on day one — then do the work. When results are proven in your analytics dashboard, you get the invoice. Not before.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Get a free audit →</a>
+        <a href="#how" class="btn-secondary">See how it works</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="stats-card">
+        <div class="stats-card-label">90-day results snapshot — example client</div>
+        <div class="before-after">
+          <div class="ba-col">
+            <div class="ba-period">Before</div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Organic traffic</div>
+              <div class="ba-metric-value">1,240</div>
+            </div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Keywords top 10</div>
+              <div class="ba-metric-value">8</div>
+            </div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Monthly leads</div>
+              <div class="ba-metric-value">14</div>
+            </div>
+          </div>
+          <div class="ba-col after">
+            <div class="ba-period">After</div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Organic traffic</div>
+              <div class="ba-metric-value">3,810</div>
+              <div><span class="ba-delta">+207%</span></div>
+            </div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Keywords top 10</div>
+              <div class="ba-metric-value">31</div>
+              <div><span class="ba-delta">+23 kws</span></div>
+            </div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Monthly leads</div>
+              <div class="ba-metric-value">47</div>
+              <div><span class="ba-delta">+236%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="stats-card-footer">
+          <span>Results verified via Google Analytics &amp; Search Console</span>
+          <span class="invoice-badge">Invoice sent ✓</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-section" id="how">
+  <div class="section-inner">
+    <div class="section-eyebrow">The process</div>
+    <h2 class="section-heading">Four steps. Zero risk.</h2>
+    <p class="section-sub">A straightforward model built on transparency — you see exactly what we measured, and exactly what changed.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01 — Baseline</div>
+        <div class="step-title">We snapshot your site</div>
+        <div class="step-desc">We pull your current traffic, keyword rankings, and conversion data from Google Analytics and Search Console to establish a clear starting point.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">02 — Audit & Strategy</div>
+        <div class="step-title">We find the gaps</div>
+        <div class="step-desc">A full technical crawl with Screaming Frog, competitive research via Semrush, and a prioritised action plan targeting your highest-impact opportunities.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">03 — Execution</div>
+        <div class="step-title">We do the work</div>
+        <div class="step-desc">On-page optimisation, technical fixes, backlink strategy, and content improvements — deployed directly via GitHub and Netlify where applicable.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">04 — Proof & Invoice</div>
+        <div class="step-title">You see results first</div>
+        <div class="step-desc">At 90 days, we produce a before/after report from your live analytics data. When agreed thresholds are met, you receive the invoice. No results, no charge.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-inner">
+    <div class="section-eyebrow">Services</div>
+    <h2 class="section-heading">Everything your site needs to <em>rank.</em></h2>
+    <p class="section-sub">A full-stack approach to search — from the technical foundation to content and authority.</p>
+    <div class="services-grid">
+      <div class="service-item">
+        <div class="service-num">01</div>
+        <div class="service-title">Technical SEO Audit</div>
+        <div class="service-desc">Full site crawl to uncover broken links, crawl errors, slow pages, duplicate content, and indexing issues that silently suppress your rankings.</div>
+        <div class="service-tools">
+          <span class="tool-tag">Screaming Frog</span>
+          <span class="tool-tag">Google Search Console</span>
+          <span class="tool-tag">Semrush</span>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">02</div>
+        <div class="service-title">Search Performance</div>
+        <div class="service-desc">Keyword research, SERP monitoring, and ranking analysis to understand exactly where you stand — and the specific moves to climb higher.</div>
+        <div class="service-tools">
+          <span class="tool-tag">Semrush</span>
+          <span class="tool-tag">Google Search Console</span>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">03</div>
+        <div class="service-title">Analytics & Reporting</div>
+        <div class="service-desc">GA4 setup, goal configuration, and clean before/after dashboards that show exactly where traffic comes from and what it does on your site.</div>
+        <div class="service-tools">
+          <span class="tool-tag">Google Analytics</span>
+          <span class="tool-tag">Search Console</span>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">04</div>
+        <div class="service-title">Technical Deployment</div>
+        <div class="service-desc">SEO fixes implemented cleanly, with version-controlled deployments via GitHub and Netlify — so every change is tracked and reversible.</div>
+        <div class="service-tools">
+          <span class="tool-tag">GitHub</span>
+          <span class="tool-tag">Netlify</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing-section" id="pricing">
+  <div class="section-inner">
+    <div class="section-eyebrow">Pricing</div>
+    <h2 class="section-heading" style="color: #fff;">No results, <em style="color:#7ec99a;">no invoice.</em></h2>
+    <p class="section-sub" style="color: #9a9a94; margin-bottom: 40px;">A one-time fee, charged only after your agreed targets are hit and verified in your own analytics data.</p>
+    <div class="pricing-card">
+      <div class="pricing-left">
+        <div class="pricing-model">Pay once.<br><em>After</em> it works.</div>
+        <div class="pricing-desc">We agree on your targets upfront, do the work over 90 days, then present a verified before/after report. The invoice only follows when all three metric thresholds are met.</div>
+        <div class="pricing-note">A small audit deposit ($300–500) covers our tooling costs and is credited against your final invoice on delivery.</div>
+        <a href="#contact" class="pricing-cta" style="margin-top: 28px; display: inline-block;">Book a free consultation →</a>
+      </div>
+      <div class="pricing-right">
+        <div style="font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #6a6a64; margin-bottom: 8px;">Result thresholds (example)</div>
+        <div class="metric-row">
+          <span class="metric-name">Organic traffic</span>
+          <span class="metric-threshold">+20% sessions</span>
+          <span class="metric-tag">GA4</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-name">Keyword rankings</span>
+          <span class="metric-threshold">+5 keywords top 10</span>
+          <span class="metric-tag">Search Console</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-name">Leads / conversions</span>
+          <span class="metric-threshold">+15% goal completions</span>
+          <span class="metric-tag">GA4</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-name">Measurement window</span>
+          <span class="metric-threshold">90 days</span>
+          <span class="metric-tag">Fixed</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-name">Payment model</span>
+          <span class="metric-threshold">One-time fee</span>
+          <span class="metric-tag">On proof</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section class="tools-section" id="tools">
+  <div class="section-inner">
+    <div class="section-eyebrow">Tools</div>
+    <h2 class="section-heading">Industry-standard tools, <em>properly used.</em></h2>
+    <p class="section-sub">No guesswork — every recommendation is backed by data from the same platforms the world's top SEO teams rely on.</p>
+    <div class="tools-grid">
+      <div class="tool-item">
+        <div class="tool-name">Google Analytics 4</div>
+        <div class="tool-role">Traffic analysis, goal tracking, and the primary before/after measurement source for your results report.</div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-name">Google Search Console</div>
+        <div class="tool-role">First-party keyword, impressions, and ranking data — the only tool with direct insight from Google itself.</div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-name">Semrush</div>
+        <div class="tool-role">Competitor analysis, keyword research, backlink auditing, and site health monitoring.</div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-name">Screaming Frog</div>
+        <div class="tool-role">Deep technical crawl of every page — surfaces broken links, redirect chains, missing tags, and crawl errors.</div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-name">GitHub</div>
+        <div class="tool-role">Version-controlled implementation of all technical fixes — every change tracked and reversible.</div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-name">Netlify</div>
+        <div class="tool-role">Rapid, reliable deployment of site changes with preview environments before anything goes live.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER / CONTACT -->
+<footer id="contact">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">Apex Search Co.</div>
+      <div class="footer-tagline">Performance-based SEO — you pay when results are proven.</div>
+    </div>
+    <div class="footer-contact">
+      <a href="mailto:hello@apexsearch.co">hello@apexsearch.co</a>
+      <a href="https://apexsearch.co">apexsearch.co</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+================================================================================
+FILE: apex-search.css
+================================================================================
+
+/* apex-search.css — Home / Landing Page */
+
+/* HERO */
+.hero {
+    padding: 160px 48px 100px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .hero-left {}
+
+  .hero-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero-eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 58px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 28px;
+    letter-spacing: -0.01em;
+  }
+
+  .hero h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  .hero-desc {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.75;
+    margin-bottom: 40px;
+    max-width: 440px;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white);
+    background: var(--accent);
+    padding: 14px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .btn-primary:hover { background: var(--accent-light); transform: translateY(-1px); }
+
+  .btn-secondary {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--ink-mid);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 2px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .btn-secondary:hover { color: var(--ink); border-color: var(--ink-mid); }
+
+/* SECTION COMMON */
+section { padding: 100px 48px; }
+
+  .section-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .section-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .section-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: var(--ink);
+    margin-bottom: 16px;
+    max-width: 600px;
+  }
+
+  .section-heading em { font-style: italic; color: var(--accent); }
+
+  .section-sub {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.75;
+    max-width: 520px;
+    margin-bottom: 56px;
+  }
+
+/* HOW IT WORKS */
+.how-section { background: var(--white); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .step {
+    background: var(--white);
+    padding: 32px 28px;
+  }
+
+  .step-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--ink-light);
+    margin-bottom: 20px;
+    letter-spacing: 0.06em;
+  }
+
+  .step-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+
+  .step-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.65;
+  }
+
+/* SERVICES */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .service-item {
+    background: var(--cream);
+    padding: 36px 32px;
+    transition: background 0.2s;
+  }
+
+  .service-item:hover { background: var(--cream-dark); }
+
+  .service-num {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--ink-light);
+    margin-bottom: 16px;
+  }
+
+  .service-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+
+  .service-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.7;
+    margin-bottom: 18px;
+  }
+
+  .service-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .tool-tag {
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--ink-mid);
+    background: var(--white);
+    border: 1px solid var(--rule);
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+
+/* PRICING */
+.pricing-section { background: var(--ink); }
+
+  .pricing-section .section-eyebrow { color: #7ec99a; }
+  .pricing-section .section-eyebrow::before { background: #7ec99a; }
+  .pricing-section .section-heading { color: var(--white); }
+  .pricing-section .section-sub { color: #9a9a94; }
+
+  .pricing-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 16px;
+    padding: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+
+  .pricing-left {}
+
+  .pricing-model {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .pricing-model em { font-style: italic; color: #7ec99a; }
+
+  .pricing-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: #9a9a94;
+    line-height: 1.75;
+    margin-bottom: 28px;
+  }
+
+  .pricing-note {
+    font-size: 13px;
+    font-weight: 300;
+    color: #7ec99a;
+    border-left: 2px solid #7ec99a;
+    padding-left: 14px;
+    line-height: 1.6;
+  }
+
+  .pricing-right {}
+
+  .metric-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .metric-row:last-child { border-bottom: none; }
+
+  .metric-name {
+    font-size: 13px;
+    font-weight: 300;
+    color: #9a9a94;
+  }
+
+  .metric-threshold {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white);
+  }
+
+  .metric-tag {
+    font-size: 11px;
+    font-weight: 400;
+    color: #7ec99a;
+    background: rgba(126, 201, 154, 0.12);
+    border: 1px solid rgba(126, 201, 154, 0.3);
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+
+  .pricing-cta {
+    margin-top: 28px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+    background: #7ec99a;
+    padding: 14px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .pricing-cta:hover { background: #9adbb1; transform: translateY(-1px); }
+
+/* TOOLS */
+.tools-section { border-top: 1px solid var(--rule); }
+
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .tool-item {
+    background: var(--white);
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .tool-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+  }
+
+  .tool-role {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.55;
+  }
+
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; padding: 120px 24px 80px; min-height: auto; gap: 48px; }
+  .hero h1 { font-size: 40px; }
+  .steps { grid-template-columns: 1fr 1fr; }
+  .services-grid { grid-template-columns: 1fr; }
+  .tools-grid { grid-template-columns: 1fr 1fr; }
+  .pricing-card { grid-template-columns: 1fr; }
+  section { padding: 72px 24px; }
+}
+
+
+================================================================================
+FILE: audit-service-linked.html
+================================================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Technical Site Audit — Apex Search Co.</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="audit-service.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="apex-search.html" class="nav-brand">Apex Search Co.</a>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Audit</a></li>
+    <li><a href="#">Visibility</a></li>
+    <li><a href="#">Analytics</a></li>
+    <li><a href="#">Authority</a></li>
+    <li><a href="#contact" class="nav-cta">Get a free audit</a></li>
+  </ul>
+</nav>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="apex-search.html">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <a href="#">Services</a>
+    <span class="breadcrumb-sep">›</span>
+    <span class="breadcrumb-current">Technical Site Audit</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow">01 — Audit</div>
+      <h1>Every issue.<br>Found. <em>Fixed.</em></h1>
+      <p class="hero-desc">A full technical crawl of your entire site — uncovering the broken links, slow pages, crawl errors, and indexing gaps that are silently holding your rankings back.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Request your audit →</a>
+        <a href="#what-we-check" class="btn-ghost">See what we check</a>
+      </div>
+    </div>
+
+    <!-- AUDIT PREVIEW CARD -->
+    <div class="audit-preview">
+      <div class="audit-preview-header">
+        <span class="audit-preview-title">Site health score</span>
+        <div class="audit-score">
+          <span class="score-before">61</span>
+          <span class="score-arrow">→</span>
+          <span class="score-after">94 / 100</span>
+        </div>
+      </div>
+      <div class="audit-preview-body">
+        <div class="audit-row">
+          <div class="audit-row-left">
+            <span class="audit-dot dot-fixed"></span>
+            <span class="audit-row-name">Broken links (4xx errors)</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px;">
+            <span class="audit-row-count">18 fixed</span>
+            <span class="audit-row-status status-fixed">Resolved</span>
+          </div>
+        </div>
+        <div class="audit-row">
+          <div class="audit-row-left">
+            <span class="audit-dot dot-fixed"></span>
+            <span class="audit-row-name">Missing meta descriptions</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px;">
+            <span class="audit-row-count">24 fixed</span>
+            <span class="audit-row-status status-fixed">Resolved</span>
+          </div>
+        </div>
+        <div class="audit-row">
+          <div class="audit-row-left">
+            <span class="audit-dot dot-fixed"></span>
+            <span class="audit-row-name">Redirect chains</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px;">
+            <span class="audit-row-count">7 fixed</span>
+            <span class="audit-row-status status-fixed">Resolved</span>
+          </div>
+        </div>
+        <div class="audit-row">
+          <div class="audit-row-left">
+            <span class="audit-dot dot-fixed"></span>
+            <span class="audit-row-name">Page speed (LCP)</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px;">
+            <span class="audit-row-count">3.8s → 1.7s</span>
+            <span class="audit-row-status status-fixed">Resolved</span>
+          </div>
+        </div>
+        <div class="audit-row">
+          <div class="audit-row-left">
+            <span class="audit-dot dot-warn"></span>
+            <span class="audit-row-name">Duplicate content</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px;">
+            <span class="audit-row-count">3 pages</span>
+            <span class="audit-row-status status-flagged">In progress</span>
+          </div>
+        </div>
+        <div class="audit-row">
+          <div class="audit-row-left">
+            <span class="audit-dot dot-ok"></span>
+            <span class="audit-row-name">SSL certificate</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px;">
+            <span class="audit-row-count">—</span>
+            <span class="audit-row-status status-ok">Passing</span>
+          </div>
+        </div>
+      </div>
+      <div class="audit-preview-footer">
+        <span>Verified via Screaming Frog &amp; Search Console</span>
+        <span>Example client · 90-day audit</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHAT WE CHECK -->
+<section class="section" id="what-we-check">
+  <div class="section-inner">
+    <div class="section-eyebrow">What we check</div>
+    <h2 class="section-heading">Every corner of your site,<br><em>scrutinised.</em></h2>
+    <p class="section-sub">Our audit covers six technical areas that directly influence how search engines crawl, index, and rank your pages — each mapped to specific fixes.</p>
+
+    <div class="check-grid">
+      <div class="check-item">
+        <div class="check-number">01</div>
+        <div class="check-title">Crawlability</div>
+        <div class="check-desc">We verify that search engines can access every important page — checking robots.txt, noindex tags, and crawl directives that might be blocking your content.</div>
+        <span class="check-tool">Screaming Frog</span>
+      </div>
+      <div class="check-item">
+        <div class="check-number">02</div>
+        <div class="check-title">Broken links &amp; redirects</div>
+        <div class="check-desc">A full map of every 4xx error and redirect chain on your site. We fix broken links and clean up multi-hop redirects that waste crawl budget and lose link equity.</div>
+        <span class="check-tool">Screaming Frog</span>
+      </div>
+      <div class="check-item">
+        <div class="check-number">03</div>
+        <div class="check-title">Page speed &amp; Core Web Vitals</div>
+        <div class="check-desc">We test LCP, CLS, and INP on mobile and desktop against Google's thresholds. Failing Core Web Vitals is a direct ranking disadvantage — we fix it.</div>
+        <span class="check-tool">Search Console · Netlify</span>
+      </div>
+      <div class="check-item">
+        <div class="check-number">04</div>
+        <div class="check-title">On-page elements</div>
+        <div class="check-desc">Audit of every title tag, meta description, H1, and canonical tag across your site — flagging duplicates, missing values, and tags that are too short or too long.</div>
+        <span class="check-tool">Screaming Frog · Semrush</span>
+      </div>
+      <div class="check-item">
+        <div class="check-number">05</div>
+        <div class="check-title">Indexing &amp; sitemap</div>
+        <div class="check-desc">We cross-reference your sitemap against Google's index to find pages that should be indexed but aren't — and pages that are indexed but shouldn't be.</div>
+        <span class="check-tool">Search Console</span>
+      </div>
+      <div class="check-item">
+        <div class="check-number">06</div>
+        <div class="check-title">Internal linking structure</div>
+        <div class="check-desc">We map your internal link graph to identify orphaned pages, high click-depth content, and missed opportunities to pass authority to your most important pages.</div>
+        <span class="check-tool">Screaming Frog · Semrush</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU GET -->
+<section class="section deliverables-section" id="deliverables">
+  <div class="section-inner">
+    <div class="section-eyebrow">What you get</div>
+    <h2 class="section-heading">A report you can<br>actually <em>act on.</em></h2>
+    <p class="section-sub">Not a raw data export — a clear, prioritised document that tells you exactly what's wrong and what to do about it, in plain language.</p>
+
+    <div class="deliverables-grid">
+      <div class="deliverables-list">
+        <div class="deliverable-item">
+          <div class="deliverable-icon">
+            <svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg>
+          </div>
+          <div class="deliverable-text">
+            <div class="deliverable-title">Full issue inventory</div>
+            <div class="deliverable-desc">Every technical error on your site, categorised by type and sorted by severity — so you know exactly what's broken.</div>
+          </div>
+        </div>
+        <div class="deliverable-item">
+          <div class="deliverable-icon">
+            <svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg>
+          </div>
+          <div class="deliverable-text">
+            <div class="deliverable-title">Prioritised fix list</div>
+            <div class="deliverable-desc">Issues ranked by impact on rankings and traffic — quick wins first, with estimated effort for each fix.</div>
+          </div>
+        </div>
+        <div class="deliverable-item">
+          <div class="deliverable-icon">
+            <svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg>
+          </div>
+          <div class="deliverable-text">
+            <div class="deliverable-title">Before / after health score</div>
+            <div class="deliverable-desc">A baseline score taken on day one and remeasured after fixes — the proof that underpins our results-based invoice.</div>
+          </div>
+        </div>
+        <div class="deliverable-item">
+          <div class="deliverable-icon">
+            <svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg>
+          </div>
+          <div class="deliverable-text">
+            <div class="deliverable-title">Implementation via GitHub &amp; Netlify</div>
+            <div class="deliverable-desc">All fixes deployed with version control — every change tracked, documented, and reversible if needed.</div>
+          </div>
+        </div>
+        <div class="deliverable-item">
+          <div class="deliverable-icon">
+            <svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg>
+          </div>
+          <div class="deliverable-text">
+            <div class="deliverable-title">30-day re-crawl check</div>
+            <div class="deliverable-desc">We re-run the crawl 30 days after fixes to confirm Search Console has processed the changes and nothing has regressed.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout-card">
+        <div class="callout-label">Performance guarantee</div>
+        <div class="callout-heading">No invoice until your <em>score moves.</em></div>
+        <div class="callout-body">We baseline your site health score before we start. Once the audit is complete and fixes are deployed, you'll see the before and after in your own Search Console data. That's when we send the bill.</div>
+        <div class="callout-stat-row">
+          <div class="callout-stat">
+            <div class="callout-stat-value">90</div>
+            <div class="callout-stat-label">Day window</div>
+          </div>
+          <div class="callout-stat">
+            <div class="callout-stat-value">1×</div>
+            <div class="callout-stat-label">One-time fee</div>
+          </div>
+          <div class="callout-stat">
+            <div class="callout-stat-value">$0</div>
+            <div class="callout-stat-label">If no results</div>
+          </div>
+        </div>
+        <a href="#contact" class="callout-cta">Book a free consultation →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section" id="process">
+  <div class="section-inner">
+    <div class="section-eyebrow">The process</div>
+    <h2 class="section-heading">How an audit<br><em>actually works.</em></h2>
+    <p class="section-sub">From first crawl to verified fixes — here's the exact sequence, with no surprises.</p>
+
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="process-num">01</div>
+        <div class="process-title">Baseline crawl</div>
+        <div class="process-desc">We run a full Screaming Frog crawl of your site and record your current health score as the official starting point.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-num">02</div>
+        <div class="process-title">Issue mapping</div>
+        <div class="process-desc">Every error is categorised, cross-referenced with Search Console data, and ranked by its impact on your rankings.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-num">03</div>
+        <div class="process-title">Fix &amp; deploy</div>
+        <div class="process-desc">Fixes are implemented via GitHub pull requests and deployed through Netlify — with a preview environment before anything goes live.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-num">04</div>
+        <div class="process-title">Verify &amp; report</div>
+        <div class="process-desc">We re-crawl, confirm improvements in Search Console, and deliver your before/after report. Invoice follows on proof.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OTHER SERVICES -->
+<section class="section" style="background: var(--white); border-bottom: none;">
+  <div class="section-inner">
+    <div class="section-eyebrow">Other services</div>
+    <h2 class="section-heading">The audit is<br>just the <em>beginning.</em></h2>
+    <p class="section-sub">Once your technical foundation is solid, we build on it — rankings, traffic, and authority.</p>
+
+    <div class="services-nav">
+      <a href="#" class="service-nav-item">
+        <div class="service-nav-num">02</div>
+        <div class="service-nav-title">Search Visibility</div>
+        <div class="service-nav-desc">Keyword tracking, SERP monitoring, and ranking analysis — turning data into a clear climb strategy.</div>
+        <div class="service-nav-arrow">Explore →</div>
+      </a>
+      <a href="#" class="service-nav-item">
+        <div class="service-nav-num">03</div>
+        <div class="service-nav-title">Analytics &amp; Reporting</div>
+        <div class="service-nav-desc">GA4 dashboards and before/after reports that show exactly where traffic comes from and what it does.</div>
+        <div class="service-nav-arrow">Explore →</div>
+      </a>
+      <a href="#" class="service-nav-item">
+        <div class="service-nav-num">04</div>
+        <div class="service-nav-title">Authority &amp; Backlinks</div>
+        <div class="service-nav-desc">Backlink gap analysis, outreach strategy, and competitor intelligence to build your domain authority.</div>
+        <div class="service-nav-arrow">Explore →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">Apex Search Co.</div>
+      <div class="footer-tagline">Performance-based SEO — you pay when results are proven.</div>
+    </div>
+    <div class="footer-contact">
+      <a href="mailto:hello@apexsearch.co">hello@apexsearch.co</a>
+      <a href="#">apexsearch.co</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+================================================================================
+FILE: audit-service.css
+================================================================================
+
+/* audit-service.css — Technical Audit Service Page */
+
+/* BREADCRUMB */
+.breadcrumb {
+    padding: 88px 48px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .breadcrumb-inner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--ink-light);
+    letter-spacing: 0.04em;
+  }
+
+  .breadcrumb-inner a {
+    color: var(--ink-light);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .breadcrumb-inner a:hover { color: var(--ink-mid); }
+  .breadcrumb-sep { opacity: 0.4; }
+  .breadcrumb-current { color: var(--accent); }
+
+/* HERO */
+.hero {
+    padding: 48px 48px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .hero-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+    padding-bottom: 72px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .hero-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero-eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 24px;
+    letter-spacing: -0.01em;
+  }
+
+  .hero h1 em { font-style: italic; color: var(--accent); }
+
+  .hero-desc {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.8;
+    margin-bottom: 36px;
+    max-width: 440px;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white);
+    background: var(--accent);
+    padding: 13px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .btn-primary:hover { background: var(--accent-light); transform: translateY(-1px); }
+
+  .btn-ghost {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--ink-mid);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 2px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .btn-ghost:hover { color: var(--ink); border-color: var(--ink-mid); }
+
+/* WHAT WE CHECK */
+.section {
+    padding: 80px 48px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .section-inner { max-width: 1100px; margin: 0 auto; }
+
+  .section-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .section-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--ink);
+    margin-bottom: 12px;
+    line-height: 1.15;
+  }
+
+  .section-heading em { font-style: italic; color: var(--accent); }
+
+  .section-sub {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.75;
+    max-width: 560px;
+    margin-bottom: 48px;
+  }
+
+/* CHECK GRID */
+.check-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .check-item {
+    background: var(--white);
+    padding: 32px 28px;
+    transition: background 0.2s;
+  }
+
+  .check-item:hover { background: var(--cream); }
+
+  .check-number {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--ink-light);
+    margin-bottom: 16px;
+    letter-spacing: 0.06em;
+  }
+
+  .check-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+
+  .check-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  .check-tool {
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--ink-light);
+    background: var(--cream-dark);
+    border: 1px solid var(--rule);
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: inline-block;
+  }
+
+/* WHAT YOU GET */
+.deliverables-section { background: var(--white); }
+
+  .deliverables-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+
+  .deliverables-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .deliverable-item {
+    background: var(--cream);
+    padding: 22px 24px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    align-items: start;
+    border-bottom: 1px solid var(--rule);
+    transition: background 0.15s;
+  }
+
+  .deliverable-item:last-child { border-bottom: none; }
+  .deliverable-item:hover { background: var(--cream-dark); }
+
+  .deliverable-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--accent-pale);
+    border: 1px solid #b8d9c3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .deliverable-icon svg {
+    width: 12px;
+    height: 12px;
+    stroke: var(--accent);
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .deliverable-text {}
+
+  .deliverable-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 3px;
+  }
+
+  .deliverable-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.6;
+  }
+
+/* RIGHT SIDE CALLOUT CARD */
+.callout-card {
+    background: var(--ink);
+    border-radius: 16px;
+    padding: 40px;
+  }
+
+  .callout-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7ec99a;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .callout-label::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 1px;
+    background: #7ec99a;
+  }
+
+  .callout-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .callout-heading em { font-style: italic; color: #7ec99a; }
+
+  .callout-body {
+    font-size: 14px;
+    font-weight: 300;
+    color: #9a9a94;
+    line-height: 1.75;
+    margin-bottom: 28px;
+  }
+
+  .callout-stat-row {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 28px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .callout-stat {}
+
+  .callout-stat-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 34px;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .callout-stat-label {
+    font-size: 11px;
+    font-weight: 300;
+    color: #6a6a64;
+  }
+
+  .callout-cta {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+    background: #7ec99a;
+    padding: 13px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .callout-cta:hover { background: #9adbb1; transform: translateY(-1px); }
+
+/* PROCESS */
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .process-step {
+    background: var(--cream);
+    padding: 32px 24px;
+    position: relative;
+  }
+
+  .process-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    font-weight: 300;
+    color: var(--rule);
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
+  .process-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+
+  .process-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.65;
+  }
+
+/* OTHER SERVICES */
+.services-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .service-nav-item {
+    background: var(--white);
+    padding: 28px;
+    text-decoration: none;
+    transition: background 0.2s;
+    display: block;
+  }
+
+  .service-nav-item:hover { background: var(--cream); }
+
+  .service-nav-num {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 10px;
+  }
+
+  .service-nav-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--ink);
+    margin-bottom: 6px;
+  }
+
+  .service-nav-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.6;
+  }
+
+  .service-nav-arrow {
+    margin-top: 14px;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--accent);
+  }
+
+@media (max-width: 900px) {
+  .breadcrumb { padding: 84px 24px 0; }
+  .hero { padding: 32px 24px 0; }
+  .hero-inner { grid-template-columns: 1fr; gap: 36px; padding-bottom: 56px; }
+  .hero h1 { font-size: 38px; }
+  .check-grid { grid-template-columns: 1fr 1fr; }
+  .deliverables-grid { grid-template-columns: 1fr; }
+  .process-steps { grid-template-columns: 1fr 1fr; }
+  .services-nav { grid-template-columns: 1fr; }
+  .section { padding: 60px 24px; }
+}
+
+
+================================================================================
+FILE: competitor-analysis-report-linked.html
+================================================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Competitor Analysis Report — Apex Search Co.</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="competitor-analysis.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-brand">Apex Search Co.</a>
+  <div class="nav-meta">
+    <span class="nav-report-label">Competitor Analysis Report</span>
+    <button class="nav-print" onclick="window.print()">Download PDF</button>
+  </div>
+</nav>
+
+<!-- REPORT HEADER -->
+<div class="report-header">
+  <div>
+    <div class="report-eyebrow">Competitor analysis report</div>
+    <h1 class="report-title">Search landscape review<br>for <em>yourclient.com</em></h1>
+    <div class="report-domains">
+      <span class="domain-chip client">yourclient.com — your site</span>
+      <span class="domain-chip competitor">competitor-a.com</span>
+      <span class="domain-chip competitor">competitor-b.com</span>
+      <span class="domain-chip competitor">competitor-c.com</span>
+    </div>
+  </div>
+  <div class="report-meta-block">
+    <div class="meta-row">
+      <span class="meta-label">Prepared by</span>
+      <span class="meta-value">Apex Search Co.</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Report date</span>
+      <span class="meta-value">April 2026</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Tools used</span>
+      <span class="meta-value">Semrush · Screaming Frog · GSC</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Measurement window</span>
+      <span class="meta-value">Last 90 days</span>
+    </div>
+  </div>
+</div>
+
+<!-- EXECUTIVE SUMMARY -->
+<section class="report-section" id="summary">
+  <div class="section-inner">
+    <div class="section-eyebrow">Executive summary</div>
+    <h2 class="section-heading">The headline <em>numbers.</em></h2>
+    <p class="section-sub">A snapshot of where your site stands against the competitive field — and the size of the opportunity in front of you.</p>
+
+    <div class="summary-grid">
+      <div class="summary-stat">
+        <div class="summary-stat-label">Keyword gap</div>
+        <div class="summary-stat-value negative">247</div>
+        <div class="summary-stat-note">Keywords competitors rank for that you don't</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Traffic opportunity</div>
+        <div class="summary-stat-value positive">+8,400</div>
+        <div class="summary-stat-note">Est. monthly visits if top gaps are closed</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Backlink gap</div>
+        <div class="summary-stat-value negative">61</div>
+        <div class="summary-stat-note">Referring domains linking to competitors but not you</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Your domain authority</div>
+        <div class="summary-stat-value">34</div>
+        <div class="summary-stat-note">vs. competitor avg. of 48</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Technical score</div>
+        <div class="summary-stat-value negative">71/100</div>
+        <div class="summary-stat-note">vs. competitor-a.com at 89/100</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Content gaps identified</div>
+        <div class="summary-stat-value positive">12</div>
+        <div class="summary-stat-note">Topic areas competitors cover that you don't</div>
+      </div>
+    </div>
+
+    <div class="insight-box">
+      <div class="insight-icon">
+        <svg viewBox="0 0 16 16"><path d="M8 1v6l4 2" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5"/></svg>
+      </div>
+      <div class="insight-text">
+        <strong>Key finding:</strong> competitor-a.com ranks for 180 of your target keywords with a domain authority only 8 points above yours — meaning the gap is closable. The primary driver is content depth: their top 10 pages average 2,100 words vs. your 780. This is an execution gap, not an authority gap.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KEYWORD GAP -->
+<section class="report-section" id="keywords" style="background: var(--white);">
+  <div class="section-inner">
+    <div class="section-eyebrow">Keyword gap analysis</div>
+    <h2 class="section-heading">Where competitors rank<br>and <em>you don't.</em></h2>
+    <p class="section-sub">High-priority keywords your competitors are capturing. Sorted by traffic opportunity and filtered to realistic difficulty for your current authority.</p>
+
+    <div class="kw-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Keyword</th>
+            <th>Monthly volume</th>
+            <th>Difficulty</th>
+            <th>Competitor ranking</th>
+            <th>Your position</th>
+            <th>Priority</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>best [service] near me</td>
+            <td>3,600</td>
+            <td><span class="difficulty-badge diff-low">Low — 28</span></td>
+            <td>competitor-a.com #3</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[service] pricing guide</td>
+            <td>2,900</td>
+            <td><span class="difficulty-badge diff-low">Low — 31</span></td>
+            <td>competitor-b.com #5</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>how to choose a [service]</td>
+            <td>2,100</td>
+            <td><span class="difficulty-badge diff-low">Low — 24</span></td>
+            <td>competitor-a.com #2</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[service] vs [alternative]</td>
+            <td>1,800</td>
+            <td><span class="difficulty-badge diff-med">Med — 44</span></td>
+            <td>competitor-c.com #4</td>
+            <td>Page 3</td>
+            <td><span class="priority-dot p-med"></span>Medium</td>
+          </tr>
+          <tr>
+            <td>top [service] companies</td>
+            <td>1,600</td>
+            <td><span class="difficulty-badge diff-med">Med — 51</span></td>
+            <td>competitor-a.com #1</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-med"></span>Medium</td>
+          </tr>
+          <tr>
+            <td>[service] reviews 2026</td>
+            <td>1,200</td>
+            <td><span class="difficulty-badge diff-low">Low — 29</span></td>
+            <td>competitor-b.com #6</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[location] [service] experts</td>
+            <td>880</td>
+            <td><span class="difficulty-badge diff-low">Low — 22</span></td>
+            <td>competitor-a.com #2</td>
+            <td>Page 4</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[service] cost breakdown</td>
+            <td>720</td>
+            <td><span class="difficulty-badge diff-med">Med — 38</span></td>
+            <td>competitor-c.com #7</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-med"></span>Medium</td>
+          </tr>
+          <tr>
+            <td>[service] for small business</td>
+            <td>590</td>
+            <td><span class="difficulty-badge diff-high">High — 62</span></td>
+            <td>competitor-a.com #3</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-low"></span>Long-term</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- BACKLINK GAP -->
+<section class="report-section" id="backlinks">
+  <div class="section-inner">
+    <div class="section-eyebrow">Backlink gap</div>
+    <h2 class="section-heading">Sites that link to competitors<br>but <em>not you.</em></h2>
+    <p class="section-sub">These referring domains are already vouching for companies in your space. Each is a warm outreach opportunity with a strong case for a link.</p>
+
+    <div class="backlink-grid">
+      <div class="backlink-item">
+        <div class="backlink-domain">industry-directory.com</div>
+        <div class="backlink-meta">DA 68 · Links to competitor-a and competitor-b</div>
+        <div class="backlink-note">A well-regarded industry listing site. Both competitors have paid directory profiles. A free listing is available; a sponsored placement is ~$120/yr.</div>
+        <div class="backlink-action">→ Submit free listing</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">localbizreview.com</div>
+        <div class="backlink-meta">DA 54 · Links to competitor-a</div>
+        <div class="backlink-note">A local business review aggregator. Competitor-a was featured in a "top 10" roundup article. Reach out to the editorial team with a pitch and case study.</div>
+        <div class="backlink-action">→ Editorial outreach</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">industryblog.net</div>
+        <div class="backlink-meta">DA 61 · Links to all three competitors</div>
+        <div class="backlink-note">Publishes weekly guest posts from practitioners. Competitor-c contributed a how-to article that now ranks for 340 keywords. Strong guest post opportunity.</div>
+        <div class="backlink-action">→ Pitch a guest post</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">stateassociation.org</div>
+        <div class="backlink-meta">DA 72 · Links to competitor-b</div>
+        <div class="backlink-note">The regional industry association member directory. Competitor-b is a paid member. Membership includes a dofollow directory link and event listings.</div>
+        <div class="backlink-action">→ Apply for membership</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">techresource.io</div>
+        <div class="backlink-meta">DA 58 · Links to competitor-a and competitor-c</div>
+        <div class="backlink-note">A curated tools and services resource. Both competitors appear in their "recommended vendors" section. Reach out with a product overview and ask to be considered.</div>
+        <div class="backlink-action">→ Submit for review</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">newsmagazine.com</div>
+        <div class="backlink-meta">DA 81 · Links to competitor-b</div>
+        <div class="backlink-note">A high-authority trade publication. Competitor-b was quoted as an expert source in two articles. Identify their regular contributors and pitch comment/quote opportunities.</div>
+        <div class="backlink-action">→ Expert source outreach</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNICAL COMPARISON -->
+<section class="report-section" id="technical" style="background: var(--white);">
+  <div class="section-inner">
+    <div class="section-eyebrow">Technical comparison</div>
+    <h2 class="section-heading">Head-to-head <em>site health.</em></h2>
+    <p class="section-sub">A direct comparison of the technical factors that influence crawlability, indexing, and page experience scores across the competitive set.</p>
+
+    <div class="tech-compare">
+      <div class="tech-compare-header">
+        <div class="tc-head">Factor</div>
+        <div class="tc-head client-col">yourclient.com</div>
+        <div class="tc-head">competitor-a.com</div>
+        <div class="tc-head">competitor-b.com</div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Page speed (LCP)<span>Largest Contentful Paint — mobile</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">3.8s — Slow</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">1.9s — Fast</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">2.6s — OK</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Core Web Vitals<span>Google's page experience signals</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">Failing</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Passing</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Passing</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Schema markup<span>Structured data for rich results</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">Basic only</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Full — FAQ + Review</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">Partial</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Mobile usability<span>Google mobile-friendliness test</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">3 issues</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">No issues</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">No issues</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Internal linking depth<span>Avg. clicks from homepage to any page</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">4.2 clicks avg.</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">2.1 clicks avg.</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">2.8 clicks avg.</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Broken links<span>4xx errors found in crawl</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">18 found</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">0 found</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">3 found</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">HTTPS / security<span>SSL certificate status</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Valid</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Valid</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Valid</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Sitemap & robots.txt<span>Crawl configuration</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">Sitemap outdated</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Configured</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Configured</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTENT GAPS -->
+<section class="report-section" id="content">
+  <div class="section-inner">
+    <div class="section-eyebrow">Content gaps</div>
+    <h2 class="section-heading">Topics competitors own<br>that you <em>don't cover.</em></h2>
+    <p class="section-sub">These are entire subject areas where competitors have established content — often ranking across dozens of related keywords — with no equivalent on your site.</p>
+
+    <div class="content-gap-list">
+      <div class="content-gap-item">
+        <div class="gap-num">01</div>
+        <div class="gap-content">
+          <div class="gap-topic">Pricing and cost guides</div>
+          <div class="gap-desc">Competitor-a has a dedicated pricing page with a cost estimator that ranks for 34 "how much does X cost" queries. Buyers researching price are high-intent — no pricing content means you're invisible at a critical decision point.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">34 keywords</span>
+            <span class="gap-tag">Est. 1,200 visits/mo</span>
+            <span class="gap-tag">New page needed</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-high">High impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">02</div>
+        <div class="gap-content">
+          <div class="gap-topic">FAQ and "how to" content</div>
+          <div class="gap-desc">Competitor-b has a 40-question FAQ hub that captures featured snippets for 18 queries. These are zero-click opportunities that build authority. Your site has no FAQ section, missing easy ranking chances for long-tail questions.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">22 keywords</span>
+            <span class="gap-tag">Featured snippet potential</span>
+            <span class="gap-tag">New section needed</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-high">High impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">03</div>
+        <div class="gap-content">
+          <div class="gap-topic">Comparison and alternative pages</div>
+          <div class="gap-desc">All three competitors have "[brand] vs [competitor]" landing pages targeting buyers in evaluation mode. These pages rank well because they match exact search intent. You have no comparison content — ceding high-converting traffic to rivals.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">15 keywords</span>
+            <span class="gap-tag">High conversion intent</span>
+            <span class="gap-tag">3 pages needed</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-high">High impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">04</div>
+        <div class="gap-content">
+          <div class="gap-topic">Case studies and results pages</div>
+          <div class="gap-desc">Competitor-c has 12 detailed case study pages that rank for "[industry] results" and "[service] success story" queries. These also serve as trust signals for conversion. Your testimonials page doesn't contain enough indexed content to compete.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">8 keywords</span>
+            <span class="gap-tag">Trust + SEO value</span>
+            <span class="gap-tag">Expand existing page</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-med">Medium impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">05</div>
+        <div class="gap-content">
+          <div class="gap-topic">Location-specific landing pages</div>
+          <div class="gap-desc">Competitor-a and competitor-b both have individual pages for each city they serve, allowing them to rank for "[city] + [service]" searches. Your single location page is indexed but too thin to rank for city-level queries.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">Local SEO</span>
+            <span class="gap-tag">Est. 600 visits/mo</span>
+            <span class="gap-tag">Expand or create per-city pages</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-med">Medium impact</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTION PLAN -->
+<section class="report-section action-section" id="actions">
+  <div class="section-inner">
+    <div class="section-eyebrow">Action plan</div>
+    <h2 class="section-heading">What to do <em>first.</em></h2>
+    <p class="section-sub">Prioritised by impact and effort — the quick wins that move the needle fastest, the mid-term buildouts, and the long-game plays.</p>
+
+    <div class="action-grid">
+      <div class="action-col">
+        <div class="action-col-header">Quick wins — 0 to 30 days</div>
+        <div class="action-item">
+          <div class="action-item-title">Fix 18 broken links</div>
+          <div class="action-item-desc">Redirect or restore all 4xx errors found in crawl. Immediate crawl efficiency gain.</div>
+          <span class="action-item-tool">Screaming Frog</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Update sitemap</div>
+          <div class="action-item-desc">Regenerate and resubmit sitemap to Search Console to ensure full indexing.</div>
+          <span class="action-item-tool">Search Console</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Add FAQ schema</div>
+          <div class="action-item-desc">Implement FAQ structured data on top 5 pages to qualify for rich snippets.</div>
+          <span class="action-item-tool">Search Console</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Submit free directory listings</div>
+          <div class="action-item-desc">Claim profiles on industry-directory.com and stateassociation.org for quick backlinks.</div>
+          <span class="action-item-tool">Semrush</span>
+        </div>
+      </div>
+      <div class="action-col">
+        <div class="action-col-header">Build out — 30 to 60 days</div>
+        <div class="action-item">
+          <div class="action-item-title">Create pricing guide page</div>
+          <div class="action-item-desc">Dedicated pricing page targeting 34 cost-related keywords. Include a simple estimator.</div>
+          <span class="action-item-tool">Semrush · GitHub</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Improve page speed</div>
+          <div class="action-item-desc">Address LCP issues to pass Core Web Vitals. Target under 2.5s on mobile.</div>
+          <span class="action-item-tool">Netlify · GA4</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Launch FAQ hub</div>
+          <div class="action-item-desc">Publish 20+ answers to common queries, each with structured data markup.</div>
+          <span class="action-item-tool">Semrush · GitHub</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Internal linking audit</div>
+          <div class="action-item-desc">Reduce average click depth from 4.2 to under 3 through improved navigation and linking.</div>
+          <span class="action-item-tool">Screaming Frog</span>
+        </div>
+      </div>
+      <div class="action-col">
+        <div class="action-col-header">Long game — 60 to 90 days</div>
+        <div class="action-item">
+          <div class="action-item-title">Comparison landing pages</div>
+          <div class="action-item-desc">Build 3 comparison pages targeting evaluation-stage buyers. High conversion potential.</div>
+          <span class="action-item-tool">Semrush · GitHub</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Guest post campaign</div>
+          <div class="action-item-desc">Pitch and place 2 guest articles on industryblog.net and newsmagazine.com.</div>
+          <span class="action-item-tool">Semrush</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Location pages</div>
+          <div class="action-item-desc">Create individual city landing pages for top 5 service areas to capture local queries.</div>
+          <span class="action-item-tool">GA4 · Search Console</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Case study expansion</div>
+          <div class="action-item-desc">Develop 3 detailed case study pages with results data to build authority and trust.</div>
+          <span class="action-item-tool">GA4 · GitHub</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">Apex Search Co.</div>
+    <div class="footer-note">
+      Report prepared for yourclient.com · April 2026<br>
+      hello@apexsearch.co · apexsearch.co
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+================================================================================
+FILE: competitor-analysis.css
+================================================================================
+
+/* competitor-analysis.css — Competitor Analysis Report */
+
+/* REPORT HEADER */
+.report-header {
+    padding: 120px 48px 72px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 48px;
+    align-items: end;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .report-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .report-eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .report-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 20px;
+  }
+
+  .report-title em { font-style: italic; color: var(--accent); }
+
+  .report-domains {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+
+  .domain-chip {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--rule);
+  }
+
+  .domain-chip.client {
+    background: var(--accent-pale);
+    color: var(--accent);
+    border-color: #b8d9c3;
+    font-weight: 500;
+  }
+
+  .domain-chip.competitor {
+    background: var(--cream-dark);
+    color: var(--ink-mid);
+  }
+
+  .report-meta-block {
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 24px 28px;
+    min-width: 220px;
+  }
+
+  .meta-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+
+  .meta-row:last-child { margin-bottom: 0; }
+
+  .meta-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 2px;
+  }
+
+  .meta-value {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--ink);
+  }
+
+/* SECTIONS */
+.report-section {
+    padding: 72px 48px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .report-section:last-of-type { border-bottom: none; }
+
+  .section-inner { max-width: 1100px; margin: 0 auto; }
+
+  .section-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .section-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+
+  .section-heading em { font-style: italic; color: var(--accent); }
+
+  .section-sub {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.75;
+    max-width: 600px;
+    margin-bottom: 40px;
+  }
+
+/* EXECUTIVE SUMMARY */
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+
+  .summary-stat {
+    background: var(--white);
+    padding: 28px;
+  }
+
+  .summary-stat-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 10px;
+  }
+
+  .summary-stat-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--ink);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .summary-stat-value.positive { color: var(--accent); }
+  .summary-stat-value.negative { color: var(--danger); }
+
+  .summary-stat-note {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--ink-light);
+  }
+
+  .insight-box {
+    background: var(--accent-pale);
+    border: 1px solid #b8d9c3;
+    border-radius: 12px;
+    padding: 24px 28px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    align-items: start;
+  }
+
+  .insight-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .insight-icon svg { width: 14px; height: 14px; fill: none; stroke: white; stroke-width: 2; }
+
+  .insight-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--accent);
+    line-height: 1.7;
+  }
+
+  .insight-text strong { font-weight: 500; }
+
+/* KEYWORD GAP */
+.kw-table-wrap {
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+
+  thead {
+    background: var(--ink);
+    color: var(--white);
+  }
+
+  thead th {
+    padding: 14px 20px;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid var(--rule);
+    background: var(--white);
+    transition: background 0.15s;
+  }
+
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: var(--cream); }
+
+  tbody td {
+    padding: 14px 20px;
+    color: var(--ink-mid);
+    font-weight: 300;
+  }
+
+  tbody td:first-child {
+    color: var(--ink);
+    font-weight: 400;
+  }
+
+  .difficulty-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+
+  .diff-low { background: var(--accent-pale); color: var(--accent); border: 1px solid #b8d9c3; }
+  .diff-med { background: var(--warn-pale); color: var(--warn); border: 1px solid var(--warn-rule); }
+  .diff-high { background: var(--danger-pale); color: var(--danger); border: 1px solid var(--danger-rule); }
+
+  .priority-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+  }
+
+  .p-high { background: var(--accent); }
+  .p-med { background: #e8a030; }
+  .p-low { background: var(--ink-light); }
+
+/* BACKLINK GAP */
+.backlink-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .backlink-item {
+    background: var(--white);
+    padding: 24px 28px;
+  }
+
+  .backlink-domain {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+
+  .backlink-meta {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--ink-light);
+    margin-bottom: 12px;
+  }
+
+  .backlink-note {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.6;
+    border-left: 2px solid var(--rule);
+    padding-left: 12px;
+  }
+
+  .backlink-action {
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+  }
+
+/* TECHNICAL COMPARISON */
+.tech-compare {
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .tech-compare-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    background: var(--ink);
+    padding: 14px 24px;
+    gap: 16px;
+  }
+
+  .tc-head {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.6);
+  }
+
+  .tc-head.client-col { color: #7ec99a; }
+
+  .tech-compare-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 16px 24px;
+    gap: 16px;
+    border-bottom: 1px solid var(--rule);
+    background: var(--white);
+    align-items: center;
+    transition: background 0.15s;
+  }
+
+  .tech-compare-row:last-child { border-bottom: none; }
+  .tech-compare-row:hover { background: var(--cream); }
+
+  .tc-factor {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--ink);
+  }
+
+  .tc-factor span {
+    display: block;
+    font-size: 11px;
+    font-weight: 300;
+    color: var(--ink-light);
+    margin-top: 2px;
+  }
+
+  .tc-val {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+  }
+
+  .tc-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+
+  .tc-good { background: var(--accent-pale); color: var(--accent); border: 1px solid #b8d9c3; }
+  .tc-bad { background: var(--danger-pale); color: var(--danger); border: 1px solid var(--danger-rule); }
+  .tc-warn { background: var(--warn-pale); color: var(--warn); border: 1px solid var(--warn-rule); }
+
+/* CONTENT GAPS */
+.content-gap-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .content-gap-item {
+    background: var(--white);
+    padding: 24px 28px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 20px;
+    align-items: start;
+    border-bottom: 1px solid var(--rule);
+    transition: background 0.15s;
+  }
+
+  .content-gap-item:last-child { border-bottom: none; }
+  .content-gap-item:hover { background: var(--cream); }
+
+  .gap-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--ink-light);
+    line-height: 1;
+    padding-top: 4px;
+    min-width: 28px;
+  }
+
+  .gap-content {}
+
+  .gap-topic {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+
+  .gap-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.65;
+  }
+
+  .gap-tags {
+    display: flex;
+    gap: 6px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+
+  .gap-tag {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    background: var(--cream-dark);
+    color: var(--ink-mid);
+    border: 1px solid var(--rule);
+  }
+
+  .gap-impact {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding-top: 4px;
+  }
+
+  .impact-high { color: var(--accent); }
+  .impact-med { color: var(--warn); }
+  .impact-low { color: var(--ink-light); }
+
+/* ACTION PLAN */
+.action-section { background: var(--ink); }
+
+  .action-section .section-eyebrow { color: #7ec99a; }
+  .action-section .section-eyebrow::before { background: #7ec99a; }
+  .action-section .section-heading { color: var(--white); }
+  .action-section .section-sub { color: #9a9a94; }
+
+  .action-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .action-col {
+    background: rgba(255,255,255,0.03);
+    padding: 28px;
+  }
+
+  .action-col-header {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .action-col:nth-child(1) .action-col-header { color: #e88a6a; }
+  .action-col:nth-child(2) .action-col-header { color: #e8c96a; }
+  .action-col:nth-child(3) .action-col-header { color: #9adbb1; }
+
+  .action-item {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .action-item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+
+  .action-item-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 4px;
+  }
+
+  .action-item-desc {
+    font-size: 12px;
+    font-weight: 300;
+    color: #9a9a94;
+    line-height: 1.6;
+  }
+
+  .action-item-tool {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.35);
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+
+@media print {
+  nav { display: none; }
+  .report-header { padding-top: 40px; }
+  .report-section { page-break-inside: avoid; }
+}
+
+@media (max-width: 900px) {
+  .report-header { grid-template-columns: 1fr; padding: 100px 24px 48px; }
+  .report-title { font-size: 36px; }
+  .summary-grid { grid-template-columns: 1fr 1fr; }
+  .backlink-grid { grid-template-columns: 1fr; }
+  .tech-compare-header, .tech-compare-row { grid-template-columns: 1.5fr 1fr 1fr; }
+  .action-grid { grid-template-columns: 1fr; }
+  .content-gap-item { grid-template-columns: auto 1fr; }
+  .report-section { padding: 56px 24px; }
+}
+
+
+================================================================================
+FILE: global.css
+================================================================================
+
+/* ==============================================
+   apex-search.co — Global Stylesheet
+   global.css
+   
+   Import this file on every page.
+   ============================================== */
+
+/* GOOGLE FONTS — also add this to every <head>:
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+*/
+
+/* -----------------------------------------------
+   RESET
+----------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+/* -----------------------------------------------
+   DESIGN TOKENS (CSS Variables)
+   Change these to retheme the entire site.
+----------------------------------------------- */
+:root {
+  /* Core palette */
+  --ink: #1a1a18;          /* Primary text */
+  --ink-mid: #4a4a46;      /* Body text */
+  --ink-light: #8a8a84;    /* Labels, muted text */
+  --cream: #f7f5f0;        /* Page background */
+  --cream-dark: #ede9e0;   /* Hover states, subtle fills */
+  --white: #ffffff;
+
+  /* Accent (green) */
+  --accent: #2d5a3d;
+  --accent-light: #4a8c60;
+  --accent-pale: #e8f2ec;
+
+  /* Borders & rules */
+  --rule: #d4cfc4;
+
+  /* Status colours */
+  --warn: #8a4e0f;
+  --warn-pale: #fdf0e4;
+  --warn-rule: #e8c99a;
+  --danger: #8a1f1f;
+  --danger-pale: #fdeaea;
+  --danger-rule: #e8aaaa;
+}
+
+/* -----------------------------------------------
+   BASE BODY
+----------------------------------------------- */
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+/* -----------------------------------------------
+   NAVIGATION
+----------------------------------------------- */
+nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(247, 245, 240, 0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--rule);
+    padding: 0 48px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+    align-items: center;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--ink-mid);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--ink); }
+
+  .nav-cta {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white) !important;
+    background: var(--accent);
+    padding: 9px 22px;
+    border-radius: 40px;
+    transition: background 0.2s !important;
+  }
+
+  .nav-cta:hover { background: var(--accent-light) !important; color: var(--white) !important; }
+
+/* -----------------------------------------------
+   BUTTONS
+----------------------------------------------- */
+.btn-primary {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--white);
+  background: var(--accent);
+  padding: 13px 28px;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.btn-primary:hover { background: var(--accent-light); transform: translateY(-1px); }
+
+.btn-ghost {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--ink-mid);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.btn-ghost:hover { color: var(--ink); border-color: var(--ink-mid); }
+
+/* -----------------------------------------------
+   BREADCRUMB  (used on child pages)
+----------------------------------------------- */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--ink-light);
+  letter-spacing: 0.04em;
+}
+
+.breadcrumb a {
+  color: var(--ink-light);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumb a:hover { color: var(--ink-mid); }
+.breadcrumb-sep { opacity: 0.4; }
+.breadcrumb-current { color: var(--accent); }
+
+/* -----------------------------------------------
+   SECTION EYEBROW  (shared heading pattern)
+----------------------------------------------- */
+.section-eyebrow {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-eyebrow::before {
+  content: '';
+  display: block;
+  width: 28px;
+  height: 1px;
+  background: var(--accent);
+}
+
+/* -----------------------------------------------
+   STATUS BADGES  (used in tables and comparisons)
+----------------------------------------------- */
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.badge-green  { background: var(--accent-pale);  color: var(--accent);  border: 1px solid #b8d9c3; }
+.badge-amber  { background: var(--warn-pale);    color: var(--warn);    border: 1px solid var(--warn-rule); }
+.badge-red    { background: var(--danger-pale);  color: var(--danger);  border: 1px solid var(--danger-rule); }
+.badge-neutral { background: var(--cream-dark); color: var(--ink-mid); border: 1px solid var(--rule); }
+
+/* -----------------------------------------------
+   FOOTER
+----------------------------------------------- */
+footer {
+    background: var(--ink);
+    padding: 64px 48px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .footer-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--white);
+    margin-bottom: 8px;
+  }
+
+  .footer-tagline {
+    font-size: 13px;
+    font-weight: 300;
+    color: #6a6a64;
+  }
+
+  .footer-contact {
+    text-align: right;
+  }
+
+  .footer-contact a {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #9a9a94;
+    text-decoration: none;
+    margin-bottom: 6px;
+    transition: color 0.2s;
+  }
+
+  .footer-contact a:hover { color: var(--white); }
+
+/* -----------------------------------------------
+   ANIMATIONS
+----------------------------------------------- */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* -----------------------------------------------
+   RESPONSIVE BASE
+----------------------------------------------- */
+@media (max-width: 900px) {
+  nav { padding: 0 24px; }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 28px;
+    align-items: flex-start;
+  }
+
+  .footer-contact { text-align: left; }
+}
+
+
+
+================================================================================
+FILE: HOW-TO-USE.md
+================================================================================
+
+# Apex Search Co. — CSS Setup Guide
+
+## File structure
+
+After extracting, your project should look like this:
+
+```
+your-project/
+├── global.css                        ← Load on EVERY page
+├── apex-search.css                   ← Home / landing page only
+├── audit-service.css                 ← Service child pages (audit, visibility, etc.)
+├── info-page.css                     ← Informational / text-focused pages
+├── competitor-analysis.css           ← Competitor analysis report page
+│
+├── index.html  (or apex-search.html)
+├── audit-service.html
+├── info-page.html
+└── competitor-analysis-report.html
+```
+
+---
+
+## How to link the CSS
+
+Every HTML page needs **two** `<link>` tags in its `<head>`:
+
+1. The shared **global.css**
+2. The **page-specific CSS** for that page
+
+### Home / landing page
+```html
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="apex-search.css">
+</head>
+```
+
+### Service child pages (audit, visibility, analytics, authority)
+```html
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="audit-service.css">
+</head>
+```
+
+> The `audit-service.css` file covers all visual service child pages (the audit page layout, check grids, callout cards, process steps). Use it for the Visibility, Analytics, and Authority pages too — just swap the HTML content.
+
+### Informational / text pages
+```html
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="info-page.css">
+</head>
+```
+
+### Competitor analysis report
+```html
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="competitor-analysis.css">
+</head>
+```
+
+---
+
+## What each file contains
+
+### global.css
+Everything shared across the whole site:
+- CSS reset
+- Design tokens (all colour variables — change these to retheme everything)
+- Base body styles and typography
+- Navigation bar
+- Shared buttons (`.btn-primary`, `.btn-ghost`)
+- Breadcrumb
+- Section eyebrow pattern
+- Status badges (`.badge-green`, `.badge-amber`, `.badge-red`, `.badge-neutral`)
+- Footer
+- `@keyframes fadeUp` animation
+- Base responsive rules
+
+### apex-search.css
+Only used on the home/landing page:
+- Hero section (two-column layout, stats card)
+- How it works steps grid
+- Services grid
+- Pricing section (dark background)
+- Tools grid
+
+### audit-service.css
+Used for visual service child pages:
+- Breadcrumb spacing
+- Hero with audit preview card
+- Six-column check grid
+- Deliverables list + callout card
+- Process steps
+- Other services navigation strip
+
+### info-page.css
+Used for text-heavy informational pages:
+- Two-column page layout (sidebar + main)
+- Sticky sidebar with nav and CTA
+- Article header (title, meta, intro)
+- Prose styles (h2, h3, p, a, strong)
+- Pull quote
+- Inline callout box
+- Definition table
+- Checklist
+- Next steps card grid
+
+### competitor-analysis.css
+Used for the report page:
+- Report header with domain chips
+- Summary stat grid + insight box
+- Keyword gap table with difficulty badges
+- Backlink gap grid
+- Technical comparison grid (pass/warn/fail)
+- Content gap list
+- Action plan (three-column dark section)
+- Print styles
+
+---
+
+## Customising the theme
+
+All colours are CSS variables in `global.css`. To retheme the entire site, edit just these lines:
+
+```css
+:root {
+  --ink: #1a1a18;        /* Change to your primary text colour */
+  --cream: #f7f5f0;      /* Change to your background colour */
+  --accent: #2d5a3d;     /* Change to your brand accent colour */
+  --accent-light: #4a8c60;
+  --accent-pale: #e8f2ec;
+  --rule: #d4cfc4;       /* Border / divider colour */
+}
+```
+
+Every button, badge, highlight, and accent element on every page will update automatically.
+
+---
+
+## Adding a new service child page
+
+1. Copy `audit-service.html` (the linked version)
+2. Keep the `<head>` links unchanged — `global.css` + `audit-service.css`
+3. Replace the content inside `<body>` with your new service content
+4. The CSS classes (`.check-grid`, `.check-item`, `.process-steps`, `.callout-card`, etc.) all still apply
+
+## Adding a new informational page
+
+1. Copy `info-page.html` (the linked version)
+2. Keep the `<head>` links unchanged — `global.css` + `info-page.css`
+3. Update the sidebar nav links and breadcrumb
+4. Replace the article content inside `.main-content`
+
+---
+
+## Folder paths
+
+If your HTML files are in a subfolder (e.g. `pages/audit.html`), adjust the CSS paths accordingly:
+
+```html
+<!-- If HTML is one level deep -->
+<link rel="stylesheet" href="../global.css">
+<link rel="stylesheet" href="../audit-service.css">
+```
+
+Keep all CSS files together in the same root directory for simplicity.
+
+
+
+================================================================================
+FILE: info-page-linked.html
+================================================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What is Technical SEO? — Apex Search Co.</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="info-page.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="apex-search.html" class="nav-brand">Apex Search Co.</a>
+  <ul class="nav-links">
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Resources</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#" class="nav-cta">Get a free audit</a></li>
+  </ul>
+</nav>
+
+<div class="page-wrap">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">On this page</div>
+      <ul class="sidebar-nav">
+        <li><a href="#what-is" class="active">What is technical SEO?</a></li>
+        <li><a href="#why-it-matters">Why it matters</a></li>
+        <li><a href="#key-areas">Key areas</a></li>
+        <li><a href="#common-issues">Common issues</a></li>
+        <li><a href="#how-to-audit">How to audit your site</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Related services</div>
+      <ul class="sidebar-nav">
+        <li><a href="audit-service.html">Technical site audit</a></li>
+        <li><a href="#">Search visibility</a></li>
+        <li><a href="#">Analytics &amp; reporting</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-cta">
+      <p class="sidebar-cta-text">Not sure where your site stands? We'll crawl it for free and tell you what we find.</p>
+      <a href="#" class="sidebar-cta-btn">Get a free audit →</a>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <div class="breadcrumb">
+      <a href="apex-search.html">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href="#">Resources</a>
+      <span class="breadcrumb-sep">›</span>
+      <span class="breadcrumb-current">What is technical SEO?</span>
+    </div>
+
+    <div class="article-eyebrow">SEO fundamentals</div>
+
+    <h1 class="article-title">What is <em>technical SEO</em> — and why does it matter?</h1>
+
+    <div class="article-meta">
+      <span>By Apex Search Co.</span>
+      <span class="meta-sep"></span>
+      <span>April 2026</span>
+      <span class="meta-sep"></span>
+      <span>8 min read</span>
+    </div>
+
+    <p class="article-intro">Technical SEO is the practice of ensuring your website can be found, crawled, and understood by search engines — before you worry about content or backlinks. It's the foundation everything else is built on.</p>
+
+    <div class="prose">
+
+      <h2 id="what-is">What is <em>technical SEO?</em></h2>
+
+      <p>When people talk about SEO, they usually think about keywords and content. But before any of that matters, search engines need to be able to <strong>access your site, crawl its pages, and make sense of what they find.</strong> That's what technical SEO addresses.</p>
+
+      <p>Think of it this way: you could have the most well-written, authoritative content on the internet, but if your site has a misconfigured robots.txt file, Google may never index a single page. Technical SEO removes those invisible barriers.</p>
+
+      <div class="pull-quote">
+        <p>"You can't rank pages Google can't find. Technical SEO clears the path — everything else builds on top of it."</p>
+      </div>
+
+      <p>Unlike on-page SEO (optimising content) or off-page SEO (building backlinks), technical SEO deals with the infrastructure of your site — server configuration, code quality, URL structure, speed, and the signals that tell search engines how to treat your content.</p>
+
+      <div class="section-rule"></div>
+
+      <h2 id="why-it-matters">Why it <em>matters.</em></h2>
+
+      <p>Google's crawlers visit billions of pages every day with a limited budget of time and resources. If your site wastes that budget — through slow pages, redirect chains, or duplicate URLs — important pages may go unvisited, unfound, and unranked.</p>
+
+      <p>Beyond crawling, technical factors now directly influence rankings. Since 2021, <strong>Core Web Vitals</strong> — Google's page experience metrics — have been a confirmed ranking signal. A slow site doesn't just frustrate visitors; it actively suppresses your position in search results.</p>
+
+      <div class="callout">
+        <div class="callout-icon">
+          <svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="4.5"/><line x1="6" y1="4" x2="6" y2="6.5"/><line x1="6" y1="7.5" x2="6" y2="8"/></svg>
+        </div>
+        <p><strong>Worth knowing:</strong> Google uses a metric called "crawl budget" — the number of pages it will crawl on your site in a given period. Large sites with lots of errors, redirects, or duplicate content burn through that budget on low-value pages, leaving important content under-crawled.</p>
+      </div>
+
+      <p>For competitive industries, technical SEO is often the difference between a site that ranks and one that doesn't — even when content quality is similar. It's the area where relatively small fixes produce the most measurable, immediate gains.</p>
+
+      <div class="section-rule"></div>
+
+      <h2 id="key-areas">Key <em>areas.</em></h2>
+
+      <p>Technical SEO covers a broad range of factors. Here are the main categories and what each one involves:</p>
+
+      <div class="def-list">
+        <div class="def-item">
+          <div class="def-term">Crawlability</div>
+          <div class="def-desc">Whether search engines can access and navigate your site. Controlled via robots.txt, noindex tags, and site architecture.</div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">Indexability</div>
+          <div class="def-desc">Whether pages are being added to Google's index. Issues here mean pages exist but never appear in search results.</div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">Page speed</div>
+          <div class="def-desc">How fast your pages load — measured by Core Web Vitals (LCP, CLS, INP). A direct ranking factor since 2021.</div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">Site structure</div>
+          <div class="def-desc">How pages relate to each other through internal links. Affects crawl depth and how authority flows through your site.</div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">URL canonicalisation</div>
+          <div class="def-desc">Ensuring each piece of content has one definitive URL, preventing duplicate content from splitting your ranking signals.</div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">Structured data</div>
+          <div class="def-desc">Schema markup that helps Google understand your content — enabling rich results like FAQs, reviews, and breadcrumbs in the SERP.</div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">Mobile usability</div>
+          <div class="def-desc">Google indexes the mobile version of your site first. Mobile usability issues directly affect rankings for all users.</div>
+        </div>
+        <div class="def-item">
+          <div class="def-term">HTTPS / security</div>
+          <div class="def-desc">A valid SSL certificate is a baseline ranking signal. Sites without HTTPS are flagged as insecure by browsers.</div>
+        </div>
+      </div>
+
+      <div class="section-rule"></div>
+
+      <h2 id="common-issues">Common <em>issues.</em></h2>
+
+      <p>In our experience auditing hundreds of sites, the same problems appear repeatedly — often on sites whose owners have no idea they exist. The most damaging ones aren't always the most obvious.</p>
+
+      <h3>Broken internal links</h3>
+      <p>Links pointing to pages that no longer exist (404 errors) waste crawl budget and create dead ends for both users and search engines. A site with 20+ broken internal links will have measurably worse crawl coverage than a clean one.</p>
+
+      <h3>Redirect chains and loops</h3>
+      <p>When one redirect points to another redirect (a chain), each hop adds latency and dilutes the link equity passing through. Chains of three or more hops are a common and easily-fixed problem on older sites that have gone through redesigns.</p>
+
+      <h3>Duplicate content</h3>
+      <p>The same content accessible at multiple URLs — often caused by URL parameters, HTTP vs HTTPS, or www vs non-www variants — splits ranking signals across versions of the same page. Canonical tags resolve this, but they're frequently misconfigured.</p>
+
+      <h3>Thin or missing meta tags</h3>
+      <p>Missing title tags and meta descriptions don't directly hurt rankings, but they affect click-through rates in the SERP. Google will generate its own snippets when these are absent — and the results are usually worse than writing them yourself.</p>
+
+      <h3>Pages blocked from indexing</h3>
+      <p>A surprisingly common issue: <strong>pages that should be indexed but aren't</strong>, usually because of a stray noindex tag left over from a staging environment, or a misconfigured robots.txt that was never updated after launch.</p>
+
+      <div class="section-rule"></div>
+
+      <h2 id="how-to-audit">How to audit <em>your site.</em></h2>
+
+      <p>A proper technical audit starts with a full crawl — visiting every URL on your site the way a search engine would, and recording what it finds. Tools like <strong>Screaming Frog</strong> do this locally, while <strong>Google Search Console</strong> shows you what Google has actually seen and indexed.</p>
+
+      <p>The audit process typically follows this sequence:</p>
+
+      <ul class="checklist">
+        <li>Crawl the full site and collect all URLs, status codes, and on-page elements</li>
+        <li>Cross-reference with Search Console to compare what's crawled vs. what's indexed</li>
+        <li>Run Core Web Vitals tests on mobile and desktop for key page templates</li>
+        <li>Check for duplicate content and canonicalisation issues</li>
+        <li>Review the sitemap and robots.txt for misconfigurations</li>
+        <li>Map internal link structure and identify orphaned or deeply buried pages</li>
+        <li>Prioritise issues by severity and estimated impact on rankings</li>
+      </ul>
+
+      <p>The output should be a prioritised list of fixes — not a raw data export, but a document that tells you exactly what to do and in what order. Quick wins (broken links, missing tags, sitemap errors) should be addressed first because they're low effort and show results fast. Structural issues like site architecture and page speed take longer but have a compounding effect over time.</p>
+
+      <div class="callout">
+        <div class="callout-icon">
+          <svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg>
+        </div>
+        <p><strong>Our approach:</strong> We baseline your site's health score on day one so every fix is measurable. By the end of the audit, you can see exactly how much the score moved — and that before/after data is what our invoice is based on. No results, no charge.</p>
+      </div>
+
+    </div>
+
+    <!-- NEXT STEPS -->
+    <div class="next-steps">
+      <div class="next-steps-label">Continue reading</div>
+      <div class="next-steps-grid">
+        <a href="audit-service.html" class="next-step-card">
+          <div class="next-step-type">Service</div>
+          <div class="next-step-title">Technical site audit</div>
+          <div class="next-step-desc">Let us run the audit for you — full crawl, prioritised fix list, and verified results.</div>
+          <div class="next-step-arrow">View service →</div>
+        </a>
+        <a href="#" class="next-step-card">
+          <div class="next-step-type">Resource</div>
+          <div class="next-step-title">What is Core Web Vitals?</div>
+          <div class="next-step-desc">Google's page experience metrics explained — and how they affect your rankings.</div>
+          <div class="next-step-arrow">Read more →</div>
+        </a>
+        <a href="#" class="next-step-card">
+          <div class="next-step-type">Resource</div>
+          <div class="next-step-title">How to read Search Console</div>
+          <div class="next-step-desc">A plain-language guide to the reports that matter most for technical SEO.</div>
+          <div class="next-step-arrow">Read more →</div>
+        </a>
+        <a href="#" class="next-step-card">
+          <div class="next-step-type">Resource</div>
+          <div class="next-step-title">Screaming Frog: a beginner's guide</div>
+          <div class="next-step-desc">What the tool does, how to set it up, and which reports to look at first.</div>
+          <div class="next-step-arrow">Read more →</div>
+        </a>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- FOOTER -->
+<footer style="background: var(--ink); padding: 64px 48px; margin-top: 0;">
+  <div style="max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-end;">
+    <div>
+      <div style="font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 300; color: #fff; margin-bottom: 6px;">Apex Search Co.</div>
+      <div style="font-size: 13px; font-weight: 300; color: #6a6a64;">Performance-based SEO — you pay when results are proven.</div>
+    </div>
+    <div style="text-align: right;">
+      <a href="mailto:hello@apexsearch.co" style="display:block; font-size:13px; font-weight:300; color:#9a9a94; text-decoration:none; margin-bottom:5px;">hello@apexsearch.co</a>
+      <a href="#" style="display:block; font-size:13px; font-weight:300; color:#9a9a94; text-decoration:none;">apexsearch.co</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+================================================================================
+FILE: info-page.css
+================================================================================
+
+/* info-page.css — Text-Focused Informational Page */
+
+/* PAGE LAYOUT */
+.page-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 48px 0;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+/* SIDEBAR */
+.sidebar {
+    position: sticky;
+    top: 88px;
+  }
+
+  .sidebar-section {
+    margin-bottom: 36px;
+  }
+
+  .sidebar-label {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .sidebar-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .sidebar-nav a {
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background 0.15s, color 0.15s;
+    line-height: 1.4;
+  }
+
+  .sidebar-nav a:hover {
+    background: var(--cream-dark);
+    color: var(--ink);
+  }
+
+  .sidebar-nav a.active {
+    background: var(--accent-pale);
+    color: var(--accent);
+    font-weight: 400;
+  }
+
+  .sidebar-cta {
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 8px;
+  }
+
+  .sidebar-cta-text {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.65;
+    margin-bottom: 14px;
+  }
+
+  .sidebar-cta-btn {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white);
+    background: var(--accent);
+    padding: 10px 16px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+
+  .sidebar-cta-btn:hover { background: var(--accent-light); }
+
+/* MAIN CONTENT */
+.main-content {
+    padding-bottom: 100px;
+    border-left: 1px solid var(--rule);
+    padding-left: 64px;
+    min-width: 0;
+  }
+
+/* BREADCRUMB */
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--ink-light);
+    letter-spacing: 0.04em;
+    margin-bottom: 36px;
+  }
+
+  .breadcrumb a {
+    color: var(--ink-light);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .breadcrumb a:hover { color: var(--ink-mid); }
+  .breadcrumb-sep { opacity: 0.4; }
+  .breadcrumb-current { color: var(--accent); }
+
+/* ARTICLE HEADER */
+.article-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .article-eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .article-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 20px;
+    letter-spacing: -0.01em;
+  }
+
+  .article-title em { font-style: italic; color: var(--accent); }
+
+  .article-meta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--ink-light);
+    padding-bottom: 36px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 48px;
+  }
+
+  .meta-sep { width: 3px; height: 3px; border-radius: 50%; background: var(--rule); }
+
+  .article-intro {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.75;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+/* PROSE */
+.prose h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--ink);
+    margin: 52px 0 16px;
+    line-height: 1.2;
+    scroll-margin-top: 88px;
+  }
+
+  .prose h2 em { font-style: italic; color: var(--accent); }
+
+  .prose h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--ink);
+    margin: 32px 0 10px;
+  }
+
+  .prose p {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.85;
+    margin-bottom: 20px;
+  }
+
+  .prose p strong {
+    font-weight: 500;
+    color: var(--ink);
+  }
+
+  .prose a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid #b8d9c3;
+    transition: border-color 0.2s;
+  }
+
+  .prose a:hover { border-color: var(--accent); }
+
+/* PULL QUOTE */
+.pull-quote {
+    margin: 40px 0;
+    padding: 28px 32px;
+    border-left: 3px solid var(--accent);
+    background: var(--accent-pale);
+    border-radius: 0 10px 10px 0;
+  }
+
+  .pull-quote p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--accent);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+/* INLINE CALLOUT */
+.callout {
+    margin: 36px 0;
+    padding: 24px 28px;
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    align-items: start;
+  }
+
+  .callout-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .callout-icon svg {
+    width: 12px; height: 12px;
+    stroke: white; fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+  }
+
+  .callout p {
+    font-size: 14px !important;
+    font-weight: 300;
+    color: var(--ink-mid) !important;
+    line-height: 1.7;
+    margin: 0 !important;
+  }
+
+  .callout p strong { color: var(--ink) !important; }
+
+/* DEFINITION LIST */
+.def-list {
+    margin: 32px 0;
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .def-item {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 0;
+    border-bottom: 1px solid var(--rule);
+    background: var(--white);
+    transition: background 0.15s;
+  }
+
+  .def-item:last-child { border-bottom: none; }
+  .def-item:hover { background: var(--cream); }
+
+  .def-term {
+    padding: 18px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink);
+    border-right: 1px solid var(--rule);
+    background: var(--cream);
+  }
+
+  .def-desc {
+    padding: 18px 20px;
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.65;
+  }
+
+/* CHECKLIST */
+.checklist {
+    margin: 24px 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.6;
+  }
+
+  .checklist li::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--accent-pale);
+    border: 1px solid #b8d9c3;
+    flex-shrink: 0;
+    margin-top: 2px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpolyline points='2,5 4.5,7.5 8,3' fill='none' stroke='%232d5a3d' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+/* SECTION DIVIDER */
+.section-rule {
+    width: 100%;
+    height: 1px;
+    background: var(--rule);
+    margin: 52px 0;
+  }
+
+/* RELATED / NEXT STEPS */
+.next-steps {
+    margin-top: 64px;
+    padding-top: 48px;
+    border-top: 1px solid var(--rule);
+  }
+
+  .next-steps-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 20px;
+  }
+
+  .next-steps-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .next-step-card {
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 22px;
+    text-decoration: none;
+    display: block;
+    transition: background 0.15s, border-color 0.15s;
+  }
+
+  .next-step-card:hover {
+    background: var(--cream);
+    border-color: #b8d9c3;
+  }
+
+  .next-step-type {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 6px;
+  }
+
+  .next-step-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+
+  .next-step-desc {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.6;
+  }
+
+  .next-step-arrow {
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--accent);
+  }
+
+@media (max-width: 900px) {
+  .page-wrap { grid-template-columns: 1fr; padding: 88px 24px 0; gap: 0; }
+  .sidebar { position: static; border-bottom: 1px solid var(--rule); padding-bottom: 32px; margin-bottom: 40px; }
+  .main-content { border-left: none; padding-left: 0; }
+  .article-title { font-size: 34px; }
+  .def-item { grid-template-columns: 1fr; }
+  .def-term { border-right: none; border-bottom: 1px solid var(--rule); }
+  .next-steps-grid { grid-template-columns: 1fr; }
+}
+

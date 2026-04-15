@@ -1,0 +1,4552 @@
+
+================================================================================
+FILE: affiliate-links\affiliate-links.txt
+================================================================================
+
+Structuring your affiliate categories into "clusters" is a great way to build high-intent pages that convert. Given your interest in technical specs (like your Trek bicycle component knowledge) and history (The Odyssey/Carthage), we can create some really unique angles.
+
+Here are the proposed categories for The Apiary Guide:
+
+1. The Library (Educational Resources)
+The Beginner’s Shelf: Core "how-to" books (e.g., Beekeeping for Dummies, The Beekeeper’s Handbook).
+
+Historical & Literary Honey: Books on ancient beekeeping (Carthaginian/Greek methods) and nature writing.
+
+Technical Manuals: Advanced queen rearing and hive biology texts.
+
+2. The Wardrobe (Protective Gear)
+Armor & Suits: Full ventilated suits vs. jackets.
+
+The Essentials: Gloves (goatskin vs. nitrile) and veils/hats.
+
+Kid-Sized Gear: Family-focused beekeeping apparel.
+
+3. The Hive Body (Structural Components)
+Foundation & Frames: Technical comparisons (Beeswax-coated plastic vs. 100% natural wax).
+
+The Boxes: Deep vs. Medium supers, 8-frame vs. 10-frame configurations.
+
+Specialty Hives: Flow Hives, Top Bar hives, and Warre hives.
+
+4. The Tool Belt (Maintenance & Inspection)
+The "Big Three": Smokers (and fuels), hive tools (J-hooks vs. standard), and bee brushes.
+
+Technical Gadgets: Hive scales, digital thermometers, and infrared cameras for winter monitoring.
+
+Feeding Supplies: Internal frame feeders, entrance feeders, and winter patties.
+
+5. The Harvest Lab (Extraction & Processing)
+The Extractor Room: Manual vs. electric centrifugal extractors.
+
+Uncapping Station: Hot knives, scratcher forks, and uncapping tanks.
+
+Bottling & Storage: Glass jars, skep-style containers, and custom labeling kits.
+
+6. The Apothecary (Bee Health & Wellness)
+Pest Management: Varroa mite treatments (oxalic acid vaporizers, Apivar).
+
+Winterization: Hive wraps, moisture boards, and windbreaks.
+
+7. The Gift Shop (Lifestyle & Home)
+Beeswax Crafts: Candle-making kits, silicone molds, and DIY lip balm supplies.
+
+Honey Lover Gifts: Honey dippers, specialized flight tastings, and bee-themed home decor.
+
+My Opinion:
+Since we’re scaling to 100 pages, Category 4 (The Tool Belt) and Category 2 (The Wardrobe) are your "workhorses"—these items have high search volume and frequent replacement needs. However, Category 1 (The Library) is where you can lean into your specific expertise in classical literature to build a unique "Historical Beekeeping" niche that no one else is touching.
+
+Which category should we start pulling specific links for first?
+
+
+================================================================================
+FILE: affiliate-links\apiary-product-links-complete (1).csv
+================================================================================
+
+category,slug,full_product_name
+The Library,beekeeping-for-dummies-blackiston,Beekeeping For Dummies (For Dummies (Lifestyle)) by Howland Blackiston
+The Library,backyard-beekeeper-flottum,"The Backyard Beekeeper, 4th Edition: An Absolute Beginner's Guide to Keeping Bees in Your Yard and Garden"
+The Library,beekeepers-bible-jones,"The Beekeeper's Bible: Bees, Honey, Recipes & Other Home Uses"
+The Library,beekeepers-handbook-sammataro,The Beekeeper's Handbook by Diana Sammataro and Alphonse Avitabile
+The Library,natural-beekeeping-conrad,"Natural Beekeeping: Organic Approaches to Modern Apiculture, 2nd Edition"
+The Library,honey-bee-biology-caron,"Honey Bee Biology and Beekeeping, Revised Edition by Dewey M. Caron"
+The Library,honeybee-democracy-seeley,Honeybee Democracy by Thomas D. Seeley
+The Library,practical-beekeeper-bush,The Practical Beekeeper: Beekeeping Naturally by Michael Bush
+The Library,top-bar-beekeeping-crowder,Top-Bar Beekeeping: Organic Practices for Honeybee Health by Les Crowder
+The Library,beekeepers-problem-solver-tew,The Beekeeper's Problem Solver: 100 Common Problems Explored and Explained
+The Wardrobe,guardian-bee-apparel-ventilated-suit,Guardian Bee Apparel - Ultra-Ventilated Full Beekeeping Suit with Self-Supporting Fencing Veil
+The Wardrobe,humble-bee-420-aero-suit,Humble Bee 420 Aero Beekeeping Suit with Round Veil
+The Wardrobe,ultra-breeze-beekeeping-jacket,Ultra Breeze Large Beekeeping Jacket with Fencing Veil
+The Wardrobe,apis-tactical-ventilated-suit,Apis Tactical Ventilated 3-Layer Mesh Beekeeping Suit
+The Wardrobe,natural-apiary-max-protect-suit,Natural Apiary Max Protect Beekeeping Suit - White Polycotton
+The Wardrobe,beeline-ventilated-gloves,Beeline Ventilated Beekeeping Gloves with Goatskin Leather
+The Wardrobe,foxhound-bee-company-leather-gloves,Foxhound Bee Company Premium Goatskin Beekeeping Gloves
+The Hive Body,flow-hive-2-plus,Flow Hive 2+ Araucaria 6 Frame Langstroth Beehive
+The Hive Body,apimaye-insulated-bee-hive,Apimaye 10 Frame Insulated Langstroth Beehive Set
+The Hive Body,hoover-hives-10-frame-beehive,Hoover Hives 10 Frame Langstroth Beehive Wax Coated Includes Frames and Foundations
+The Hive Body,beecastle-8-frame-beehive,BeeCastle 8 Frame Complete Beehive Kit Wax Coated Cedar Wood
+The Hive Body,mann-lake-10-frame-kit,Mann Lake 10-Frame Complete Beehive Kit Fully Assembled
+The Hive Body,acorn-plastic-frames-heavy-wax,Acorn Beekeeping Equipment One Piece Plastic Frame and Foundation - Heavy Waxed
+The Tool Belt,dadant-stainless-steel-smoker,Dadant 4 x 7 Inch Stainless Steel Smoker with Guard and Hook
+The Tool Belt,mann-lake-pro-smoker-guard,Mann Lake Stainless Steel Pro Smoker with Guard
+The Tool Belt,j-hook-hive-tool-maxant,Maxant Stainless Steel J-Hook Hive Tool
+The Tool Belt,bee-brush-horsehair-natural,Natural Horsehair Bee Brush with Wooden Handle
+The Tool Belt,varroa-check-alcohol-wash-kit,Varroa EasyCheck Mite Monitoring Shaker Kit
+The Tool Belt,bee-smart-ultimate-feeder,Bee Smart Ultimate In-Hive Feeder for 8 and 10 Frame Hives
+The Harvest Lab,vivohome-electric-honey-extractor,VIVOHOME 4 Frame Electric Honey Extractor Stainless Steel
+The Harvest Lab,mann-lake-manual-2-frame-extractor,Mann Lake HH160 2-Frame Plastic Manual Honey Extractor
+The Harvest Lab,honey-strainer-double-sieve-stainless,Stainless Steel Honey Strainer Double Sieve with Extendable Arms
+The Harvest Lab,electric-uncapping-knife-pierce,Pierce-Mears Electric Uncapping Knife with Pre-set Thermostat
+The Harvest Lab,honey-refractometer-brix-scale,"Honey Refractometer for Honey Moisture, Brix and Baumé, 3-in-1 Uses"
+
+
+
+================================================================================
+FILE: affiliate-links\apiary-product-links-complete.csv
+================================================================================
+
+category,slug,full_product_name
+The Library,beekeeping-for-dummies-blackiston,Beekeeping For Dummies (For Dummies (Lifestyle)) by Howland Blackiston
+The Library,backyard-beekeeper-flottum,"The Backyard Beekeeper, 4th Edition: An Absolute Beginner's Guide to Keeping Bees in Your Yard and Garden"
+The Library,beekeepers-bible-jones,"The Beekeeper's Bible: Bees, Honey, Recipes & Other Home Uses"
+The Library,beekeepers-handbook-sammataro,The Beekeeper's Handbook by Diana Sammataro and Alphonse Avitabile
+The Library,natural-beekeeping-conrad,"Natural Beekeeping: Organic Approaches to Modern Apiculture, 2nd Edition"
+The Library,honey-bee-biology-caron,"Honey Bee Biology and Beekeeping, Revised Edition by Dewey M. Caron"
+The Library,honeybee-democracy-seeley,Honeybee Democracy by Thomas D. Seeley
+The Library,practical-beekeeper-bush,The Practical Beekeeper: Beekeeping Naturally by Michael Bush
+The Library,top-bar-beekeeping-crowder,Top-Bar Beekeeping: Organic Practices for Honeybee Health by Les Crowder
+The Library,beekeepers-problem-solver-tew,The Beekeeper's Problem Solver: 100 Common Problems Explored and Explained
+The Wardrobe,guardian-bee-apparel-ventilated-suit,Guardian Bee Apparel - Ultra-Ventilated Full Beekeeping Suit with Self-Supporting Fencing Veil
+The Wardrobe,humble-bee-420-aero-suit,Humble Bee 420 Aero Beekeeping Suit with Round Veil
+The Wardrobe,ultra-breeze-beekeeping-jacket,Ultra Breeze Large Beekeeping Jacket with Fencing Veil
+The Wardrobe,apis-tactical-ventilated-suit,Apis Tactical Ventilated 3-Layer Mesh Beekeeping Suit
+The Wardrobe,natural-apiary-max-protect-suit,Natural Apiary Max Protect Beekeeping Suit - White Polycotton
+The Wardrobe,beeline-ventilated-gloves,Beeline Ventilated Beekeeping Gloves with Goatskin Leather
+The Wardrobe,foxhound-bee-company-leather-gloves,Foxhound Bee Company Premium Goatskin Beekeeping Gloves
+The Hive Body,flow-hive-2-plus,Flow Hive 2+ Araucaria 6 Frame Langstroth Beehive
+The Hive Body,apimaye-insulated-bee-hive,Apimaye 10 Frame Insulated Langstroth Beehive Set
+The Hive Body,hoover-hives-10-frame-beehive,Hoover Hives 10 Frame Langstroth Beehive Wax Coated Includes Frames and Foundations
+The Hive Body,beecastle-8-frame-beehive,BeeCastle 8 Frame Complete Beehive Kit Wax Coated Cedar Wood
+The Hive Body,mann-lake-10-frame-kit,Mann Lake 10-Frame Complete Beehive Kit Fully Assembled
+The Hive Body,acorn-plastic-frames-heavy-wax,Acorn Beekeeping Equipment One Piece Plastic Frame and Foundation - Heavy Waxed
+The Tool Belt,dadant-stainless-steel-smoker,Dadant 4 x 7 Inch Stainless Steel Smoker with Guard and Hook
+The Tool Belt,mann-lake-pro-smoker-guard,Mann Lake Stainless Steel Pro Smoker with Guard
+The Tool Belt,j-hook-hive-tool-maxant,Maxant Stainless Steel J-Hook Hive Tool
+The Tool Belt,bee-brush-horsehair-natural,Natural Horsehair Bee Brush with Wooden Handle
+The Tool Belt,varroa-check-alcohol-wash-kit,Varroa EasyCheck Mite Monitoring Shaker Kit
+The Tool Belt,bee-smart-ultimate-feeder,Bee Smart Ultimate In-Hive Feeder for 8 and 10 Frame Hives
+The Harvest Lab,vivohome-electric-honey-extractor,VIVOHOME 4 Frame Electric Honey Extractor Stainless Steel
+The Harvest Lab,mann-lake-manual-2-frame-extractor,Mann Lake HH160 2-Frame Plastic Manual Honey Extractor
+The Harvest Lab,honey-strainer-double-sieve-stainless,Stainless Steel Honey Strainer Double Sieve with Extendable Arms
+The Harvest Lab,electric-uncapping-knife-pierce,Pierce-Mears Electric Uncapping Knife with Pre-set Thermostat
+The Harvest Lab,honey-refractometer-brix-scale,"Honey Refractometer for Honey Moisture, Brix and Baumé, 3-in-1 Uses"
+
+
+
+================================================================================
+FILE: affiliate-links\apiary-product-links-v1.csv
+================================================================================
+
+category,slug,full_product_name
+The Library,beekeeping-for-dummies-blackiston,Beekeeping For Dummies (For Dummies (Lifestyle)) by Howland Blackiston
+The Library,backyard-beekeeper-flottum,"The Backyard Beekeeper, 4th Edition: An Absolute Beginner's Guide to Keeping Bees in Your Yard and Garden"
+The Library,beekeepers-bible-jones,"The Beekeeper's Bible: Bees, Honey, Recipes & Other Home Uses"
+The Hive Body,flow-hive-classic-cedar,Flow Hive Classic 6 Frame Langstroth Beehive - 100% Western Red Cedar
+The Wardrobe,guardian-bee-apparel-ventilated-suit,Guardian Bee Apparel - Ultra-Ventilated Full Beekeeping Suit with Self-Supporting Fencing Veil
+
+
+
+================================================================================
+FILE: affiliate-manager\product-valut-receiver.js
+================================================================================
+
+// affiliate-receiver.js
+const fs = require('fs');
+const https = require('https');
+const path = require('path');
+
+// Logic to download image
+const downloadImage = (url, slug) => {
+  const file = fs.createWriteStream(path.join(__dirname, 'assets/img/products', `${slug}.jpg`));
+  https.get(url, (response) => {
+    response.pipe(file);
+  });
+};
+
+// Logic to update JSON
+const updateVault = (data) => {
+  const vault = JSON.parse(fs.readFileSync('apiary-product-vault.json', 'utf8'));
+  vault[data.slug] = {
+    asin: data.asin,
+    fullName: data.fullName,
+    price: data.price,
+    url: data.url,
+    image: `assets/img/products/${data.slug}.jpg`
+  };
+  fs.writeFileSync('apiary-product-vault.json', JSON.stringify(vault, null, 2));
+};
+
+
+================================================================================
+FILE: affiliate-manager\public\dashboard.html
+================================================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Vault Curator</title>
+    <style>
+        :root {
+            --forest-green: #2d5a3d;
+            --slate: #333;
+            --light-gray: #f4f4f4;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--light-gray); margin: 0; padding: 20px; color: var(--slate); }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h2 { border-bottom: 2px solid var(--forest-green); padding-bottom: 10px; color: var(--forest-green); }
+        .search-section { margin-bottom: 20px; display: flex; gap: 10px; }
+        input, select { padding: 12px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; }
+        #productSearch { flex-grow: 1; }
+        .product-list { max-height: 200px; overflow-y: auto; border: 1px solid #eee; margin-bottom: 20px; padding: 10px; background: #fafafa; }
+        .product-item { padding: 8px; cursor: pointer; border-bottom: 1px solid #eee; transition: background 0.2s; }
+        .product-item:hover { background: #e9f5ed; }
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .form-group { display: flex; flex-direction: column; gap: 5px; }
+        .full-width { grid-column: span 2; }
+        button { background: var(--forest-green); color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: bold; margin-top: 10px; }
+        button:hover { background: #244831; }
+        #status { margin-top: 15px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Affiliate Vault Curator</h2>
+    
+    <div class="search-section">
+        <input type="text" id="productSearch" placeholder="Search our 100-product list (e.g., Smoker, Suit, Book)..." onkeyup="filterProducts()">
+    </div>
+    
+    <div class="product-list" id="productList">
+        </div>
+
+    <form id="vaultForm">
+        <div class="form-grid">
+            <div class="form-group">
+                <label>Slug (Unique ID)</label>
+                <input type="text" id="slug" required placeholder="beekeeping-for-dummies">
+            </div>
+            <div class="form-group">
+                <label>ASIN</label>
+                <input type="text" id="asin" required placeholder="B00XXXXXXX">
+            </div>
+            <div class="form-group full-width">
+                <label>Full Product Name</label>
+                <input type="text" id="fullName" required placeholder="Exact Amazon Title">
+            </div>
+            <div class="form-group">
+                <label>Amazon Affiliate URL</label>
+                <input type="url" id="url" required placeholder="https://amzn.to/...">
+            </div>
+            <div class="form-group">
+                <label>Price String</label>
+                <input type="text" id="price" placeholder="$19.99">
+            </div>
+            <div class="form-group full-width">
+                <label>High-Res Image URL (for local download)</label>
+                <input type="url" id="imageUrl" required placeholder="https://m.media-amazon.com/...">
+            </div>
+        </div>
+        <button type="submit">VAULT PRODUCT</button>
+    </form>
+    <div id="status"></div>
+</div>
+
+<script>
+    // These are the top products from our earlier generated list
+    const masterList = [
+        { slug: "beekeeping-for-dummies-blackiston", name: "Beekeeping For Dummies by Howland Blackiston" },
+        { slug: "backyard-beekeeper-flottum", name: "The Backyard Beekeeper by Kim Flottum" },
+        { slug: "flow-hive-2-plus", name: "Flow Hive 2+ Cedar Wood" },
+        { slug: "guardian-bee-apparel-suit", name: "Guardian Bee Apparel Ventilated Suit" },
+        { slug: "dadant-stainless-smoker", name: "Dadant Stainless Steel Smoker" }
+    ];
+
+    function filterProducts() {
+        const input = document.getElementById('productSearch').value.toLowerCase();
+        const list = document.getElementById('productList');
+        list.innerHTML = '';
+        masterList.filter(p => p.name.toLowerCase().includes(input)).forEach(p => {
+            const div = document.createElement('div');
+            div.className = 'product-item';
+            div.innerText = p.name;
+            div.onclick = () => {
+                document.getElementById('slug').value = p.slug;
+                document.getElementById('fullName').value = p.name;
+            };
+            list.appendChild(div);
+        });
+    }
+    filterProducts(); // Initial load
+
+    document.getElementById('vaultForm').onsubmit = async (e) => {
+        e.preventDefault();
+        const status = document.getElementById('status');
+        status.innerText = "Processing...";
+        
+        const formData = {
+            slug: document.getElementById('slug').value,
+            asin: document.getElementById('asin').value,
+            fullName: document.getElementById('fullName').value,
+            url: document.getElementById('url').value,
+            imageUrl: document.getElementById('imageUrl').value,
+            price: document.getElementById('price').value
+        };
+
+        try {
+            const res = await fetch('http://localhost:3000/api/add-product', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            });
+            const result = await res.json();
+            status.style.color = result.success ? "green" : "red";
+            status.innerText = result.message || result.error;
+            if(result.success) document.getElementById('vaultForm').reset();
+        } catch (err) {
+            status.innerText = "Error connecting to microservice.";
+        }
+    };
+</script>
+</body>
+</html>
+
+
+================================================================================
+FILE: affiliate-manager\README.MD
+================================================================================
+
+This is a great start. You’ve successfully isolated the logic from the main site build, which is exactly how a scalable microservice should look.I’ve drafted a README.md below that synthesizes our plan: the "manual-to-automated" bridge, the portable vault concept, and the next mechanical steps to get your first affiliate links live on the beekeeping site.📦 Affiliate Vault AutomationA Portable Microservice for Content-Driven Affiliate MarketingThis microservice is a decoupled "Curator Service" designed to bridge the gap between manual Amazon link gathering and high-volume static site generation. It allows for rapid product link curation today and provides a plug-and-play architecture for the Amazon Creators API tomorrow.🚀 Core Philosophy: "The Portable Vault"Unlike traditional WordPress plugins (like AAWP) that lock data into a database, this service stores product information in a Global JSON Vault.Decoupled: The automation logic lives independently of the front-end site.Static-First: It downloads and serves product images locally to ensure site speed and link stability.Shortcode-Ready: It uses a \[\[AFF:slug]] pattern that can be injected into any project (Beekeeping, Greek Literature, or AEC technical sites).📂 Current File MapFileRoleserver.jsThe Express.js entry point. It listens for incoming product data from the Curator UI.affiliate-vault-manager.jsThe "Brain." It handles the logic of updating the JSON vault and managing local image storage.product-vault-schema.jsDefines the structure of a product entry (ASIN, Name, Price, Local Image Path, Affiliate URL).product-vault-receiver.jsHelper logic specifically for handling incoming POST requests and validating data.🛠 Next Steps (The 3-Phase Execution)1. Build the "Curator Dashboard" (Immediate)We need a simple HTML/JS interface (dashboard.html) that allows you to:Search your pre-generated 100-product list.Paste an Amazon SiteStrip link.Paste a high-res image URL.Click "Vault It": This sends a request to server.js to save the data.2. Update the Site PipelineWe need to modify pipeline-apiary-batch.js (v1.1) to:Load the product-vault.json during Pass 2 (Haiku).Replace \[\[AFF:slug]] placeholders with structured HTML/CSS "Product Cards."3. The "API Switchover" (Future)Once you hit 10 qualifying sales:We rewrite only the affiliate-vault-manager.js to call the Amazon Creators API.The rest of the ecosystem (the site, the shortcodes, and the pages) remains completely untouched.⚡ How to StartInitialize the Environment:Bashnpm init -y
+
+npm install express fs-extra axios cors
+
+Launch the Service:Bashnode server.js
+
+Start Curating: Open the Dashboard and begin filling the vault using the product list we generated.Action Item: Dashboard UIWould you like me to write the curator-dashboard.html now? I’ll make sure it includes the search function for your first 5 products so you can test the "Vault" end-to-end.
+
+
+
+Replicating a tool like AAWP for your custom static-site setup is a brilliant way to maintain the "Content Factory" momentum without the bloat of WordPress. By creating a custom Affiliate Search \& Curation Dashboard, you move from manual "link fishing" to a structured, data-driven workflow.
+
+
+
+Here is a high-level blueprint for building this tool and integrating it into your existing Grok v1.1 pipeline.
+
+
+
+1\. The "Affiliate Curator" UI Concept
+
+Since you are a developer, you don't need a full WordPress back-end. You can build a simple local HTML/JS dashboard (running on localhost) that does the following:
+
+
+
+Search Bar: You paste an Amazon URL or ASIN.
+
+
+
+Scraper Engine: A small Node.js backend uses Puppeteer or a scraping API to "sniff" the product title, primary image, and price.
+
+
+
+The "Add to Vault" Button: When clicked, it:
+
+
+
+Downloads the high-res product image to your /assets/products/ folder.
+
+
+
+Generates the affiliate link using your tag.
+
+
+
+Appends a new entry to a product-vault.json file.
+
+
+
+2\. The product-vault.json Schema
+
+This file becomes the "Single Source of Truth" that your main build script will reference.
+
+
+
+JSON
+
+{
+
+&#x20; "beekeeping-for-dummies-blackiston": {
+
+&#x20;   "fullName": "Beekeeping For Dummies by Howland Blackiston",
+
+&#x20;   "affiliateUrl": "https://amzn.to/example-link",
+
+&#x20;   "imageLocalPath": "/assets/products/beekeeping-dummies.jpg",
+
+&#x20;   "pricePoint": "$18.99",
+
+&#x20;   "lastUpdated": "2026-04-15"
+
+&#x20; }
+
+}
+
+3\. Pipeline Integration (The "Injection" Phase)
+
+In your pipeline-apiary-batch.js script, you would add a helper function to swap placeholders for real data.
+
+
+
+Step A: In your manifest or notes, you just use the slug: {{product:beekeeping-for-dummies-blackiston}}.
+
+
+
+Step B: During Pass 2 (Haiku), the script looks up the slug in product-vault.json.
+
+
+
+Step C: It injects a standardized "Product Box" HTML component into the page:
+
+
+
+JavaScript
+
+function injectProductBox(slug) {
+
+&#x20; const data = productVault\[slug];
+
+&#x20; return `
+
+&#x20;   <div class="product-box">
+
+&#x20;     <img src="${data.imageLocalPath}" alt="${data.fullName}">
+
+&#x20;     <h3>${data.fullName}</h3>
+
+&#x20;     <p class="price">${data.pricePoint}</p>
+
+&#x20;     <a href="${data.affiliateUrl}" class="button-accent">View on Amazon</a>
+
+&#x20;   </div>
+
+&#x20; `;
+
+}
+
+4\. Why This Beats WordPress
+
+Performance: There are no database queries or heavy plugins slowing down the site. Your pages remain static and lightning-fast.
+
+
+
+Compliance: By downloading images to your own server, you avoid "hotlinking" (which Amazon sometimes dislikes) and ensure your site doesn't break if an image URL changes.
+
+
+
+Scalability: Once a product is in the "Vault," you can mention it across 100 different pages by just using its slug. If the price changes, you update it in one JSON file, and a re-build updates the whole site.
+
+
+
+5\. Automation Warning: The "API Gate"
+
+Amazon recently retired their old "Product Advertising API" and replaced it with the Creators API.
+
+
+
+The Pro Move: If you don't have API access yet, your "Affiliate Curator" dashboard can use a simple Chrome Extension or a Bookmarklet. When you are on an Amazon page, you click the bookmarklet, and it sends the product data to your local Node.js server.
+
+
+
+Would you like me to draft the "Bookmarklet" code and the Node.js "Vault" receiver script to get this started?
+
+
+
+
+================================================================================
+FILE: affiliate-manager\schema.js
+================================================================================
+
+{
+  "beekeeping-for-dummies-blackiston": {
+    "asin": "1119702580",
+    "fullName": "Beekeeping For Dummies by Howland Blackiston",
+    "price": "$18.99",
+    "image": "assets/img/products/beekeeping-dummies.jpg",
+    "url": "https://amzn.to/your-tag-here",
+    "lastUpdated": "2026-04-15"
+  }
+}
+
+
+================================================================================
+FILE: affiliate-manager\server.js
+================================================================================
+
+const express = require('express');
+const fs = require('fs-extra');
+const path = require('path');
+const axios = require('axios'); // For downloading images
+const app = express();
+
+const cors = require('cors');
+app.use(cors()); // Add this before your routes
+
+app.use(express.json());
+app.use(express.static('public'));
+
+const VAULT_PATH = path.join(__dirname, 'data/product-vault.json');
+
+app.post('/api/add-product', async (req, res) => {
+    const { slug, fullName, url, imageUrl, price, asin } = req.body;
+    
+    try {
+        // 1. Download Image to local storage
+        const imgName = `${slug}.jpg`;
+        const imgPath = path.join(__dirname, 'public/images', imgName);
+        const response = await axios({ url: imageUrl, responseType: 'stream' });
+        response.data.pipe(fs.createWriteStream(imgPath));
+
+        // 2. Update the Vault
+        const vault = await fs.readJson(VAULT_PATH).catch(() => ({}));
+        vault[slug] = {
+            asin,
+            fullName,
+            affiliateUrl: url,
+            localImage: `/affiliate-automation/public/images/${imgName}`,
+            price,
+            lastUpdated: new Date().toISOString()
+        };
+        
+        await fs.writeJson(VAULT_PATH, vault, { spaces: 2 });
+        res.json({ success: true, message: `Saved ${slug}` });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
+    }
+});
+
+app.listen(3000, () => console.log('Affiliate Service running on http://localhost:3000'));
+
+
+================================================================================
+FILE: affiliate-manager\vault-manager.js
+================================================================================
+
+const vault = JSON.parse(fs.readFileSync('./affiliate-automation/data/product-vault.json'));
+
+function injectAffiliateBoxes(content) {
+  // Regex to find [[AFF:product-slug]]
+  return content.replace(/\[\[AFF:(.*?)\]\]/g, (match, slug) => {
+    const p = vault[slug];
+    if (!p) return ``;
+    
+    return `
+      <div class="aff-box" data-asin="${p.asin}">
+        <img src="${p.localImage}" alt="${p.fullName}">
+        <div class="aff-info">
+          <h4>${p.fullName}</h4>
+          <span class="aff-price">${p.price}</span>
+          <a href="${p.affiliateUrl}" target="_blank" rel="nofollow" class="aff-btn">View on Amazon</a>
+        </div>
+      </div>
+    `;
+  });
+}
+
+
+================================================================================
+FILE: code-reviews\code-review-grok-ui.txt
+================================================================================
+
+
+
+
+================================================================================
+FILE: code-reviews\code-review-grok.txt
+================================================================================
+
+This keeps source separate from output — much better for maintenance, especially as you generate the remaining 23 pages.
+Where We Should Start the Code Review
+Start here: pipeline-apiary-batch.js
+This is the core of your entire system. Everything else (generated pages, outlines, design consistency) flows from it. Reviewing this file first will give the highest impact.
+Why prioritize this file?
+
+It drives the two-pass architecture (Pass 1: outline generation, Pass 2: HTML rendering via renderPage()).
+The README explicitly calls out that inner pages feel less polished because renderPage() currently uses inline styles instead of CSS classes.
+Fixing/improving the pipeline now prevents technical debt when you run --all for the remaining pages.
+Common LLM-pipeline risks (inconsistent HTML output, malformed markup, poor separation of content vs presentation) usually live in the rendering logic.
+
+Suggested Code Review Focus Areas (in order):
+
+Overall Structure & Readability
+How the script parses arguments (--all, --slug, --pass, --dry).
+Error handling and logging (especially around API calls and JSON parsing).
+Use of jsonrepair if mentioned.
+
+Pass 1 (Outline Generation)
+Prompt quality for the architect model (Haiku/Sonnet).
+How it saves structured JSON to data/outlines/.
+
+Pass 2 (HTML Rendering) — Highest Priority
+The renderPage() function: This is where design inconsistency lives.
+How it consumes the outline JSON.
+Current use of inline styles vs. classes from apiary.css.
+HTML template quality (head, meta, navigation, sidebar, footers, etc.).
+Placeholder insertion for affiliate links, internal links, CTAs.
+
+Internal Linking & Reusability
+Any existing logic for adding related links or cross-pillar navigation (currently a gap noted in reviews).
+
+Configuration & Environment
+How it loads config.json, manifest, and .env.
+Model assignments and API key handling.
+
+Output & Side Effects
+Writing files to root vs. data/pages/.
+Any duplication or cleanup logic.
+
+
+Next files to review after the pipeline:
+
+apiary-manifest.json (structure, priorities, notes — ensures good input quality).
+apiary.css (or the root version) — to define the reusable classes needed for inner pages.
+index.html — as the design reference / gold standard.
+
+Quick Action Recommendations Before Full Review
+
+Add a proper .gitignore (exclude .env, data/outlines/, data/pages/ if they're intermediate, and all generated root HTML if you move to a public/ folder).
+Create package.json if missing (with scripts like "generate": "node pipeline-apiary-batch.js", dependencies for any libs like jsonrepair).
+Consider moving generated HTML to a public/ or dist/ folder to clean the root.
+
+Would you like me to:
+
+Provide a detailed code review checklist tailored specifically for pipeline-apiary-batch.js?
+Suggest specific improvements to renderPage() for better CSS class usage?
+Help refactor the folder structure with exact move commands?
+
+Just paste the content of pipeline-apiary-batch.js (or relevant sections) and we can dive straight into a line-by-line style review. This is the highest-leverage place to start.1.2sFastpipeline-apiary-batch.jsRefer to the following content:Here's a focused, high-impact code review of pipeline-apiary-batch.js (the core of your two-pass LLM pipeline for TheApiaryGuide.com).
+I prioritized the areas that most directly affect your current pain points (design inconsistency on inner pages, scalability for the remaining 23 pages, maintainability, and SEO/affiliate readiness) while covering security, robustness, and best practices for a Node.js static site generator.
+1. Critical Issues (Fix These First)
+Inline styles in renderPage() — This is the #1 blocker
+The README and previous reviews correctly flagged this. The function hard-codes a lot of style="" attributes (hero, grid layout, sidebar cards, buttons, footer, etc.). This:
+
+Duplicates effort with apiary.css
+Makes inner pages look inconsistent with index.html
+Creates massive cleanup debt when you generate the remaining pages
+
+Recommendation:
+Move all layout/presentation into CSS classes in css/apiary.css (or the root version). Update renderPage() to output clean, class-based HTML like:
+HTML<div class="inner-hero">
+  <div class="inner-hero-content">
+    <span class="section-eyebrow">${page.pillar}</span>
+    <h1 class="page-h1">${outline.h1}</h1>
+    ...
+  </div>
+</div>
+
+<div class="page-layout">
+  <main class="page-main">...</main>
+  <aside class="page-sidebar">...</aside>
+</div>
+Add classes such as .inner-hero, .page-layout, .page-main, .sidebar-widget, .cta-button, etc. Then make inner pages visually match the homepage.
+Hard-coded navigation & links
+The <nav>, sidebar CTAs, and footer contain many hardcoded links (e.g., best-beginner-beekeeping-kit.html, beginners-guide-to-beekeeping.html, history-of-beekeeping.html which may not even exist yet). This will break or look incomplete as you add pages.
+Fix: Pull navigation/sidebar/footer data from config.json or the manifest. Make renderPage() accept (or load) a shared nav config so links stay in sync.
+Output paths inconsistency
+
+Outlines go to data/outlines/
+Intermediate pages to data/pages/
+Final deploy copies to root (DEPLOY_DIR = __dirname)
+But the comment at the top mentions data/apiary/outlines and data/apiary/pages (mismatch with actual code).
+
+Clean this up. Consider a proper build output folder (e.g., dist/ or public/) for Netlify deployment, and keep root for source only.
+2. High-Impact Improvements (Do Next)
+Internal linking is missing
+The Pass 1 prompt asks for "internalLinks": [string] (good!), but:
+
+processPage() and renderPage() completely ignore this field.
+Pass 2 prompt doesn't instruct the writer to actually insert the links.
+
+Fix:
+In Pass 2 system prompt, add: "Naturally incorporate the suggested internalLinks where they fit contextually (e.g., 'You might also like...', 'Related guide:')."
+Then in renderPage(), after the main content, add a "Related Pages" section using outline.internalLinks.
+Affiliate placeholders
+Pass 2 prompt tells the model to use <a href="AFFILIATE_PLACEHOLDER_slug" class="affiliate-link">. But renderPage() does nothing to replace these. Same for future Amazon IDs.
+Add post-processing in processPage() after getting content:
+JavaScriptcontent = content.replace(/AFFILIATE_PLACEHOLDER_(\w+)/g, (match, slug) => {
+  // lookup real affiliate URL from config or manifest
+  return `https://amazon.com/...?tag=YOURTAG-20`;
+});
+Error handling & robustness
+
+JSON parsing is decent (strips fences, fallback to jsonrepair), but failures are silent-ish in some paths.
+No validation that the outline actually matches the expected schema.
+API calls can fail silently on network issues; consider retries (simple exponential backoff).
+
+Security / Production notes
+
+API key loading from .env is basic but functional.
+No input sanitization on model output before writing HTML (risk of malformed or malicious-looking HTML from the LLM, though low here).
+Consider adding a simple HTML sanitizer if you ever let user-submitted content in.
+
+3. Good Things (Strengths)
+
+Clean argument parsing and flexible flags (--slug, --all, --pass, --priority, --dry, --concurrency).
+Two-pass separation is excellent.
+Dry-run mode and cost estimation are thoughtful.
+.env loading, config fallback, and site constants are solid.
+Concurrency batching with pause is smart for rate limits/cost control.
+Use of semantic HTML instructions in Pass 2 prompt.
+
+4. Medium/Lower Priority Suggestions
+
+Add package.json with scripts ("generate": "node pipeline-apiary-batch.js", "generate:all": "node ... --all") and dependencies (add jsonrepair explicitly if used).
+Consider splitting renderPage() into a separate module (or even a simple template file) for easier maintenance.
+Add basic logging or a --verbose flag.
+For future: generate a sitemap.xml automatically at the end.
+Update paths in comments/header to match reality.
+The accent color in SITE is set to #f5a623 (orange) but README mentions forest green (#2d5a3d). Align them.
+
+Where to Start Implementing Changes (Recommended Order)
+
+Today / This session: Refactor renderPage() to use CSS classes only (no inline styles except maybe dynamic ones). Extend apiary.css accordingly. Test with one existing page.
+Next: Make navigation/sidebar/footer data-driven (from config or manifest).
+Then: Wire up internalLinks from outline into rendered HTML + update Pass 2 prompt.
+Then: Handle affiliate placeholders and any other dynamic replacements.
+After that: Generate the remaining pages with --all (or --priority 2).
+
+This order prevents you from creating 23 more pages with the current styling debt.
+Would you like me to:
+
+Provide a refactored version of the renderPage() function using proper classes?
+Suggest specific CSS class names and structure to add to apiary.css?
+Give an updated Pass 2 system prompt that better enforces internal linking and affiliate handling?
+Or review another file next (e.g., apiary-manifest.json or apiary.css)?
+
+Just say the word and paste more code if needed. This pipeline is already quite capable — a few targeted fixes will make it much more professional and scalable.1.6sFast
+
+
+================================================================================
+FILE: design-ideas\chat-css-advice-new.txt
+================================================================================
+
+🔴 CRITICAL FINDING
+
+Your child page is NOT compatible with your index UI system.
+
+It introduces:
+
+.inner-hero (not in CSS)
+.page-layout, .page-main, .page-sidebar (not in CSS)
+.inner-nav (different nav system)
+sidebar TOC layout (not in index system)
+classic “SEO article template” structure
+
+👉 This is a different product UI, not a page type.
+
+🧠 WHAT YOU ACTUALLY WANT
+
+You want:
+
+ONE design system (apiary.css)
+MANY content types (pages)
+
+NOT:
+
+multiple page architectures competing with each other
+
+✅ FIX STRATEGY (IMPORTANT)
+
+You need to DELETE the concept of “inner page layout system.”
+
+Replace it with:
+
+“Every page is just index.html sections + content blocks”
+
+1️⃣ NEW RULE: SINGLE UI SYSTEM ONLY
+
+All pages (including comparisons, guides, roundups) must use ONLY:
+
+From your CSS:
+
+.hero
+.section-inner
+.section-heading
+.section-sub
+.services-grid
+.steps
+.tools-grid
+.pricing-card
+footer/nav from index
+
+🚫 DO NOT USE:
+
+page-layout
+sidebar layouts
+inner-hero
+custom nav variants
+2️⃣ WHAT TO DO WITH THIS CHILD PAGE
+
+Your current page:
+
+Langstroth vs Top Bar vs Warre
+
+Should be refactored into:
+
+✅ NEW STRUCTURE (INDEX-STYLE ONLY)
+HERO (same system as homepage)
+.hero
+title + intro + quick summary card
+SECTION BLOCKS (replace sidebar + TOC model)
+
+Each section becomes:
+
+<section>
+  <div class="section-inner">
+    <div class="section-eyebrow">Comparison</div>
+    <h2 class="section-heading">Langstroth Hive</h2>
+    <p class="section-sub">...</p>
+  </div>
+</section>
+TABLES (special rule)
+
+Your comparison table:
+
+✔ OK to keep
+BUT wrap it like this:
+
+<section>
+  <div class="section-inner">
+    <h2 class="section-heading">Quick Comparison</h2>
+    <div class="table-wrapper">
+      <table>...</table>
+    </div>
+  </div>
+</section>
+
+Then style .table-wrapper in CSS.
+
+REMOVE COMPLETELY
+
+Delete:
+
+<aside class="page-sidebar">
+TOC system
+.page-layout
+.page-main
+.page-sidebar
+.inner-nav
+duplicate H1 (you have TWO H1s right now — major SEO issue)
+3️⃣ NAVIGATION FIX (IMPORTANT)
+
+Your child page currently has:
+
+<nav class="inner-nav">
+
+❌ This breaks your system
+
+Replace with EXACT index nav:
+
+<nav>
+
+Same markup everywhere.
+
+4️⃣ CRITICAL BUG IN CURRENT CHILD PAGE
+
+You have:
+
+❌ Duplicate H1 problem
+<h1 class="page-h1">...</h1>
+...
+<h1>Langstroth vs Top Bar vs Warre Hive</h1>
+
+👉 This hurts:
+
+SEO
+accessibility
+semantic structure
+5️⃣ FINAL ARCHITECTURE (WHAT YOU SHOULD AIM FOR)
+EVERY PAGE = SAME SHELL
+NAV (identical)
+HERO (index system)
+SECTION BLOCKS (repeatable pattern)
+FOOTER (identical)
+
+NO EXCEPTIONS.
+
+6️⃣ WHAT TO CHANGE IN YOUR PIPELINE
+
+Your renderPage() must:
+
+❌ STOP DOING
+sidebar generation
+layout switching
+page-type templates
+✅ START DOING
+emit sections only
+wrap everything in index system
+reuse same hero structure
+enforce no new classes
+7️⃣ SIMPLE RULE TO GIVE YOUR LLM
+
+Add this:
+
+All pages must use the same UI system as index.html.
+Do not generate sidebar layouts, inner page templates, or new structural containers.
+Only generate section content inside existing APIARY.CSS classes.
+🔥 BIG PICTURE (THIS IS THE REAL INSIGHT)
+
+Right now you have:
+
+“multiple competing frontend frameworks inside one site”
+
+You need:
+
+“one design system + infinite content injection”
+
+If you want next step
+
+I can rewrite your child page into a clean index-consistent version (zero UI changes, only structural normalization), OR
+
+I can refactor your entire pipeline so it physically cannot generate broken layouts anymore.
+
+That second option is what actually makes this scalable.
+
+
+================================================================================
+FILE: design-ideas\chat-css-directives.txt
+================================================================================
+
+Here you go — clean, copyable plain text with no markup:
+
+1.0 GOAL: Preserve the exact existing UI of index.html while safely improving structure and maintainability.
+
+1.1 CORE PRINCIPLE: Do not change any visible HTML, class names, layout structure, or CSS hooks that affect rendering.
+
+1.1.a UI IMMUTABILITY: The visual output of index.html must remain 100% identical before and after changes.
+
+1.2 WHAT YOU CAN CHANGE: You may improve organization, metadata, and non-visual structure.
+
+1.2.a HEAD CLEANUP: Standardize and optimize the <head> section without affecting styling or layout.
+
+1.2.b SEO IMPROVEMENTS: Add meta tags (description, og tags) that do not impact UI.
+
+1.2.c CODE ORGANIZATION: Reformat spacing, indentation, and grouping for readability only.
+
+1.3 WHAT YOU MUST NOT CHANGE: Anything that could alter rendering.
+
+1.3.a HTML STRUCTURE: Do not move, remove, or rename elements.
+
+1.3.b CSS REFERENCES: Do not modify class names or linked stylesheets.
+
+1.3.c CONTENT FLOW: Do not change text placement, ordering, or hierarchy.
+
+1.4 SAFE ENHANCEMENTS: Add invisible improvements that strengthen the page.
+
+1.4.a ACCESSIBILITY: Add aria labels or alt text where missing, without changing layout.
+
+1.4.b PERFORMANCE: Add preload or font optimizations if they do not affect rendering.
+
+1.4.c COMMENTS: Add developer comments to clarify sections for future edits.
+
+1.5 VALIDATION PROCESS: Ensure no UI drift occurs.
+
+1.5.a BEFORE/AFTER CHECK: Visually compare pages side-by-side.
+
+1.5.b DIFF CHECK: Confirm only non-visual code changed.
+
+1.5.c BROWSER TEST: Load in browser and verify identical appearance.
+
+1.6 OUTPUT REQUIREMENT: Deliver a revised index.html that is structurally improved but visually unchanged.
+
+1.6.a ZERO UI DELTA: Any difference in layout, spacing, or styling is considered a failure.
+
+1.6.b DROP-IN SAFE: The file should replace the original with no downstream effects.
+
+If you want, I can now apply this exact framework directly to your current index.html and re
+
+
+================================================================================
+FILE: design-ideas\css-problems.txt
+================================================================================
+
+CSS is  still not good enough
+1. title is indented too much
+2. text color dossn't match the text color of index.tnml
+3. too much space between these tow lines:
+
+	have distinct advantages, maintenance requirements, and honey yields. This guide breaks down exactly how they compare so you can pick the right hive for your goals, experience level, and backyard setup.
+
+	Quick Comparison: Langstroth vs Top Bar vs Warre
+
+
+4. the text isn't the full witdth of the page, 
+5. I don't want to use bullet points, index.html doesnt' 
+
+
+6. too much space between thiee linesl
+
+	values standardization and ease of troubleshooting.
+
+	Complete 10-Frame Langstroth Starter Kit with Frames and Foundation
+
+	Top Bar Hive: The Low-Intervention Option
+
+
+================================================================================
+FILE: design-ideas\grok-advice-css.txt
+================================================================================
+
+
+
+
+================================================================================
+FILE: design-ideas\grok-css-thougts.txt
+================================================================================
+
+CSS is  still not good enough
+1. title is indented too much
+2. text color dossn't match the text color of index.tnml
+3. too much space between these tow lines:
+
+	have distinct advantages, maintenance requirements, and honey yields. This guide breaks down exactly how they compare so you can pick the right hive for your goals, experience level, and backyard setup.
+
+	Quick Comparison: Langstroth vs Top Bar vs Warre
+
+
+4. the text isn't the full witdth of the page, 
+5. I don't want to use bullet points, index.html doesnt' 
+
+
+6. too much space between thiee linesl
+
+	values standardization and ease of troubleshooting.
+
+	Complete 10-Frame Langstroth Starter Kit with Frames and Foundation
+
+	Top Bar Hive: The Low-Intervention Option
+
+
+================================================================================
+FILE: design-ideas\index-design-principles.txt
+================================================================================
+
+it's ugly, review the index.html page and tell me what the core design principals seem to be, your page has bullet points for example, which is ugly you've also changed the background and several other components of the style that didn't need to be chnaged, restate the design principles of index.html, why does it work so well?
+
+You’re right. The index page works because it has a very specific design language, and my earlier version broke that language by introducing new visual ideas that weren’t already in the system. The strongest pages on this site feel editorial, restrained, and consistent, not “decorated.”
+
+What index.html does well
+The homepage is built around a few clear principles: a warm neutral palette, strong typographic hierarchy, large breathing room, and a small set of repeating card-like modules. It uses contrast carefully — serif headings for character, sans-serif body text for clarity, and green accents only to guide attention.
+
+It also has a very disciplined layout rhythm. Sections are separated by generous padding, content is locked to a consistent max width, and components repeat in a predictable way, which makes the page feel calm and premium rather than busy.
+
+Core design principles
+Editorial restraint. The page avoids excess decoration and lets typography, spacing, and structure do the work. The result feels confident rather than flashy.
+
+Consistent color system. It stays mostly within cream, ink, white, and a single green accent family. That limited palette makes the whole site feel unified and intentional.
+
+Strong type hierarchy. The index page relies on large serif headlines, smaller uppercase labels, and lighter body copy. This makes it easy to scan while still feeling refined.
+
+Clean spacing and alignment. Plenty of whitespace and a disciplined grid keep everything legible. Nothing feels crowded, and the eye always knows where to go next.
+
+Card-based structure. Content is organized into clear panels, cards, and sections with consistent borders and rounded corners. That repetition creates a visual system, not a one-off design.
+
+Selective emphasis. Buttons, badges, and accent text are used sparingly. Because attention is not overused, the important elements feel important.
+
+Why it works so well
+The homepage works because it feels like one coherent brand, not a collection of individual page decisions. Every element supports the same mood: calm, informed, trustworthy, and a little premium.
+
+It also balances beauty with utility. The design is attractive, but it never fights the content; instead, it gives the content room to breathe and makes the structure easy to understand. That is why it feels polished rather than “designed.”
+
+What I changed wrong
+You were right to call out the bullets, the background shift, and the added visual layers. Those changes introduced a different page personality instead of matching the homepage’s existing system. The beekeeping page should mostly inherit the same visual language already present in apiary.css, then only add small page-specific refinements where needed.
+
+The right direction
+For the beekeeping page, the goal should be: keep the same cream background, the same serif/sans pairing, the same card treatments, and the same accent behavior, then improve only the structure and spacing of the article itself. In other words, make it feel like an article page from the same family as the homepage, not a new redesign.
+
+A better approach would be to preserve the original aesthetic and simply clean up the article layout: tighter heading rhythm, more elegant section spacing, fewer list-heavy blocks, and stronger hierarchy in the existing content.
+
+Would you like me to now produce a revised beekeeping-for-beginners.html that strictly matches the homepage style system and avoids introducing any new visual language?
+
+
+================================================================================
+FILE: design-ideas\perplexity.html
+================================================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beekeeping for Beginners: What to Know Before You Start</title>
+  <meta name="description" content="Thinking about keeping bees? Learn the real costs, time commitment, legal requirements, and neighbor considerations before you buy your first hive." />
+  <link rel="canonical" href="https://theapiaryguide.com/beekeeping-for-beginners" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/apiary.css" />
+  <style>
+    .page-intro, .page-layout { max-width: 1100px; margin: 0 auto; }
+    .page-intro { padding: 36px 48px 12px; }
+    .page-intro .section-eyebrow { margin-bottom: 14px; }
+    .page-layout { padding: 0 48px 120px; display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 80px; align-items: start; }
+    .page-main { min-width: 0; }
+    .page-main section { padding: 0; margin: 0 0 62px; background: transparent; border: 0; box-shadow: none; }
+    .page-main h2 { font-family: "Cormorant Garamond", serif; font-size: 44px; font-weight: 300; line-height: 1.12; letter-spacing: -0.01em; color: var(--ink); margin: 0 0 18px; max-width: 14ch; }
+    .page-main h3 { font-size: 20px; font-weight: 500; line-height: 1.35; color: var(--ink); margin: 28px 0 12px; }
+    .page-main p, .page-main ul, .page-main ol { font-size: 16px; line-height: 1.8; color: var(--ink-mid); margin: 0 0 18px; }
+    .page-main ul, .page-main ol { padding-left: 22px; }
+    .page-main li { margin: 8px 0; }
+    .page-main strong { color: var(--ink); font-weight: 700; }
+    .page-main a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(45,90,61,.2); }
+    .page-main a:hover { color: var(--accent-light); border-bottom-color: var(--accent-light); }
+    .page-main section[id] { scroll-margin-top: 88px; }
+
+    .page-sidebar { position: sticky; top: 100px; align-self: start; }
+    .sidebar-widget { background: var(--white); border: 1px solid var(--rule); border-radius: 14px; padding: 28px; margin-bottom: 24px; }
+    .widget-title { font-size: 11px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-light); margin-bottom: 18px; }
+    .sidebar-link { display: block; padding: 9px 0; font-size: 13.5px; color: var(--ink-mid); text-decoration: none; border-bottom: 1px solid var(--rule); transition: color 0.2s; }
+    .sidebar-link:last-child { border-bottom: none; }
+    .sidebar-link:hover { color: var(--accent); }
+    .cta-widget { background: var(--ink); color: #9a9a94; }
+    .cta-widget .widget-title { color: #6a6a64; }
+    .cta-button { display: inline-block; margin-top: 12px; font-size: 13px; font-weight: 500; color: var(--ink); background: #7ec99a; padding: 12px 26px; border-radius: 40px; text-decoration: none; transition: background 0.2s, transform 0.15s; }
+    .cta-button:hover { background: #9adbb1; transform: translateY(-1px); }
+
+    .footer-disclosure { max-width: 1100px; margin: 40px auto 0; padding: 0 48px; font-size: 12.5px; color: #6a6a64; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 28px; }
+
+    @media (max-width: 900px) {
+      .page-layout { grid-template-columns: 1fr; gap: 60px; padding: 0 24px 80px; }
+      .page-intro { padding: 28px 24px 10px; }
+      .page-main h2 { font-size: 36px; }
+      .page-sidebar { position: static; }
+      .footer-disclosure { padding: 0 24px; padding-top: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <nav style="backdrop-filter:none; -webkit-backdrop-filter:none; background: rgba(247,245,240,0.98);">
+    <a href="index.html" class="nav-brand">The Apiary Guide</a>
+    <ul class="nav-links">
+      <li><a href="best-beginner-beekeeping-kit.html">Shop</a></li>
+      <li><a href="beginners-guide-to-beekeeping.html">Learn</a></li>
+      <li><a href="history-of-beekeeping.html">Discover</a></li>
+      <li><a href="beekeeping-clubs-directory.html" class="nav-cta">Community</a></li>
+    </ul>
+  </nav>
+
+  <div style="padding-top:64px;"></div>
+
+  <div class="page-intro">
+    <div class="section-eyebrow">Learn</div>
+    <h1 class="page-h1">Beekeeping for Beginners: The Honest Guide to Getting Started</h1>
+    <p class="page-intro-desc">Thinking about keeping bees? Learn the real costs, time commitment, legal requirements, and neighbor considerations before you buy your first hive.</p>
+  </div>
+
+  <div class="page-layout">
+    <main class="page-main">
+      <section id="page-header">
+        <div class="page-intro" style="padding:0;">
+          <p>Starting beekeeping isn't just about buying a hive and bees. Before you invest time and money, you need to understand zoning laws, startup costs, weekly time commitments, and how to handle neighbor concerns. This guide walks you through every pre-start decision so you can begin beekeeping with confidence and realistic expectations.</p>
+        </div>
+      </section>
+
+      <section id="is-beekeeping-right-for-you">
+        <h2>Is Beekeeping Right for You? 5 Questions to Ask First</h2>
+        <p>Before you spend a dime on equipment or bees, be honest with yourself about whether beekeeping fits your life and comfort level. This isn't a judgment — it's practical self-assessment.</p>
+        <h3>1. Do You Have Allergies to Bee Stings?</h3>
+        <p>If you've had a severe allergic reaction to bee stings in the past, beekeeping probably isn't for you. Even with protective gear, stings happen. A mild local reaction (swelling at the sting site) is normal and manageable. But if you've experienced anaphylaxis or severe systemic reactions, the risk isn't worth it. Talk to your doctor before proceeding.</p>
+        <h3>2. Can You Lift 50+ Pounds Regularly?</h3>
+        <p>A full honey super (the box where bees store honey) weighs 50-60 pounds when full. During harvest season, you'll be lifting these repeatedly. If you have back problems, shoulder issues, or limited strength, consider a top bar hive instead of a Langstroth — they're easier on your body but produce less honey.</p>
+        <h3>3. Are You Comfortable With Stings?</h3>
+        <p>Here's the reality: you will get stung. Even experienced beekeepers do. Good gear and calm technique minimize stings, but they don't eliminate them. If the thought of a sting sends you into panic, beekeeping will create constant anxiety. Most beekeepers find that after the first few stings, the fear fades and they focus on technique instead.</p>
+        <h3>4. Do You Have Outdoor Space?</h3>
+        <p>You need at least a small yard or rooftop. Balconies don't work. Hives need morning sun, afternoon shade, wind protection, and distance from high-traffic areas. We'll cover space requirements in detail later, but if you're in a tiny apartment with no outdoor access, this isn't the hobby for you.</p>
+        <h3>5. Can You Commit 3-5 Hours Per Week During Peak Season?</h3>
+        <p>Beekeeping isn't passive. During spring and summer, you'll spend 2-3 hours per week on inspections, feeding, and swarm prevention. Add harvest time in fall, and you're looking at 3-5 hours weekly. If you travel frequently or work 70-hour weeks, the timing won't work. Winter is lighter, but the growing season demands consistency.</p>
+        <p><strong>If you answered yes to all five questions, you're ready to move forward.</strong> If you hesitated on any, that's valuable information — it might mean adjusting your approach or waiting until circumstances change.</p>
+      </section>
+
+      <section id="legal-requirements-and-zoning">
+        <h2>Legal Requirements: Zoning Laws, Permits, and Registration</h2>
+        <p>This is the unsexy part of beekeeping, but it's critical. Beekeeping laws vary wildly by location — what's legal in one city might be prohibited in the next neighborhood over. Start here before you buy anything.</p>
+        <h3>How to Check Your Local Zoning Laws</h3>
+        <p>Begin with your city or county zoning office. You can usually find ordinances online, but a phone call is often faster. Ask specifically:</p>
+        <ul>
+          <li>Are beehives allowed in residential zones?</li>
+          <li>How many hives are permitted per property?</li>
+          <li>What setback distance is required from property lines?</li>
+          <li>Do I need a permit or license?</li>
+          <li>Are there seasonal restrictions?</li>
+        </ul>
+        <p>If you live in an HOA community, check your CC&amp;Rs (Covenants, Conditions &amp; Restrictions) and contact your HOA board directly. Some HOAs prohibit beekeeping entirely, while others have no rules against it. Getting written approval from your HOA before you start saves headaches later.</p>
+        <h3>Common Zoning Requirements</h3>
+        <p>Most municipalities that allow beekeeping require:</p>
+        <ul>
+          <li><strong>Setback distance:</strong> Usually 10-25 feet from property lines or neighboring structures</li>
+          <li><strong>Hive limits:</strong> Often 2-4 hives per residential lot</li>
+          <li><strong>Permits:</strong> Some cities require annual permits ($25-100); others have none</li>
+          <li><strong>Registration:</strong> Many states require hive registration with the state apiary inspector</li>
+        </ul>
+        <p>Urban areas tend to have stricter rules, but many cities are loosening restrictions as urban beekeeping gains popularity. If your municipality doesn't have clear beekeeping ordinances, contact your city council or planning department about the process for getting approval.</p>
+        <h3>State Registration and Inspection</h3>
+        <p>Most states require you to register your hives with the state apiary inspector. This is usually free or low-cost and takes 10 minutes. Registration helps the state track bee health, disease, and swarm activity. Your state's Department of Agriculture website will have registration forms and requirements.</p>
+        <h3>Liability Insurance</h3>
+        <p>Check your homeowner's insurance policy. Some policies cover liability from bee stings; others don't. A few beekeeping associations offer group liability insurance (usually $100-200 annually). If you're in an urban area or have close neighbors, liability coverage is worth the investment.</p>
+        <h3>What to Do If Your Area Has No Clear Rules</h3>
+        <ul>
+          <li><strong>Get written permission from your city.</strong> Contact the planning department and ask for written confirmation that beekeeping is allowed.</li>
+          <li><strong>Start small and be discreet.</strong> Many beekeepers in gray-area zones keep 1-2 hives in a back corner, inform neighbors proactively, and never have problems.</li>
+          <li><strong>Work with local beekeeping associations to create ordinances.</strong> Some communities are developing beekeeping rules specifically because local beekeepers advocated for them.</li>
+        </ul>
+        <p><strong>Bottom line:</strong> Do this research before you buy your first hive. A 10-minute phone call to your zoning office can save you from having to remove hives later.</p>
+      </section>
+
+      <section id="real-startup-costs">
+        <h2>The Real Cost of Starting Beekeeping: Budget Breakdown</h2>
+        <p>Beekeeping doesn't have to be expensive, but it's not free. Here's what you'll actually spend in year one, broken down by category.</p>
+        <h3>Hive Setup: $300-500</h3>
+        <p>Your hive is the foundation. You have two options:</p>
+        <ul>
+          <li><strong>Unassembled kit (budget option):</strong> $250-350. You'll assemble the boxes, frames, and bottom board yourself. Saves money but requires a few hours of work and basic tools.</li>
+          <li><strong>Pre-assembled kit (convenience option):</strong> $400-500. Everything comes ready to use. Worth it if you're not handy or don't have time to assemble.</li>
+        </ul>
+        <p>A beginner kit typically includes one deep box (for brood), one medium box (for honey), frames, foundation, bottom board, inner cover, and outer cover. This is enough to start one hive. Most beginners start with one hive, though two is ideal for comparison and backup if one fails.</p>
+        <p><a class="affiliate-link" href="AFFILIATEPLACEHOLDERbeginner-hive-kits">Beginner hive kits</a> from reputable suppliers range from budget-friendly to premium. Start with a mid-range option — you don't need the most expensive, but the cheapest kits often have quality issues.</p>
+        <h3>Protective Gear: $100-200</h3>
+        <p>You need to protect yourself from stings. Minimum gear:</p>
+        <ul>
+          <li><strong>Veil:</strong> $20-40. Protects your face and neck. Non-negotiable.</li>
+          <li><strong>Gloves:</strong> $15-30. Leather or nitrile. You'll want multiple pairs.</li>
+          <li><strong>Jacket or suit:</strong> $50-100. A light jacket with elastic cuffs is fine for beginners; full suits are overkill initially.</li>
+          <li><strong>Boots:</strong> $30-50. Wear closed-toe shoes you don't mind getting stung through. Bees can crawl up pant legs, so tuck pants into socks or boots.</li>
+        </ul>
+        <p>Budget option: veil + gloves + light jacket = ~$100. Premium option: full suit + quality gloves + boots = ~$200. You can upgrade later as you learn your comfort level.</p>
+        <p><a class="affiliate-link" href="AFFILIATEPLACEHOLDERbeginner-protective-gear">Beginner protective gear bundles</a> offer good value and usually include veil, gloves, and jacket together.</p>
+        <h3>Essential Tools: $50-100</h3>
+        <p>You need these:</p>
+        <ul>
+          <li><strong>Hive tool:</strong> $8-15. A flat metal tool for prying open boxes and scraping frames.</li>
+          <li><strong>Smoker:</strong> $20-40. Burns fuel (wood chips, pellets) to calm bees during inspections.</li>
+          <li><strong>Bee brush:</strong> $5-10. Gently brushes bees off frames.</li>
+          <li><strong>Feeder:</strong> $10-20. For supplemental feeding in spring and fall.</li>
+        </ul>
+        <p><a class="affiliate-link" href="AFFILIATEPLACEHOLDERessential-tool-kits">Essential tool kits</a> bundle these items and cost $50-80, saving you money versus buying individually.</p>
+        <p>Skip for now: uncapping knife, frame grip, queen excluder, honey extractor. You don't need these in year one.</p>
+        <h3>Bees: $150-250</h3>
+        <p>Your actual bees come in three forms:</p>
+        <ul>
+          <li><strong>Package bees:</strong> $120-150. A 3-pound box of loose bees with a queen. Most affordable, slower start, but reliable.</li>
+          <li><strong>Nucleus colony (nuc):</strong> $150-250. A small established colony with frames, brood, and honey. Faster buildup, higher cost, limited availability.</li>
+          <li><strong>Swarms:</strong> Free to $50. Unpredictable, requires experience. Not recommended for beginners.</li>
+        </ul>
+        <p>For beginners, packages or nucs are your best bet. Packages are cheaper; nucs get you ahead faster. Order in fall or early winter for spring delivery.</p>
+        <h3>Feeding and Maintenance: $50-100 (Year One)</h3>
+        <p>Bees need supplemental feeding in spring (before nectar flow) and fall (before winter). Budget:</p>
+        <ul>
+          <li><strong>Sugar for syrup:</strong> $20-30. You'll make 1:1 or 2:1 sugar-water syrup.</li>
+          <li><strong>Pollen substitute (optional):</strong> $15-25. Helps in early spring.</li>
+          <li><strong>Treatments for varroa mites:</strong> $20-40. Essential for hive health.</li>
+        </ul>
+        <h3>Year One Total: $650-1,150</h3>
+        <p>Budget breakdown for one hive:</p>
+        <ul>
+          <li>Hive setup: $300-500</li>
+          <li>Protective gear: $100-200</li>
+          <li>Tools: $50-100</li>
+          <li>Bees: $150-250</li>
+          <li>Feeding and treatments: $50-100</li>
+        </ul>
+        <p><strong>Minimum (budget approach):</strong> ~$650. Unassembled kit, package bees, basic gear.</p>
+        <p><strong>Comfortable (recommended):</strong> ~$900. Pre-assembled kit, nuc, decent gear.</p>
+        <p><strong>Premium:</strong> ~$1,150+. Top-tier equipment, full suit, extra tools.</p>
+        <h3>Ongoing Annual Costs (Year 2+): $200-400</h3>
+        <p>After year one, costs drop significantly:</p>
+        <ul>
+          <li>Replacement frames and foundation: $30-50</li>
+          <li>Varroa mite treatments: $30-50</li>
+          <li>Sugar for feeding: $20-30</li>
+          <li>Replacement bees (if a hive dies): $150-250</li>
+          <li>Miscellaneous supplies: $20-50</li>
+        </ul>
+        <p>If you harvest honey, you'll recoup some costs. A strong hive produces 30-60 pounds of surplus honey annually, worth $200-400 at local market prices.</p>
+        <p><strong>The bottom line:</strong> Beekeeping is affordable to start, but it's not free. Budget $700-900 for year one, then $200-400 annually. If you're on a tight budget, start with one hive, buy an unassembled kit, and use package bees.</p>
+      </section>
+
+      <section id="time-commitment-by-season">
+        <h2>Time Commitment: How Much Work Is Beekeeping Really?</h2>
+        <p>Beekeeping time varies dramatically by season. Here's what to expect throughout the year.</p>
+        <h3>Spring (March-May): 1-2 Hours Per Week</h3>
+        <p>This is your busiest season. Bees are building up population, and you need to monitor closely.</p>
+        <ul>
+          <li><strong>Weekly inspections:</strong> 1-1.5 hours. Open the hive, check for brood patterns, look for disease, ensure the queen is laying.</li>
+          <li><strong>Feeding:</strong> 30 minutes. Check feeders, refill with sugar syrup if needed.</li>
+          <li><strong>Swarm prevention:</strong> 30 minutes. Add boxes before the hive gets too crowded.</li>
+        </ul>
+        <p>Total: 1.5-2 hours per week during peak spring activity.</p>
+        <h3>Summer (June-August): 2-3 Hours Per Week</h3>
+        <p>The hive is at full strength. Your focus shifts to honey production and disease management.</p>
+        <ul>
+          <li><strong>Bi-weekly inspections:</strong> 1-1.5 hours. You can inspect every 10-14 days instead of weekly once the hive is established.</li>
+          <li><strong>Swarm prevention:</strong> 30 minutes. Continue monitoring for signs of swarming.</li>
+          <li><strong>Pest and disease monitoring:</strong> 30 minutes. Watch for varroa mites, small hive beetles, or other issues.</li>
+          <li><strong>Honey super management:</strong> 30 minutes. Add boxes as bees fill frames with honey.</li>
+        </ul>
+        <p>Total: 2-3 hours per week during summer.</p>
+        <h3>Fall (September-October): 3-4 Hours Total</h3>
+        <p>This is harvest time and prep for winter. It's concentrated work over a few weeks, not ongoing.</p>
+        <ul>
+          <li><strong>Honey harvest:</strong> 2-3 hours. Remove honey supers, extract honey, clean equipment.</li>
+          <li><strong>Hive assessment:</strong> 1 hour. Check that the hive has enough honey stores for winter (40-60 pounds).</li>
+          <li><strong>Feeding for winter:</strong> 30 minutes. If stores are low, feed sugar syrup or fondant.</li>
+          <li><strong>Varroa treatment:</strong> 30 minutes. Apply mite treatments before winter.</li>
+        </ul>
+        <p>Total: 3-4 hours spread over September and October, not weekly.</p>
+        <h3>Winter (November-February): Minimal, ~30 Minutes Per Month</h3>
+        <p>Bees cluster inside and don't need much from you.</p>
+        <ul>
+          <li><strong>Monthly checks:</strong> 15-30 minutes. Peek at the entrance to confirm the hive is alive. Don't open it — cold air can kill bees.</li>
+          <li><strong>Feeding (if needed):</strong> 15 minutes. In late winter, if stores are low, add fondant or sugar cakes.</li>
+          <li><strong>Equipment maintenance:</strong> 1-2 hours total over the season. Clean and repair gear, plan for spring.</li>
+        </ul>
+        <p>Total: 30 minutes per month, plus 1-2 hours of equipment work.</p>
+        <h3>Year One Learning Curve</h3>
+        <p>In your first year, expect to spend 20-30% more time than these estimates. You'll be learning, second-guessing yourself, and consulting guides frequently. This is normal. By year two, you'll work faster and more confidently.</p>
+        <h3>Two Hives vs. One Hive</h3>
+        <p>If you keep two hives, add about 30-40% to your time commitment. You're not doubling your work — you're doing similar tasks twice, but some tasks (like learning, planning, equipment maintenance) don't scale linearly.</p>
+        <h3>Is It Worth the Time?</h3>
+        <p>Most beekeepers find the time commitment reasonable, especially once they're past year one. The work is seasonal, not year-round. Summer requires more attention, but winter is almost hands-off. If you enjoy outdoor work and problem-solving, you'll find the time worthwhile. If you're looking for a passive income stream, beekeeping isn't it — at least not in year one.</p>
+      </section>
+
+      <section id="space-requirements">
+        <h2>Space Requirements: Urban, Suburban, and Rural Beekeeping</h2>
+        <p>Hives don't need much space, but placement matters. Here's what works in different settings.</p>
+        <h3>Urban Beekeeping (Apartments, Small Yards, Rooftops)</h3>
+        <p>You can keep bees in the city, but space is tight.</p>
+        <ul>
+          <li><strong>Minimum space:</strong> A rooftop, small fenced yard, or balcony with at least 50 square feet of dedicated space.</li>
+          <li><strong>Hive placement:</strong> Put hives in a back corner, elevated if possible, facing away from neighbors' windows and patios.</li>
+          <li><strong>Flight path:</strong> Bees fly in a relatively straight line from the hive. Orient the entrance toward open space (alley, park, street) rather than toward neighbors' yards.</li>
+          <li><strong>Screening:</strong> A 6-foot fence or hedge between your hive and neighbors' property helps redirect bee flight paths upward.</li>
+          <li><strong>Hive number:</strong> Most urban ordinances allow 1-2 hives. Check your local rules.</li>
+        </ul>
+        <p>Urban beekeeping works best with engaged neighbors who understand what you're doing. Proactive communication (covered in the next section) is essential.</p>
+        <h3>Suburban Beekeeping (Typical Backyard)</h3>
+        <p>This is the sweet spot for most beginners.</p>
+        <ul>
+          <li><strong>Minimum space:</strong> A quarter-acre lot with a dedicated hive area.</li>
+          <li><strong>Ideal placement:</strong> Back corner of the yard, 10-25 feet from property lines (check your local setback requirements). Morning sun, afternoon shade, wind protection.</li>
+          <li><strong>Flight path:</strong> Orient hive entrance toward the back of your property or toward open space. Avoid pointing toward neighbors' homes or high-traffic areas.</li>
+          <li><strong>Screening:</strong> A 4-6 foot fence or dense hedge is ideal. Bees flying over obstacles climb higher and are less likely to interact with neighbors.</li>
+          <li><strong>Hive number:</strong> 2-4 hives is typical for suburban lots. Space them 3-4 feet apart to prevent drifting.</li>
+        </ul>
+        <p>Suburban yards usually offer enough space for 2-3 hives without crowding. If you have room, two hives are better than one — they provide backup if one fails and give you comparison data.</p>
+        <h3>Rural Beekeeping (Acreage)</h3>
+        <p>Rural settings offer the most flexibility.</p>
+        <ul>
+          <li><strong>Minimum space:</strong> No real minimum. You can space hives further apart and have more freedom.</li>
+          <li><strong>Ideal placement:</strong> 50+ feet from your home (for noise and smell), facing open fields or woods. Morning sun, afternoon shade.</li>
+          <li><strong>Predators:</strong> Rural areas have bears, raccoons, and other wildlife. Plan for electric fencing or robust hive stands.</li>
+          <li><strong>Hive number:</strong> 5-20+ hives is common for rural beekeepers. Space them 4-6 feet apart.</li>
+        </ul>
+        <p>Rural beekeeping offers more space but introduces predator management as a concern. If you're in bear country, electric fencing is essential.</p>
+        <h3>Key Placement Principles (All Settings)</h3>
+        <ul>
+          <li><strong>Morning sun:</strong> Bees need warmth to get active. East-facing entrances catch morning sun.</li>
+          <li><strong>Afternoon shade:</strong> In hot climates, afternoon shade prevents overheating.</li>
+          <li><strong>Wind protection:</strong> Hives in windy spots stress bees. Use a fence, hedge, or natural windbreak.</li>
+          <li><strong>Water access:</strong> Bees need water. If there's no natural source nearby, provide a shallow dish with pebbles or straw.</li>
+          <li><strong>Elevation:</strong> Slightly elevated hives (on a stand or platform) improve drainage and reduce pest access.</li>
+          <li><strong>Distance from activity:</strong> Avoid placing hives near your patio, kids' play area, or dog run. Bees are defensive when disturbed.</li>
+        </ul>
+        <h3>Hive Stand Setup</h3>
+        <p>Hives should sit on a stand 12-18 inches off the ground. This improves ventilation, prevents ground moisture, and deters pests. A simple wooden stand or concrete blocks work fine. Make sure the stand is level and sturdy enough to hold 100+ pounds.</p>
+        <h3>Space Planning Tip</h3>
+        <p>If you're considering multiple hives, space them at least 3-4 feet apart. This prevents bees from one hive drifting into another and reduces disease transmission if one hive gets sick.</p>
+      </section>
+
+      <section id="talking-to-neighbors">
+        <h2>How to Talk to Your Neighbors About Keeping Bees</h2>
+        <p>This conversation can make or break your beekeeping experience. Do it right, and you'll have supportive neighbors. Do it wrong, and you'll face complaints, pressure to remove hives, or worse. Here's how to approach it.</p>
+        <h3>When to Tell Your Neighbors</h3>
+        <p><strong>Tell them before you install hives.</strong> Don't surprise them. Proactive communication builds trust; discovering bees in your yard after the fact breeds resentment. Ideally, mention it 2-4 weeks before you plan to install hives.</p>
+        <p>If your area has no zoning restrictions on beekeeping...</p>
+      </section>
+    </main>
+
+    <aside class="page-sidebar">
+      <div class="sidebar-widget">
+        <div class="widget-title">On this page</div>
+        <a href="#is-beekeeping-right-for-you" class="sidebar-link">Is Beekeeping Right for You? 5 Questions to Ask First</a>
+        <a href="#legal-requirements-and-zoning" class="sidebar-link">Legal Requirements: Zoning Laws, Permits, and Registration</a>
+        <a href="#real-startup-costs" class="sidebar-link">The Real Cost of Starting Beekeeping</a>
+        <a href="#time-commitment-by-season" class="sidebar-link">Time Commitment: How Much Work Is Beekeeping Really?</a>
+        <a href="#space-requirements" class="sidebar-link">Space Requirements: Urban, Suburban, and Rural Beekeeping</a>
+        <a href="#talking-to-neighbors" class="sidebar-link">How to Talk to Your Neighbors About Keeping Bees</a>
+      </div>
+
+      <div class="sidebar-widget cta-widget">
+        <div class="widget-title">New to beekeeping?</div>
+        <p>Start with our complete beginner's guide — everything you need before your first hive.</p>
+        <a href="beginners-guide-to-beekeeping.html" class="cta-button">Read the guide</a>
+      </div>
+
+      <div class="sidebar-widget">
+        <div class="widget-title">Find your club</div>
+        <p style="margin:0 0 14px;">Connect with local beekeepers and associations in your area.</p>
+        <a href="beekeeping-clubs-directory.html" class="sidebar-link" style="padding-top:0;">Browse directory</a>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">The Apiary Guide</div>
+      <div class="footer-tagline">Everything you need to start and grow your hive.</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="beginners-guide-to-beekeeping.html">Beginners</a>
+        <a href="beekeeping-clubs-directory.html">Community</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+    <div class="footer-disclosure">
+      As an Amazon Associate we earn from qualifying purchases. Affiliate links are clearly marked throughout this site.
+    </div>
+  </footer>
+</body>
+</html>
+
+
+================================================================================
+FILE: design-ideas\style-examples\apex-search.html
+================================================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apex Search Co. — SEO That Pays For Itself</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #1a1a18;
+    --ink-mid: #4a4a46;
+    --ink-light: #8a8a84;
+    --cream: #f7f5f0;
+    --cream-dark: #ede9e0;
+    --accent: #2d5a3d;
+    --accent-light: #4a8c60;
+    --accent-pale: #e8f2ec;
+    --rule: #d4cfc4;
+    --white: #ffffff;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(247, 245, 240, 0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--rule);
+    padding: 0 48px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+    align-items: center;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--ink-mid);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--ink); }
+
+  .nav-cta {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white) !important;
+    background: var(--accent);
+    padding: 9px 22px;
+    border-radius: 40px;
+    transition: background 0.2s !important;
+  }
+
+  .nav-cta:hover { background: var(--accent-light) !important; color: var(--white) !important; }
+
+  /* HERO */
+  .hero {
+    padding: 160px 48px 100px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .hero-left {}
+
+  .hero-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero-eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 58px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 28px;
+    letter-spacing: -0.01em;
+  }
+
+  .hero h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  .hero-desc {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.75;
+    margin-bottom: 40px;
+    max-width: 440px;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white);
+    background: var(--accent);
+    padding: 14px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .btn-primary:hover { background: var(--accent-light); transform: translateY(-1px); }
+
+  .btn-secondary {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--ink-mid);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 2px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .btn-secondary:hover { color: var(--ink); border-color: var(--ink-mid); }
+
+  /* HERO RIGHT — Stats card */
+  .hero-right {}
+
+  .stats-card {
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    padding: 36px;
+    position: relative;
+  }
+
+  .stats-card-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 28px;
+  }
+
+  .before-after {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--rule);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 28px;
+  }
+
+  .ba-col {
+    background: var(--cream);
+    padding: 20px;
+  }
+
+  .ba-col.after { background: var(--accent-pale); }
+
+  .ba-period {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .ba-col:first-child .ba-period { color: var(--ink-light); }
+  .ba-col.after .ba-period { color: var(--accent); }
+
+  .ba-metric {
+    margin-bottom: 12px;
+  }
+
+  .ba-metric-name {
+    font-size: 11px;
+    color: var(--ink-light);
+    margin-bottom: 2px;
+  }
+
+  .ba-metric-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--ink);
+  }
+
+  .ba-col.after .ba-metric-value { color: var(--accent); }
+
+  .ba-delta {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--accent);
+    background: var(--accent-pale);
+    border: 1px solid #b8d9c3;
+    padding: 2px 8px;
+    border-radius: 20px;
+    margin-top: 4px;
+  }
+
+  .stats-card-footer {
+    font-size: 12px;
+    color: var(--ink-light);
+    border-top: 1px solid var(--rule);
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .invoice-badge {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--accent);
+    background: var(--accent-pale);
+    border: 1px solid #b8d9c3;
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  /* SECTION COMMON */
+  section { padding: 100px 48px; }
+
+  .section-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .section-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .section-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.15;
+    color: var(--ink);
+    margin-bottom: 16px;
+    max-width: 600px;
+  }
+
+  .section-heading em { font-style: italic; color: var(--accent); }
+
+  .section-sub {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.75;
+    max-width: 520px;
+    margin-bottom: 56px;
+  }
+
+  /* HOW IT WORKS */
+  .how-section { background: var(--white); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .step {
+    background: var(--white);
+    padding: 32px 28px;
+  }
+
+  .step-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--ink-light);
+    margin-bottom: 20px;
+    letter-spacing: 0.06em;
+  }
+
+  .step-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+
+  .step-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.65;
+  }
+
+  /* SERVICES */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .service-item {
+    background: var(--cream);
+    padding: 36px 32px;
+    transition: background 0.2s;
+  }
+
+  .service-item:hover { background: var(--cream-dark); }
+
+  .service-num {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--ink-light);
+    margin-bottom: 16px;
+  }
+
+  .service-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+
+  .service-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.7;
+    margin-bottom: 18px;
+  }
+
+  .service-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .tool-tag {
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--ink-mid);
+    background: var(--white);
+    border: 1px solid var(--rule);
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+
+  /* PRICING */
+  .pricing-section { background: var(--ink); }
+
+  .pricing-section .section-eyebrow { color: #7ec99a; }
+  .pricing-section .section-eyebrow::before { background: #7ec99a; }
+  .pricing-section .section-heading { color: var(--white); }
+  .pricing-section .section-sub { color: #9a9a94; }
+
+  .pricing-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 16px;
+    padding: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+
+  .pricing-left {}
+
+  .pricing-model {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .pricing-model em { font-style: italic; color: #7ec99a; }
+
+  .pricing-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: #9a9a94;
+    line-height: 1.75;
+    margin-bottom: 28px;
+  }
+
+  .pricing-note {
+    font-size: 13px;
+    font-weight: 300;
+    color: #7ec99a;
+    border-left: 2px solid #7ec99a;
+    padding-left: 14px;
+    line-height: 1.6;
+  }
+
+  .pricing-right {}
+
+  .metric-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .metric-row:last-child { border-bottom: none; }
+
+  .metric-name {
+    font-size: 13px;
+    font-weight: 300;
+    color: #9a9a94;
+  }
+
+  .metric-threshold {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white);
+  }
+
+  .metric-tag {
+    font-size: 11px;
+    font-weight: 400;
+    color: #7ec99a;
+    background: rgba(126, 201, 154, 0.12);
+    border: 1px solid rgba(126, 201, 154, 0.3);
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+
+  .pricing-cta {
+    margin-top: 28px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+    background: #7ec99a;
+    padding: 14px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .pricing-cta:hover { background: #9adbb1; transform: translateY(-1px); }
+
+  /* TOOLS */
+  .tools-section { border-top: 1px solid var(--rule); }
+
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .tool-item {
+    background: var(--white);
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .tool-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+  }
+
+  .tool-role {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.55;
+  }
+
+  /* FOOTER */
+  footer {
+    background: var(--ink);
+    padding: 64px 48px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .footer-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--white);
+    margin-bottom: 8px;
+  }
+
+  .footer-tagline {
+    font-size: 13px;
+    font-weight: 300;
+    color: #6a6a64;
+  }
+
+  .footer-contact {
+    text-align: right;
+  }
+
+  .footer-contact a {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #9a9a94;
+    text-decoration: none;
+    margin-bottom: 6px;
+    transition: color 0.2s;
+  }
+
+  .footer-contact a:hover { color: var(--white); }
+
+  /* ANIMATIONS */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-left > * {
+    animation: fadeUp 0.6s ease forwards;
+    opacity: 0;
+  }
+
+  .hero-eyebrow { animation-delay: 0.1s; }
+  .hero h1 { animation-delay: 0.2s; }
+  .hero-desc { animation-delay: 0.3s; }
+  .hero-actions { animation-delay: 0.4s; }
+  .hero-right { animation: fadeUp 0.7s 0.35s ease forwards; opacity: 0; }
+
+  @media (max-width: 900px) {
+    nav { padding: 0 24px; }
+    .hero { grid-template-columns: 1fr; padding: 120px 24px 80px; min-height: auto; gap: 48px; }
+    .hero h1 { font-size: 40px; }
+    .steps { grid-template-columns: 1fr 1fr; }
+    .services-grid { grid-template-columns: 1fr; }
+    .tools-grid { grid-template-columns: 1fr 1fr; }
+    .pricing-card { grid-template-columns: 1fr; }
+    section { padding: 72px 24px; }
+    footer { padding: 48px 24px; }
+    .footer-inner { flex-direction: column; gap: 32px; align-items: flex-start; }
+    .footer-contact { text-align: left; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-brand">Apex Search Co.</a>
+  <ul class="nav-links">
+    <li><a href="#how">How it works</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#contact" class="nav-cta">Get a free audit</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section style="padding: 0;">
+  <div class="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow">Performance-based SEO</div>
+      <h1>You only pay when the numbers <em>move.</em></h1>
+      <p class="hero-desc">We baseline your traffic, rankings, and leads on day one — then do the work. When results are proven in your analytics dashboard, you get the invoice. Not before.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Get a free audit →</a>
+        <a href="#how" class="btn-secondary">See how it works</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="stats-card">
+        <div class="stats-card-label">90-day results snapshot — example client</div>
+        <div class="before-after">
+          <div class="ba-col">
+            <div class="ba-period">Before</div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Organic traffic</div>
+              <div class="ba-metric-value">1,240</div>
+            </div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Keywords top 10</div>
+              <div class="ba-metric-value">8</div>
+            </div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Monthly leads</div>
+              <div class="ba-metric-value">14</div>
+            </div>
+          </div>
+          <div class="ba-col after">
+            <div class="ba-period">After</div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Organic traffic</div>
+              <div class="ba-metric-value">3,810</div>
+              <div><span class="ba-delta">+207%</span></div>
+            </div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Keywords top 10</div>
+              <div class="ba-metric-value">31</div>
+              <div><span class="ba-delta">+23 kws</span></div>
+            </div>
+            <div class="ba-metric">
+              <div class="ba-metric-name">Monthly leads</div>
+              <div class="ba-metric-value">47</div>
+              <div><span class="ba-delta">+236%</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="stats-card-footer">
+          <span>Results verified via Google Analytics &amp; Search Console</span>
+          <span class="invoice-badge">Invoice sent ✓</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-section" id="how">
+  <div class="section-inner">
+    <div class="section-eyebrow">The process</div>
+    <h2 class="section-heading">Four steps. Zero risk.</h2>
+    <p class="section-sub">A straightforward model built on transparency — you see exactly what we measured, and exactly what changed.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01 — Baseline</div>
+        <div class="step-title">We snapshot your site</div>
+        <div class="step-desc">We pull your current traffic, keyword rankings, and conversion data from Google Analytics and Search Console to establish a clear starting point.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">02 — Audit & Strategy</div>
+        <div class="step-title">We find the gaps</div>
+        <div class="step-desc">A full technical crawl with Screaming Frog, competitive research via Semrush, and a prioritised action plan targeting your highest-impact opportunities.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">03 — Execution</div>
+        <div class="step-title">We do the work</div>
+        <div class="step-desc">On-page optimisation, technical fixes, backlink strategy, and content improvements — deployed directly via GitHub and Netlify where applicable.</div>
+      </div>
+      <div class="step">
+        <div class="step-num">04 — Proof & Invoice</div>
+        <div class="step-title">You see results first</div>
+        <div class="step-desc">At 90 days, we produce a before/after report from your live analytics data. When agreed thresholds are met, you receive the invoice. No results, no charge.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-inner">
+    <div class="section-eyebrow">Services</div>
+    <h2 class="section-heading">Everything your site needs to <em>rank.</em></h2>
+    <p class="section-sub">A full-stack approach to search — from the technical foundation to content and authority.</p>
+    <div class="services-grid">
+      <div class="service-item">
+        <div class="service-num">01</div>
+        <div class="service-title">Technical SEO Audit</div>
+        <div class="service-desc">Full site crawl to uncover broken links, crawl errors, slow pages, duplicate content, and indexing issues that silently suppress your rankings.</div>
+        <div class="service-tools">
+          <span class="tool-tag">Screaming Frog</span>
+          <span class="tool-tag">Google Search Console</span>
+          <span class="tool-tag">Semrush</span>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">02</div>
+        <div class="service-title">Search Performance</div>
+        <div class="service-desc">Keyword research, SERP monitoring, and ranking analysis to understand exactly where you stand — and the specific moves to climb higher.</div>
+        <div class="service-tools">
+          <span class="tool-tag">Semrush</span>
+          <span class="tool-tag">Google Search Console</span>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">03</div>
+        <div class="service-title">Analytics & Reporting</div>
+        <div class="service-desc">GA4 setup, goal configuration, and clean before/after dashboards that show exactly where traffic comes from and what it does on your site.</div>
+        <div class="service-tools">
+          <span class="tool-tag">Google Analytics</span>
+          <span class="tool-tag">Search Console</span>
+        </div>
+      </div>
+      <div class="service-item">
+        <div class="service-num">04</div>
+        <div class="service-title">Technical Deployment</div>
+        <div class="service-desc">SEO fixes implemented cleanly, with version-controlled deployments via GitHub and Netlify — so every change is tracked and reversible.</div>
+        <div class="service-tools">
+          <span class="tool-tag">GitHub</span>
+          <span class="tool-tag">Netlify</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing-section" id="pricing">
+  <div class="section-inner">
+    <div class="section-eyebrow">Pricing</div>
+    <h2 class="section-heading" style="color: #fff;">No results, <em style="color:#7ec99a;">no invoice.</em></h2>
+    <p class="section-sub" style="color: #9a9a94; margin-bottom: 40px;">A one-time fee, charged only after your agreed targets are hit and verified in your own analytics data.</p>
+    <div class="pricing-card">
+      <div class="pricing-left">
+        <div class="pricing-model">Pay once.<br><em>After</em> it works.</div>
+        <div class="pricing-desc">We agree on your targets upfront, do the work over 90 days, then present a verified before/after report. The invoice only follows when all three metric thresholds are met.</div>
+        <div class="pricing-note">A small audit deposit ($300–500) covers our tooling costs and is credited against your final invoice on delivery.</div>
+        <a href="#contact" class="pricing-cta" style="margin-top: 28px; display: inline-block;">Book a free consultation →</a>
+      </div>
+      <div class="pricing-right">
+        <div style="font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: #6a6a64; margin-bottom: 8px;">Result thresholds (example)</div>
+        <div class="metric-row">
+          <span class="metric-name">Organic traffic</span>
+          <span class="metric-threshold">+20% sessions</span>
+          <span class="metric-tag">GA4</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-name">Keyword rankings</span>
+          <span class="metric-threshold">+5 keywords top 10</span>
+          <span class="metric-tag">Search Console</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-name">Leads / conversions</span>
+          <span class="metric-threshold">+15% goal completions</span>
+          <span class="metric-tag">GA4</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-name">Measurement window</span>
+          <span class="metric-threshold">90 days</span>
+          <span class="metric-tag">Fixed</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-name">Payment model</span>
+          <span class="metric-threshold">One-time fee</span>
+          <span class="metric-tag">On proof</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLS -->
+<section class="tools-section" id="tools">
+  <div class="section-inner">
+    <div class="section-eyebrow">Tools</div>
+    <h2 class="section-heading">Industry-standard tools, <em>properly used.</em></h2>
+    <p class="section-sub">No guesswork — every recommendation is backed by data from the same platforms the world's top SEO teams rely on.</p>
+    <div class="tools-grid">
+      <div class="tool-item">
+        <div class="tool-name">Google Analytics 4</div>
+        <div class="tool-role">Traffic analysis, goal tracking, and the primary before/after measurement source for your results report.</div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-name">Google Search Console</div>
+        <div class="tool-role">First-party keyword, impressions, and ranking data — the only tool with direct insight from Google itself.</div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-name">Semrush</div>
+        <div class="tool-role">Competitor analysis, keyword research, backlink auditing, and site health monitoring.</div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-name">Screaming Frog</div>
+        <div class="tool-role">Deep technical crawl of every page — surfaces broken links, redirect chains, missing tags, and crawl errors.</div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-name">GitHub</div>
+        <div class="tool-role">Version-controlled implementation of all technical fixes — every change tracked and reversible.</div>
+      </div>
+      <div class="tool-item">
+        <div class="tool-name">Netlify</div>
+        <div class="tool-role">Rapid, reliable deployment of site changes with preview environments before anything goes live.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER / CONTACT -->
+<footer id="contact">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">Apex Search Co.</div>
+      <div class="footer-tagline">Performance-based SEO — you pay when results are proven.</div>
+    </div>
+    <div class="footer-contact">
+      <a href="mailto:hello@apexsearch.co">hello@apexsearch.co</a>
+      <a href="https://apexsearch.co">apexsearch.co</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+================================================================================
+FILE: design-ideas\style-examples\competitor-analysis-report.html
+================================================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Competitor Analysis Report — Apex Search Co.</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #1a1a18;
+    --ink-mid: #4a4a46;
+    --ink-light: #8a8a84;
+    --cream: #f7f5f0;
+    --cream-dark: #ede9e0;
+    --accent: #2d5a3d;
+    --accent-light: #4a8c60;
+    --accent-pale: #e8f2ec;
+    --rule: #d4cfc4;
+    --white: #ffffff;
+    --warn: #8a4e0f;
+    --warn-pale: #fdf0e4;
+    --warn-rule: #e8c99a;
+    --danger: #8a1f1f;
+    --danger-pale: #fdeaea;
+    --danger-rule: #e8aaaa;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(247, 245, 240, 0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--rule);
+    padding: 0 48px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+  }
+
+  .nav-meta {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .nav-report-label {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--ink-light);
+    letter-spacing: 0.04em;
+  }
+
+  .nav-print {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white);
+    background: var(--accent);
+    padding: 8px 20px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.02em;
+    transition: background 0.2s;
+  }
+
+  .nav-print:hover { background: var(--accent-light); }
+
+  /* REPORT HEADER */
+  .report-header {
+    padding: 120px 48px 72px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 48px;
+    align-items: end;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .report-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .report-eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .report-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 20px;
+  }
+
+  .report-title em { font-style: italic; color: var(--accent); }
+
+  .report-domains {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+
+  .domain-chip {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--rule);
+  }
+
+  .domain-chip.client {
+    background: var(--accent-pale);
+    color: var(--accent);
+    border-color: #b8d9c3;
+    font-weight: 500;
+  }
+
+  .domain-chip.competitor {
+    background: var(--cream-dark);
+    color: var(--ink-mid);
+  }
+
+  .report-meta-block {
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 24px 28px;
+    min-width: 220px;
+  }
+
+  .meta-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+
+  .meta-row:last-child { margin-bottom: 0; }
+
+  .meta-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 2px;
+  }
+
+  .meta-value {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--ink);
+  }
+
+  /* SECTIONS */
+  .report-section {
+    padding: 72px 48px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .report-section:last-of-type { border-bottom: none; }
+
+  .section-inner { max-width: 1100px; margin: 0 auto; }
+
+  .section-eyebrow {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .section-eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 1px;
+    background: var(--accent);
+  }
+
+  .section-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--ink);
+    margin-bottom: 10px;
+  }
+
+  .section-heading em { font-style: italic; color: var(--accent); }
+
+  .section-sub {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.75;
+    max-width: 600px;
+    margin-bottom: 40px;
+  }
+
+  /* EXECUTIVE SUMMARY */
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+
+  .summary-stat {
+    background: var(--white);
+    padding: 28px;
+  }
+
+  .summary-stat-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 10px;
+  }
+
+  .summary-stat-value {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--ink);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .summary-stat-value.positive { color: var(--accent); }
+  .summary-stat-value.negative { color: var(--danger); }
+
+  .summary-stat-note {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--ink-light);
+  }
+
+  .insight-box {
+    background: var(--accent-pale);
+    border: 1px solid #b8d9c3;
+    border-radius: 12px;
+    padding: 24px 28px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    align-items: start;
+  }
+
+  .insight-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .insight-icon svg { width: 14px; height: 14px; fill: none; stroke: white; stroke-width: 2; }
+
+  .insight-text {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--accent);
+    line-height: 1.7;
+  }
+
+  .insight-text strong { font-weight: 500; }
+
+  /* KEYWORD GAP */
+  .kw-table-wrap {
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+
+  thead {
+    background: var(--ink);
+    color: var(--white);
+  }
+
+  thead th {
+    padding: 14px 20px;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid var(--rule);
+    background: var(--white);
+    transition: background 0.15s;
+  }
+
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: var(--cream); }
+
+  tbody td {
+    padding: 14px 20px;
+    color: var(--ink-mid);
+    font-weight: 300;
+  }
+
+  tbody td:first-child {
+    color: var(--ink);
+    font-weight: 400;
+  }
+
+  .difficulty-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+
+  .diff-low { background: var(--accent-pale); color: var(--accent); border: 1px solid #b8d9c3; }
+  .diff-med { background: var(--warn-pale); color: var(--warn); border: 1px solid var(--warn-rule); }
+  .diff-high { background: var(--danger-pale); color: var(--danger); border: 1px solid var(--danger-rule); }
+
+  .priority-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+  }
+
+  .p-high { background: var(--accent); }
+  .p-med { background: #e8a030; }
+  .p-low { background: var(--ink-light); }
+
+  /* BACKLINK GAP */
+  .backlink-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .backlink-item {
+    background: var(--white);
+    padding: 24px 28px;
+  }
+
+  .backlink-domain {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+
+  .backlink-meta {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--ink-light);
+    margin-bottom: 12px;
+  }
+
+  .backlink-note {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.6;
+    border-left: 2px solid var(--rule);
+    padding-left: 12px;
+  }
+
+  .backlink-action {
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+  }
+
+  /* TECHNICAL COMPARISON */
+  .tech-compare {
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .tech-compare-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    background: var(--ink);
+    padding: 14px 24px;
+    gap: 16px;
+  }
+
+  .tc-head {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.6);
+  }
+
+  .tc-head.client-col { color: #7ec99a; }
+
+  .tech-compare-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 16px 24px;
+    gap: 16px;
+    border-bottom: 1px solid var(--rule);
+    background: var(--white);
+    align-items: center;
+    transition: background 0.15s;
+  }
+
+  .tech-compare-row:last-child { border-bottom: none; }
+  .tech-compare-row:hover { background: var(--cream); }
+
+  .tc-factor {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--ink);
+  }
+
+  .tc-factor span {
+    display: block;
+    font-size: 11px;
+    font-weight: 300;
+    color: var(--ink-light);
+    margin-top: 2px;
+  }
+
+  .tc-val {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+  }
+
+  .tc-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+
+  .tc-good { background: var(--accent-pale); color: var(--accent); border: 1px solid #b8d9c3; }
+  .tc-bad { background: var(--danger-pale); color: var(--danger); border: 1px solid var(--danger-rule); }
+  .tc-warn { background: var(--warn-pale); color: var(--warn); border: 1px solid var(--warn-rule); }
+
+  /* CONTENT GAPS */
+  .content-gap-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .content-gap-item {
+    background: var(--white);
+    padding: 24px 28px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 20px;
+    align-items: start;
+    border-bottom: 1px solid var(--rule);
+    transition: background 0.15s;
+  }
+
+  .content-gap-item:last-child { border-bottom: none; }
+  .content-gap-item:hover { background: var(--cream); }
+
+  .gap-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--ink-light);
+    line-height: 1;
+    padding-top: 4px;
+    min-width: 28px;
+  }
+
+  .gap-content {}
+
+  .gap-topic {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+
+  .gap-desc {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    line-height: 1.65;
+  }
+
+  .gap-tags {
+    display: flex;
+    gap: 6px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+
+  .gap-tag {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    background: var(--cream-dark);
+    color: var(--ink-mid);
+    border: 1px solid var(--rule);
+  }
+
+  .gap-impact {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding-top: 4px;
+  }
+
+  .impact-high { color: var(--accent); }
+  .impact-med { color: var(--warn); }
+  .impact-low { color: var(--ink-light); }
+
+  /* ACTION PLAN */
+  .action-section { background: var(--ink); }
+
+  .action-section .section-eyebrow { color: #7ec99a; }
+  .action-section .section-eyebrow::before { background: #7ec99a; }
+  .action-section .section-heading { color: var(--white); }
+  .action-section .section-sub { color: #9a9a94; }
+
+  .action-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .action-col {
+    background: rgba(255,255,255,0.03);
+    padding: 28px;
+  }
+
+  .action-col-header {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .action-col:nth-child(1) .action-col-header { color: #e88a6a; }
+  .action-col:nth-child(2) .action-col-header { color: #e8c96a; }
+  .action-col:nth-child(3) .action-col-header { color: #9adbb1; }
+
+  .action-item {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .action-item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+
+  .action-item-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 4px;
+  }
+
+  .action-item-desc {
+    font-size: 12px;
+    font-weight: 300;
+    color: #9a9a94;
+    line-height: 1.6;
+  }
+
+  .action-item-tool {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.35);
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+
+  /* FOOTER */
+  footer {
+    background: var(--ink);
+    padding: 48px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--white);
+  }
+
+  .footer-note {
+    font-size: 12px;
+    font-weight: 300;
+    color: #6a6a64;
+    text-align: right;
+  }
+
+  /* PRINT */
+  @media print {
+    nav { display: none; }
+    .report-header { padding-top: 40px; }
+    .report-section { page-break-inside: avoid; }
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    nav { padding: 0 24px; }
+    .report-header { grid-template-columns: 1fr; padding: 100px 24px 48px; }
+    .report-title { font-size: 36px; }
+    .summary-grid { grid-template-columns: 1fr 1fr; }
+    .backlink-grid { grid-template-columns: 1fr; }
+    .tech-compare-header, .tech-compare-row { grid-template-columns: 1.5fr 1fr 1fr; }
+    .tech-compare-header .tc-head:nth-child(4),
+    .tech-compare-row > *:nth-child(4) { display: none; }
+    .action-grid { grid-template-columns: 1fr; }
+    .content-gap-item { grid-template-columns: auto 1fr; }
+    .gap-impact { display: none; }
+    .report-section { padding: 56px 24px; }
+    footer { padding: 40px 24px; }
+    .footer-inner { flex-direction: column; gap: 16px; align-items: flex-start; }
+    .footer-note { text-align: left; }
+  }
+
+  /* ANIMATIONS */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .report-header > * {
+    animation: fadeUp 0.5s ease forwards;
+    opacity: 0;
+  }
+
+  .report-header > *:nth-child(1) { animation-delay: 0.1s; }
+  .report-header > *:nth-child(2) { animation-delay: 0.2s; }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-brand">Apex Search Co.</a>
+  <div class="nav-meta">
+    <span class="nav-report-label">Competitor Analysis Report</span>
+    <button class="nav-print" onclick="window.print()">Download PDF</button>
+  </div>
+</nav>
+
+<!-- REPORT HEADER -->
+<div class="report-header">
+  <div>
+    <div class="report-eyebrow">Competitor analysis report</div>
+    <h1 class="report-title">Search landscape review<br>for <em>yourclient.com</em></h1>
+    <div class="report-domains">
+      <span class="domain-chip client">yourclient.com — your site</span>
+      <span class="domain-chip competitor">competitor-a.com</span>
+      <span class="domain-chip competitor">competitor-b.com</span>
+      <span class="domain-chip competitor">competitor-c.com</span>
+    </div>
+  </div>
+  <div class="report-meta-block">
+    <div class="meta-row">
+      <span class="meta-label">Prepared by</span>
+      <span class="meta-value">Apex Search Co.</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Report date</span>
+      <span class="meta-value">April 2026</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Tools used</span>
+      <span class="meta-value">Semrush · Screaming Frog · GSC</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Measurement window</span>
+      <span class="meta-value">Last 90 days</span>
+    </div>
+  </div>
+</div>
+
+<!-- EXECUTIVE SUMMARY -->
+<section class="report-section" id="summary">
+  <div class="section-inner">
+    <div class="section-eyebrow">Executive summary</div>
+    <h2 class="section-heading">The headline <em>numbers.</em></h2>
+    <p class="section-sub">A snapshot of where your site stands against the competitive field — and the size of the opportunity in front of you.</p>
+
+    <div class="summary-grid">
+      <div class="summary-stat">
+        <div class="summary-stat-label">Keyword gap</div>
+        <div class="summary-stat-value negative">247</div>
+        <div class="summary-stat-note">Keywords competitors rank for that you don't</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Traffic opportunity</div>
+        <div class="summary-stat-value positive">+8,400</div>
+        <div class="summary-stat-note">Est. monthly visits if top gaps are closed</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Backlink gap</div>
+        <div class="summary-stat-value negative">61</div>
+        <div class="summary-stat-note">Referring domains linking to competitors but not you</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Your domain authority</div>
+        <div class="summary-stat-value">34</div>
+        <div class="summary-stat-note">vs. competitor avg. of 48</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Technical score</div>
+        <div class="summary-stat-value negative">71/100</div>
+        <div class="summary-stat-note">vs. competitor-a.com at 89/100</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Content gaps identified</div>
+        <div class="summary-stat-value positive">12</div>
+        <div class="summary-stat-note">Topic areas competitors cover that you don't</div>
+      </div>
+    </div>
+
+    <div class="insight-box">
+      <div class="insight-icon">
+        <svg viewBox="0 0 16 16"><path d="M8 1v6l4 2" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5"/></svg>
+      </div>
+      <div class="insight-text">
+        <strong>Key finding:</strong> competitor-a.com ranks for 180 of your target keywords with a domain authority only 8 points above yours — meaning the gap is closable. The primary driver is content depth: their top 10 pages average 2,100 words vs. your 780. This is an execution gap, not an authority gap.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KEYWORD GAP -->
+<section class="report-section" id="keywords" style="background: var(--white);">
+  <div class="section-inner">
+    <div class="section-eyebrow">Keyword gap analysis</div>
+    <h2 class="section-heading">Where competitors rank<br>and <em>you don't.</em></h2>
+    <p class="section-sub">High-priority keywords your competitors are capturing. Sorted by traffic opportunity and filtered to realistic difficulty for your current authority.</p>
+
+    <div class="kw-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Keyword</th>
+            <th>Monthly volume</th>
+            <th>Difficulty</th>
+            <th>Competitor ranking</th>
+            <th>Your position</th>
+            <th>Priority</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>best [service] near me</td>
+            <td>3,600</td>
+            <td><span class="difficulty-badge diff-low">Low — 28</span></td>
+            <td>competitor-a.com #3</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[service] pricing guide</td>
+            <td>2,900</td>
+            <td><span class="difficulty-badge diff-low">Low — 31</span></td>
+            <td>competitor-b.com #5</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>how to choose a [service]</td>
+            <td>2,100</td>
+            <td><span class="difficulty-badge diff-low">Low — 24</span></td>
+            <td>competitor-a.com #2</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[service] vs [alternative]</td>
+            <td>1,800</td>
+            <td><span class="difficulty-badge diff-med">Med — 44</span></td>
+            <td>competitor-c.com #4</td>
+            <td>Page 3</td>
+            <td><span class="priority-dot p-med"></span>Medium</td>
+          </tr>
+          <tr>
+            <td>top [service] companies</td>
+            <td>1,600</td>
+            <td><span class="difficulty-badge diff-med">Med — 51</span></td>
+            <td>competitor-a.com #1</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-med"></span>Medium</td>
+          </tr>
+          <tr>
+            <td>[service] reviews 2026</td>
+            <td>1,200</td>
+            <td><span class="difficulty-badge diff-low">Low — 29</span></td>
+            <td>competitor-b.com #6</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[location] [service] experts</td>
+            <td>880</td>
+            <td><span class="difficulty-badge diff-low">Low — 22</span></td>
+            <td>competitor-a.com #2</td>
+            <td>Page 4</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[service] cost breakdown</td>
+            <td>720</td>
+            <td><span class="difficulty-badge diff-med">Med — 38</span></td>
+            <td>competitor-c.com #7</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-med"></span>Medium</td>
+          </tr>
+          <tr>
+            <td>[service] for small business</td>
+            <td>590</td>
+            <td><span class="difficulty-badge diff-high">High — 62</span></td>
+            <td>competitor-a.com #3</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-low"></span>Long-term</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- BACKLINK GAP -->
+<section class="report-section" id="backlinks">
+  <div class="section-inner">
+    <div class="section-eyebrow">Backlink gap</div>
+    <h2 class="section-heading">Sites that link to competitors<br>but <em>not you.</em></h2>
+    <p class="section-sub">These referring domains are already vouching for companies in your space. Each is a warm outreach opportunity with a strong case for a link.</p>
+
+    <div class="backlink-grid">
+      <div class="backlink-item">
+        <div class="backlink-domain">industry-directory.com</div>
+        <div class="backlink-meta">DA 68 · Links to competitor-a and competitor-b</div>
+        <div class="backlink-note">A well-regarded industry listing site. Both competitors have paid directory profiles. A free listing is available; a sponsored placement is ~$120/yr.</div>
+        <div class="backlink-action">→ Submit free listing</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">localbizreview.com</div>
+        <div class="backlink-meta">DA 54 · Links to competitor-a</div>
+        <div class="backlink-note">A local business review aggregator. Competitor-a was featured in a "top 10" roundup article. Reach out to the editorial team with a pitch and case study.</div>
+        <div class="backlink-action">→ Editorial outreach</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">industryblog.net</div>
+        <div class="backlink-meta">DA 61 · Links to all three competitors</div>
+        <div class="backlink-note">Publishes weekly guest posts from practitioners. Competitor-c contributed a how-to article that now ranks for 340 keywords. Strong guest post opportunity.</div>
+        <div class="backlink-action">→ Pitch a guest post</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">stateassociation.org</div>
+        <div class="backlink-meta">DA 72 · Links to competitor-b</div>
+        <div class="backlink-note">The regional industry association member directory. Competitor-b is a paid member. Membership includes a dofollow directory link and event listings.</div>
+        <div class="backlink-action">→ Apply for membership</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">techresource.io</div>
+        <div class="backlink-meta">DA 58 · Links to competitor-a and competitor-c</div>
+        <div class="backlink-note">A curated tools and services resource. Both competitors appear in their "recommended vendors" section. Reach out with a product overview and ask to be considered.</div>
+        <div class="backlink-action">→ Submit for review</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">newsmagazine.com</div>
+        <div class="backlink-meta">DA 81 · Links to competitor-b</div>
+        <div class="backlink-note">A high-authority trade publication. Competitor-b was quoted as an expert source in two articles. Identify their regular contributors and pitch comment/quote opportunities.</div>
+        <div class="backlink-action">→ Expert source outreach</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNICAL COMPARISON -->
+<section class="report-section" id="technical" style="background: var(--white);">
+  <div class="section-inner">
+    <div class="section-eyebrow">Technical comparison</div>
+    <h2 class="section-heading">Head-to-head <em>site health.</em></h2>
+    <p class="section-sub">A direct comparison of the technical factors that influence crawlability, indexing, and page experience scores across the competitive set.</p>
+
+    <div class="tech-compare">
+      <div class="tech-compare-header">
+        <div class="tc-head">Factor</div>
+        <div class="tc-head client-col">yourclient.com</div>
+        <div class="tc-head">competitor-a.com</div>
+        <div class="tc-head">competitor-b.com</div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Page speed (LCP)<span>Largest Contentful Paint — mobile</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">3.8s — Slow</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">1.9s — Fast</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">2.6s — OK</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Core Web Vitals<span>Google's page experience signals</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">Failing</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Passing</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Passing</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Schema markup<span>Structured data for rich results</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">Basic only</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Full — FAQ + Review</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">Partial</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Mobile usability<span>Google mobile-friendliness test</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">3 issues</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">No issues</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">No issues</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Internal linking depth<span>Avg. clicks from homepage to any page</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">4.2 clicks avg.</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">2.1 clicks avg.</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">2.8 clicks avg.</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Broken links<span>4xx errors found in crawl</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">18 found</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">0 found</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">3 found</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">HTTPS / security<span>SSL certificate status</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Valid</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Valid</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Valid</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Sitemap & robots.txt<span>Crawl configuration</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">Sitemap outdated</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Configured</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Configured</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTENT GAPS -->
+<section class="report-section" id="content">
+  <div class="section-inner">
+    <div class="section-eyebrow">Content gaps</div>
+    <h2 class="section-heading">Topics competitors own<br>that you <em>don't cover.</em></h2>
+    <p class="section-sub">These are entire subject areas where competitors have established content — often ranking across dozens of related keywords — with no equivalent on your site.</p>
+
+    <div class="content-gap-list">
+      <div class="content-gap-item">
+        <div class="gap-num">01</div>
+        <div class="gap-content">
+          <div class="gap-topic">Pricing and cost guides</div>
+          <div class="gap-desc">Competitor-a has a dedicated pricing page with a cost estimator that ranks for 34 "how much does X cost" queries. Buyers researching price are high-intent — no pricing content means you're invisible at a critical decision point.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">34 keywords</span>
+            <span class="gap-tag">Est. 1,200 visits/mo</span>
+            <span class="gap-tag">New page needed</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-high">High impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">02</div>
+        <div class="gap-content">
+          <div class="gap-topic">FAQ and "how to" content</div>
+          <div class="gap-desc">Competitor-b has a 40-question FAQ hub that captures featured snippets for 18 queries. These are zero-click opportunities that build authority. Your site has no FAQ section, missing easy ranking chances for long-tail questions.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">22 keywords</span>
+            <span class="gap-tag">Featured snippet potential</span>
+            <span class="gap-tag">New section needed</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-high">High impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">03</div>
+        <div class="gap-content">
+          <div class="gap-topic">Comparison and alternative pages</div>
+          <div class="gap-desc">All three competitors have "[brand] vs [competitor]" landing pages targeting buyers in evaluation mode. These pages rank well because they match exact search intent. You have no comparison content — ceding high-converting traffic to rivals.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">15 keywords</span>
+            <span class="gap-tag">High conversion intent</span>
+            <span class="gap-tag">3 pages needed</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-high">High impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">04</div>
+        <div class="gap-content">
+          <div class="gap-topic">Case studies and results pages</div>
+          <div class="gap-desc">Competitor-c has 12 detailed case study pages that rank for "[industry] results" and "[service] success story" queries. These also serve as trust signals for conversion. Your testimonials page doesn't contain enough indexed content to compete.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">8 keywords</span>
+            <span class="gap-tag">Trust + SEO value</span>
+            <span class="gap-tag">Expand existing page</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-med">Medium impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">05</div>
+        <div class="gap-content">
+          <div class="gap-topic">Location-specific landing pages</div>
+          <div class="gap-desc">Competitor-a and competitor-b both have individual pages for each city they serve, allowing them to rank for "[city] + [service]" searches. Your single location page is indexed but too thin to rank for city-level queries.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">Local SEO</span>
+            <span class="gap-tag">Est. 600 visits/mo</span>
+            <span class="gap-tag">Expand or create per-city pages</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-med">Medium impact</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTION PLAN -->
+<section class="report-section action-section" id="actions">
+  <div class="section-inner">
+    <div class="section-eyebrow">Action plan</div>
+    <h2 class="section-heading">What to do <em>first.</em></h2>
+    <p class="section-sub">Prioritised by impact and effort — the quick wins that move the needle fastest, the mid-term buildouts, and the long-game plays.</p>
+
+    <div class="action-grid">
+      <div class="action-col">
+        <div class="action-col-header">Quick wins — 0 to 30 days</div>
+        <div class="action-item">
+          <div class="action-item-title">Fix 18 broken links</div>
+          <div class="action-item-desc">Redirect or restore all 4xx errors found in crawl. Immediate crawl efficiency gain.</div>
+          <span class="action-item-tool">Screaming Frog</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Update sitemap</div>
+          <div class="action-item-desc">Regenerate and resubmit sitemap to Search Console to ensure full indexing.</div>
+          <span class="action-item-tool">Search Console</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Add FAQ schema</div>
+          <div class="action-item-desc">Implement FAQ structured data on top 5 pages to qualify for rich snippets.</div>
+          <span class="action-item-tool">Search Console</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Submit free directory listings</div>
+          <div class="action-item-desc">Claim profiles on industry-directory.com and stateassociation.org for quick backlinks.</div>
+          <span class="action-item-tool">Semrush</span>
+        </div>
+      </div>
+      <div class="action-col">
+        <div class="action-col-header">Build out — 30 to 60 days</div>
+        <div class="action-item">
+          <div class="action-item-title">Create pricing guide page</div>
+          <div class="action-item-desc">Dedicated pricing page targeting 34 cost-related keywords. Include a simple estimator.</div>
+          <span class="action-item-tool">Semrush · GitHub</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Improve page speed</div>
+          <div class="action-item-desc">Address LCP issues to pass Core Web Vitals. Target under 2.5s on mobile.</div>
+          <span class="action-item-tool">Netlify · GA4</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Launch FAQ hub</div>
+          <div class="action-item-desc">Publish 20+ answers to common queries, each with structured data markup.</div>
+          <span class="action-item-tool">Semrush · GitHub</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Internal linking audit</div>
+          <div class="action-item-desc">Reduce average click depth from 4.2 to under 3 through improved navigation and linking.</div>
+          <span class="action-item-tool">Screaming Frog</span>
+        </div>
+      </div>
+      <div class="action-col">
+        <div class="action-col-header">Long game — 60 to 90 days</div>
+        <div class="action-item">
+          <div class="action-item-title">Comparison landing pages</div>
+          <div class="action-item-desc">Build 3 comparison pages targeting evaluation-stage buyers. High conversion potential.</div>
+          <span class="action-item-tool">Semrush · GitHub</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Guest post campaign</div>
+          <div class="action-item-desc">Pitch and place 2 guest articles on industryblog.net and newsmagazine.com.</div>
+          <span class="action-item-tool">Semrush</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Location pages</div>
+          <div class="action-item-desc">Create individual city landing pages for top 5 service areas to capture local queries.</div>
+          <span class="action-item-tool">GA4 · Search Console</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Case study expansion</div>
+          <div class="action-item-desc">Develop 3 detailed case study pages with results data to build authority and trust.</div>
+          <span class="action-item-tool">GA4 · GitHub</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">Apex Search Co.</div>
+    <div class="footer-note">
+      Report prepared for yourclient.com · April 2026<br>
+      hello@apexsearch.co · apexsearch.co
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+================================================================================
+FILE: general-advice\advice-chatgpt.txt
+================================================================================
+
+1.0 OVERVIEW: This document provides a structured and reusable evaluation of the project, designed to be easily compared across multiple LLM-generated reviews.
+
+1.1 Purpose: The goal is to assess the project’s strengths, risks, and opportunities while maintaining a consistent format for repeatable analysis.
+
+1.2 Context: The project is an early-stage, static affiliate content site in the beekeeping niche powered by a two-pass LLM generation pipeline.
+
+1.3 Evaluation Scope: This review covers product positioning, technical architecture, content strategy, monetization, and scalability.
+
+2.0 STRENGTHS: The project demonstrates a strong foundation across strategy, technical implementation, and long-term scalability planning.
+
+2.1 Product Vision: The niche selection is clear and well-positioned, targeting a passionate audience with recurring purchasing behavior.
+
+2.2 Technical Architecture: The two-pass pipeline design effectively separates structure from execution, improving consistency and scalability.
+
+2.3 Design System: The early commitment to a cohesive design system helps prevent long-term UI fragmentation and technical debt.
+
+2.4 Content Strategy: The four-pillar approach balances monetization, SEO, authority building, and community engagement.
+
+3.0 RISKS AND GAPS: Several key risks could limit growth if not addressed early, particularly in monetization, SEO structure, and user experience.
+
+3.1 Monetization Risk: Reliance on Amazon Associates creates limited revenue upside and exposes the project to external dependency risk.
+
+3.2 Content Scale Risk: The current page count is insufficient to generate meaningful organic traffic in a competitive niche.
+
+3.3 Design Consistency Risk: Inconsistencies between the homepage and inner pages may negatively impact user trust and engagement.
+
+3.4 Internal Linking Gap: The absence of a structured internal linking system reduces SEO effectiveness and weakens content cohesion.
+
+3.5 Programmatic SEO Gap: The directory concept is under-leveraged and represents a missed opportunity for scalable traffic acquisition.
+
+4.0 HIGH-IMPACT IMPROVEMENTS: A small number of focused improvements can significantly increase the project’s chances of success.
+
+4.1 Internal Linking System: Implementing automated contextual linking will improve SEO performance and user navigation.
+
+4.2 Directory Expansion: Expanding into location-based or structured pages will unlock scalable, low-competition traffic.
+
+4.3 Template Standardization: Moving all styling into reusable CSS classes will ensure consistency and simplify future updates.
+
+4.4 Conversion Layer: Adding email capture and lead magnets will create an owned audience and reduce reliance on affiliate traffic.
+
+4.5 Discover Content Expansion: Investing in linkable, authority-building content will improve domain strength and backlink acquisition.
+
+4.6 Content and Structure Separation: Further separating content from presentation will reduce rendering errors and improve pipeline flexibility.
+
+5.0 STRATEGIC POSITIONING: The project is best understood as a reusable system for building niche content sites rather than a single standalone website.
+
+5.1 System Reusability: The architecture can be replicated across multiple niches with minimal changes to configuration and content inputs.
+
+5.2 Scalability Potential: The combination of automation and structured content allows for efficient expansion to hundreds of pages.
+
+5.3 Long-Term Value: The real value lies in the repeatable process rather than any individual site instance.
+
+6.0 PRIORITY ROADMAP: Execution order will determine whether the project gains traction or accumulates technical and content debt.
+
+6.1 Template Fix First: Standardizing the page template should be completed before scaling content generation.
+
+6.2 Add Internal Linking: Internal linking logic should be integrated into the generation pipeline early.
+
+6.3 Implement Conversion: Basic email capture should be added before or immediately after launch.
+
+6.4 Generate Remaining Pages: Content generation should proceed only after structural improvements are in place.
+
+6.5 Deploy Site: Launching on a hosting platform enables real-world validation and iteration.
+
+6.6 Expand Programmatic SEO: Directory and structured content should be scaled after initial deployment.
+
+7.0 SUCCESS FACTORS: The project’s success depends on execution quality in a few critical areas rather than broad effort.
+
+7.1 Internal Linking: Strong internal linking will improve both search rankings and user engagement.
+
+7.2 Content Scale: Consistent expansion of high-quality pages is necessary to achieve meaningful traffic.
+
+7.3 Conversion Optimization: Capturing user emails and guiding actions will determine revenue efficiency.
+
+7.4 Authority Building: Backlinks and trust signals from discoverable content will support long-term growth.
+
+8.0 REUSABILITY NOTES: This template is designed to support consistent evaluation across different systems and iterations.
+
+8.1 Replace Content: Each section can be rewritten by other LLMs while preserving the structure.
+
+8.2 Maintain Numbering: The numbering system ensures clarity and comparability between outputs.
+
+8.3 Ensure Completeness: All sections should be addressed to provide a full evaluation.
+
+8.4 Benchmarking Use: This format allows side-by-side comparison of different strategic perspectives.
+
+
+
+================================================================================
+FILE: general-advice\advice-gemini.txt
+================================================================================
+
+
+Based on the readme.md for TheApiaryGuide.com, here is my structured review and strategic advice, formatted according to your preferred template.
+
+1.0 OVERVIEW
+1.1 This document provides a structured evaluation of the project README for TheApiaryGuide.com as of April 15, 2026. 1.2 The focus is on the transition from a "presentation build" to a live, scalable affiliate asset. 1.3 Key Difference: While Grok and ChatGPT focus on the current static state, I prioritize the transition to the "Future" WordPress migration mentioned in your notes, as beekeeping communities often require the interactive features (forums, local mapping) that static sites struggle to scale. 
++3
+
+2.0 STRENGTHS
+2.1 Product Vision
+2.1.1 Niche Selection: Beekeeping is a high-intent, enthusiast-driven niche with high-ticket recurring costs (bees, medication, woodenware). 2.1.2 Four-Pillar Balance: The "Discover" pillar is a sophisticated addition that addresses E-E-A-T (Experience, Expertise, Authoritativeness, and Trustworthiness) by focusing on history and literature. 
++3
+
+2.2 Technical Architecture
+2.2.1 Two-Pass Generation: Using LLMs as "Architects" (Pass 1) and "Builders" (Pass 2) reduces the "hallucination drift" often seen in single-prompt long-form generation. 2.2.2 CLI Flexibility: The ability to target single slugs or dry-run allows for surgical debugging without burning API credits. 
++2
+
+2.3 Key Difference on Strengths
+
+Other LLMs: Focused heavily on the "two-pass" elegance. 
++1
+
+
+My View: I see your Design System (Cormorant Garamond + Forest Green) as a major strength because it distances the site from the "generic affiliate" look, which is vital for the "Discover" and "Community" pillars to feel authentic. 
+
+3.0 RISKS AND GAPS
+3.1 Content & SEO Risks
+3.1.1 Static Scale: While 30 pages is a solid start, the beekeeping niche has high seasonal volatility; a static site may feel "stale" if the seasonal calendar isn't dynamically updated. 3.1.2 Internal Linking: Without an automated way to map data/outlines/ to each other, you risk creating "orphan pages" that Google won't crawl effectively. 
++3
+
+3.2 Technical Risks
+3.2.1 Inline Style Debt: As noted in your UI section, scaling to 30 pages with inline styles makes site-wide design pivots nearly impossible. 
++1
+
+3.3 Key Difference on Risks
+
+Other LLMs: Focused on Amazon’s low commissions. 
++1
+
+My View: I identify Maintenance Overhead as the bigger risk. Manually updating a "Clubs Directory" in static HTML as links break or clubs close is a "link rot" trap that could damage your authority early on. 
+
+4.0 HIGH-IMPACT IMPROVEMENTS
+4.1 Template Decoupling: Immediately move the renderPage() logic to use a base CSS file (apiary.css) for all inner pages. 4.2 Contextual Linking: In Pass 1, instruct the LLM to identify 2-3 "related slugs" from your apiary-manifest.json to be injected during Pass 2. 4.3 Email Capture: Do not wait for the "Future" WordPress phase; use a static-friendly tool (like ConvertKit or MailerLite) to embed a signup form on the first 7 live pages. 
++4
+
+4.4 Key Difference on Improvements
+
+Other LLMs: Suggest seeding the directory with 20-30 clubs. 
+
+My View: I suggest a "Dynamic Header" for the directory. Instead of just listing clubs, use the LLM to generate "Why join a club?" content for each state page to capture "beekeeping near me" long-tail SEO queries. 
+
+5.0 STRATEGIC POSITIONING
+5.1 This is a Vertical Template. Your most valuable asset isn't the beekeeping content, but the pipeline-apiary-batch.js script. 5.2 Successful deployment of this site proves a workflow for "Static-to-Authority" site flipping. 
++3
+
+6.0 PRIORITY ROADMAP
+
+Fix apiary.css: Ensure inner pages mirror the index.html polish. 
++1
+
+
+Affiliate Injection: Add the Amazon ID to config.json before the full 23-page run. 
+
+
+The "Full Run": Generate the remaining 23 pages with linked navigation. 
++1
+
+
+Outreach: Start the "Beekeeper Spotlight" to generate early backlinks. 
+
+7.0 SUMMARY OF DIFFERENCES
+Aspect	ChatGPT/Grok	My Advice
+Monetization	
+Risk of low Amazon rates. 
++1
+
+Risk of Link Rot in the static directory.
+Scaling	
+Focus on volume (30 pages). 
++1
+
+Focus on E-E-A-T via the "Discover" pillar.
+Technical	
+Refine the generation script. 
++1
+
+Prioritize the WordPress Migration path for community features.
+Immediate Action	
+Seed the directory with real data. 
+
+Automate Internal Linking during the Pass 1 outline stage.
+The project is technically sound, but the "Community" pillar is the most likely to fail in a static environment without a clear data management plan. 
+
+
+================================================================================
+FILE: general-advice\advice-grok.txt
+================================================================================
+
+Here is my structured review of the readme.md, formatted exactly according to the advice-template.txt you provided:
+
+1.0 OVERVIEW
+1.1 This document provides structured feedback on the project README for TheApiaryGuide.com.
+1.2 The format is designed for reuse across multiple LLM evaluations.
+1.3 Each section has been filled based on a careful reading of the current README (last updated April 15, 2026).
+2.0 STRENGTHS
+2.1 Product Vision
+2.1.1 Clear niche positioning — beekeeping is an excellent “small pond, big fish” choice with passionate users and recurring purchases.
+2.1.2 Well-defined four-pillar structure (Shop, Learn, Discover, Community) that smartly balances monetization, education, authority, and engagement.
+2.1.3 Strong long-term goal of becoming the definitive resource in the niche.
+2.2 Technical Architecture
+2.2.1 Elegant two-pass LLM pipeline (architect → implement) that promotes consistency and iteration.
+2.2.2 Manifest-driven approach with flexible commands (single page, pass-only, dry-run, etc.) is very practical.
+2.2.3 Good separation of concerns with outlines in JSON and re-render capability.
+2.3 Design System
+2.3.1 Early adoption of a cohesive design system based on Apex Search Co. aesthetic is smart and helps avoid future drift.
+2.3.2 Clear specification of fonts, colors, and visual elements (forest green accent, cream background, eyebrow lines).
+2.3.3 Honest self-awareness of the current design gap between index.html and inner pages.
+2.4 Content Strategy
+2.4.1 Balanced pillar approach with Discover pillar acting as strategic link-bait and authority builder.
+2.4.2 Community features (Beekeeper Spotlight + filterable directory) provide strong moat and outreach potential.
+2.4.3 Recognition that programmatic/structured content (directory) is a major asset.
+3.0 RISKS AND GAPS
+3.1 Monetization Risk
+3.1.1 Heavy reliance on Amazon Associates with relatively low 3–4.5% commissions.
+3.1.2 No diversified revenue streams or owned audience (email list) yet.
+3.1.3 Vulnerability to Amazon policy changes or commission cuts.
+3.2 Content Scale Risk
+3.2.1 Only 7 of 30 pages generated — still far below the volume needed for meaningful organic traffic in most niches.
+3.2.2 Limited long-tail coverage until the full set (and future expansion) is live.
+3.3 Design Consistency Risk
+3.3.1 Significant gap between the polished homepage and the inner pages (inline styles vs proper CSS classes).
+3.3.2 This risks harming perceived quality and user trust if not fixed before wider launch.
+3.4 Internal Linking Gap
+3.4.1 No mention of a structured internal linking strategy or automated linking in the pipeline.
+3.4.2 Pages risk feeling isolated, hurting both SEO and user experience.
+3.5 Programmatic SEO Gap
+3.5.1 The community directory is recognized as valuable but currently under-leveraged (only one directory page planned).
+3.5.2 No clear plan yet for scaling into state/city-level or other structured programmatic pages.
+4.0 HIGH-IMPACT IMPROVEMENTS
+4.1 Internal Linking System
+4.1.1 Add logic to the Pass 2 renderer to automatically insert contextual related links and cross-pillar navigation.
+4.1.2 Include “Related Guides” or “Best Gear For This Topic” sections where appropriate.
+4.2 Directory Expansion
+4.2.1 Consider generating additional location-based or category-filtered pages (e.g., “Beekeeping Clubs in California”, “Top Beekeeping Events 2026”).
+4.2.2 This can create many low-competition, high-intent pages with minimal extra effort.
+4.3 Template Standardization
+4.3.1 Highest immediate priority: move all inner-page styling into reusable classes in apiary.css.
+4.3.2 Update renderPage() to use proper classes instead of inline styles.
+4.3.3 Make inner pages visually indistinguishable in quality from the homepage.
+4.4 Conversion Layer
+4.4.1 Add a simple email capture (ConvertKit or similar) on the homepage and key inner pages before or right after launch.
+4.4.2 Create a lead magnet (e.g., “Beginner Beekeeping Checklist” PDF).
+4.5 Discover Content Expansion
+4.5.1 Prioritize generating the Discover pillar pages early — they will help with backlinks and topical authority.
+4.5.2 Plan outreach for Beekeeper Spotlight profiles immediately after deployment.
+4.6 Content and Structure Separation
+4.6.1 Continue improving the separation between structured outline data and final HTML rendering.
+5.0 STRATEGIC POSITIONING
+5.1 This project is best viewed as a reusable content-site generation system rather than a one-off beekeeping website.
+5.2 The architecture (manifest + two-pass pipeline + design system) is a strong template that can be duplicated for other niches.
+5.3 Long-term value lies in the repeatable process and the ability to spin up new vertical sites quickly.
+6.0 PRIORITY ROADMAP
+6.1 Fix the inner-page template and styling system (make inner pages match homepage polish).
+6.2 Implement basic internal linking logic in the pipeline.
+6.3 Add email capture / conversion mechanisms.
+6.4 Generate the remaining 23 pages (after template is fixed).
+6.5 Deploy to Netlify and point theapiaryguide.com.
+6.6 Expand the directory and programmatic SEO assets.
+6.7 Begin outreach for Beekeeper Spotlights and seed the clubs directory.
+7.0 SUCCESS FACTORS
+7.1 High visual and content consistency across all pages.
+7.2 Strong internal linking and topical clustering.
+7.3 Early conversion (email list) to own part of the audience.
+7.4 Sufficient content scale + authority-building Discover content for SEO traction.
+7.5 Effective community outreach that turns the directory and spotlights into link/traffic engines.
+8.0 REUSABILITY NOTES
+8.1 Replace section content with new evaluation outputs when reused.
+8.2 Maintain numbering structure for consistency.
+8.3 Ensure all sections are addressed for comparability.
+8.4 Use this template to benchmark multiple LLM responses.
+
+Additional Comments & Observations
+What I really like:
+
+The honesty in the README about current limitations (especially the inner-page styling issue) is excellent. Self-awareness like this makes iteration much faster.
+Treating this as a template/system rather than just one site is the right mindset. Many people build one site and stop; you’re building a repeatable machine.
+The four-pillar model is thoughtful and well-balanced.
+
+Quick wins I recommend doing today/next:
+
+Fix the inner-page CSS/template before you run --all. Generating 23 more pages with the current inline-style approach will create a lot of cleanup debt.
+Add at least basic internal linking (even simple “You might also like” sections) in the render function.
+Seed the clubs directory with 20–30 real clubs now (you can do this manually or with a small script) so the page has real value on launch.
+Put your Amazon affiliate ID in config.json and make sure the pipeline can insert it automatically into product links.
+
+Slightly longer-term ideas:
+
+Consider adding schema markup (FAQPage, HowTo, Product) to the generated pages for better rich snippets.
+For the directory, even a simple JS filter on one page is powerful; you don’t necessarily need full WordPress yet.
+Track which pages drive the most traffic early and double down on that pillar/type.
+
+Overall, this is a very solid, thoughtful foundation. With the template/styling fix and internal linking added, you’ll have a professional-looking site that can actually compete. The beekeeping niche is genuinely underserved, so execution on these fundamentals should give you a real shot at becoming the go-to resource.
+Good luck with the build — excited to see TheApiaryGuide.com live! If you want me to help review the pipeline script, suggest specific internal linking logic, or review a generated page, just share it.1sFastprovide the key differences between your advice and chatgps's adviceHere are the key differences between my advice (Grok) and ChatGPT's advice on the TheApiaryGuide.com README, presented side-by-side for clarity:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AspectChatGPT's AdviceGrok's Advice (Mine)Key Difference / Why It MattersStructure & FormatVery rigid, numbered subsections (e.g., 2.1.1, 3.1.1) with short bullet-style points.Followed the exact template but used fuller, more readable sentences under each numbered point.Mine is easier to read and more actionable while staying faithful to the template. ChatGPT's feels more like a checklist.Tone & PracticalityFormal, high-level, somewhat generic. Strong emphasis on risks and gaps.More direct, conversational, and implementation-focused. Balanced praise with specific "do this next" recommendations.I push for immediate execution (e.g., "fix template before generating more pages") rather than just listing improvements.Priority on Design FixMentions design consistency as a risk and suggests moving to reusable CSS classes.Makes template standardization the #1 immediate priority — explicitly says do this before running --all.I treat the styling gap as a critical blocker that will create massive cleanup debt if ignored. ChatGPT lists it but doesn't elevate it as strongly.Internal LinkingHighlights the gap and suggests adding automated contextual linking.Strongly recommends adding linking logic directly into the Pass 2 renderer, with examples like “Related Guides” sections.Similar recognition, but I tie it more explicitly to the pipeline code and emphasize doing it early for SEO and user flow.Monetization EmphasisNotes over-reliance on Amazon and low commissions as a core risk.Acknowledges the low 3% Amazon rate but focuses more on quick conversion wins (email capture) to reduce dependency.Both see the risk; I lean harder into building an owned audience (email) as the fastest practical mitigation.Programmatic SEO / DirectoryCalls out under-leveraged directory and suggests expansion (location-based pages).Agrees but adds concrete next step: manually seed the clubs directory with 20–30 real clubs now so the page has value on launch.I add an immediate, low-effort action to make the directory useful from day one rather than just planning future expansion.Roadmap OrderingTemplate fix first, then linking, conversion, generate pages, deploy, expand directory.Almost identical ordering, but stresses "fix styling before generating the remaining 23 pages" even more forcefully.Very aligned, but mine has slightly stronger warnings against scaling content on a broken template.Strategic ViewPositions the project as a reusable system with long-term value in replication.Strongly reinforces this ("reusable content-site generation system / template for future vertical sites") and praises the README's self-awareness.Similar, but I explicitly call out the README's honesty as a strength that speeds iteration.Additional / Extra CommentsNone provided in the structured output (stays strictly within the template).Dedicated "Additional Comments & Observations" section with quick wins, longer-term ideas (schema markup), and encouragement.I go beyond the template to give personalized, motivating, and forward-looking advice tailored to the current state (e.g., seed directory now, review pipeline script if needed).
+Summary of Overall Differences
+
+ChatGPT's advice is more structured and risk-focused — it systematically catalogs everything but stays somewhat abstract and checklist-like.
+My advice is more action-oriented and pragmatic — I prioritize what to do right now (especially fixing the inner-page styling before mass generation), give concrete next steps, and add a human, encouraging layer while still covering all template sections.
+
+Both reviews overlap significantly on the main issues (design inconsistency, internal linking, conversion layer, directory potential, and the reusable-system angle). The biggest practical divergence is urgency around the template fix and my extra emphasis on immediate tactical actions like seeding the directory and integrating linking into the pipeline.
+If you'd like me to expand on any specific difference, merge the best parts of both reviews into one combined version, or provide updated advice incorporating 2026 SEO trends (e.g., topical authority, quality signals over pure volume, and careful internal linking for both Google and LLMs), just let me know!2sFast
+
+
+================================================================================
+FILE: general-advice\advice-template.txt
+================================================================================
+
+1.0 OVERVIEW
+1.1 This document provides structured feedback on the project README.
+1.2 The format is designed for reuse across multiple LLM evaluations.
+1.3 Each section should be filled independently when reused.
+
+2.0 STRENGTHS
+2.1 Product Vision
+2.1.1 Clear niche positioning
+2.1.2 Defined content pillars
+2.1.3 Monetization path identified
+
+2.2 Technical Architecture
+2.2.1 Two-pass generation system (outline → render)
+2.2.2 Manifest-driven pipeline
+2.2.3 Re-render capability for iteration
+
+2.3 Design System
+2.3.1 Early design standardization
+2.3.2 Consistent visual identity defined
+2.3.3 Awareness of design gaps
+
+2.4 Content Strategy
+2.4.1 Balanced pillar structure (Shop / Learn / Discover / Community)
+2.4.2 Inclusion of backlink-focused content (Discover)
+2.4.3 Community features as long-term moat
+
+3.0 RISKS AND GAPS
+3.1 Monetization Risk
+3.1.1 Over-reliance on affiliate revenue
+3.1.2 Low commission percentages
+3.1.3 Lack of owned audience channel
+
+3.2 Content Scale Risk
+3.2.1 Limited page count for SEO competitiveness
+3.2.2 Insufficient long-tail coverage
+
+3.3 Design Consistency Risk
+3.3.1 Inconsistent styling between index and inner pages
+3.3.2 Use of inline styles instead of reusable CSS
+
+3.4 Internal Linking Gap
+3.4.1 No defined linking strategy
+3.4.2 Risk of isolated pages
+3.4.3 Reduced SEO and user flow efficiency
+
+3.5 Programmatic SEO Gap
+3.5.1 Underutilized directory potential
+3.5.2 Missing scalable location-based content
+
+4.0 HIGH-IMPACT IMPROVEMENTS
+4.1 Internal Linking System
+4.1.1 Add automated related content links
+4.1.2 Link within same pillar
+4.1.3 Add cross-pillar navigation
+
+4.2 Directory Expansion
+4.2.1 Generate location-based pages
+4.2.2 Scale across regions or categories
+4.2.3 Target low-competition queries
+
+4.3 Template Standardization
+4.3.1 Move inline styles to CSS
+4.3.2 Define reusable layout classes
+4.3.3 Ensure visual consistency across pages
+
+4.4 Conversion Layer
+4.4.1 Add email capture
+4.4.2 Introduce lead magnets
+4.4.3 Build owned audience channel
+
+4.5 Discover Content Expansion
+4.5.1 Create linkable informational assets
+4.5.2 Focus on authority-building topics
+4.5.3 Support monetized pages indirectly
+
+4.6 Content and Structure Separation
+4.6.1 Store structured content separately from presentation
+4.6.2 Use templates for rendering
+4.6.3 Reduce risk of malformed HTML
+
+5.0 STRATEGIC POSITIONING
+5.1 Project is a reusable content system, not a single site
+5.2 Architecture supports multi-niche expansion
+5.3 Long-term value lies in replication and scaling
+
+6.0 PRIORITY ROADMAP
+6.1 Fix template and styling system
+6.2 Implement internal linking logic
+6.3 Add basic conversion mechanisms
+6.4 Generate remaining content pages
+6.5 Deploy site
+6.6 Expand programmatic SEO assets
+
+7.0 SUCCESS FACTORS
+7.1 Effective internal linking
+7.2 Scalable content generation
+7.3 Conversion optimization
+7.4 Authority-building content strategy
+
+8.0 REUSABILITY NOTES
+8.1 Replace section content with new evaluation outputs when reused
+8.2 Maintain numbering structure for consistency
+8.3 Ensure all sections are addressed for comparability
+8.4 Use this template to benchmark multiple LLM responses
+
+
+
+================================================================================
+FILE: manifest-ideas\gemini-manifest-generator-thoughts.txt
+================================================================================
+
+i wanted an ambitions inital set of pages, maybe 100. Thoughts?
+
+Scaling to 100 pages is a strategic move that shifts the site from a niche blog to a comprehensive topical authority. To hit this number effectively without sacrificing quality or SEO performance, you should organize the expansion into "Content Clusters."
+
+Here is a high-level breakdown of how to structure those 100 pages using your existing pipeline-apiary-batch.js framework:
+
+1. Local Beekeeping Authority (50 Pages)
+Creating a guide for every U.S. state is the fastest way to hit your volume goal while capturing "low-competition" local search traffic.
+
+The Strategy: Use a standardized template in your manifest-generator for "Beekeeping in [State]".
+
+Content Focus: Each page should detail state-specific registration laws, local climate zones (Hardiness Zones), and native nectar-producing flora.
+
+Internal Linking: Every local page should link back to your "Beekeeping Clubs Directory" to provide immediate value to the reader.
+
+2. Technical Gear & Comparison Matrix (20 Pages)
+Leverage your interest in technical specifications (like those seen in Trek bicycle components) to create high-intent buyer guides.
+
+Head-to-Head Comparisons: Create 10 "X vs Y" pages for major equipment choices (e.g., "Plastic vs Wood Frames," "Manual vs Electric Extractors").
+
+Technical Deep-Dives: Create 10 pages focusing on specific components of the hive, such as "Best Foundation Types for Honey Production" or "Stainless Steel vs. Galvanized Smokers".
+
+3. Historical & Cultural Pillars (10 Pages)
+Use your interest in classical literature (The Odyssey) and ancient history (Carthage) to build "Link Bait" content that attracts high-authority backlinks.
+
+Ancient Beekeeping: "Beekeeping in the Time of Hannibal" or "Honey Production in Ancient Greece".
+
+Literary Connections: "The Bee as a Symbol in Homer’s Odyssey". These pages will benefit from the upcoming interest in the Christopher Nolan film adaptation.
+
+4. Advanced Seasonal & Biological Guides (20 Pages)
+Move beyond "Beginner" content to capture the professional and hobbyist market.
+
+Seasonal Checklist: Create specific guides for each month of the beekeeping year (e.g., "Managing the July Nectar Dearth").
+
+Pest & Disease Management: Detailed technical pages on Varroa Mite treatments, American Foulbrood identification, and Hive Beetle prevention.
+
+Execution Efficiency
+To manage this volume, your manifest-generator should automate the creation of these rows in apiary-manifest.json. You can then run the pipeline in batches of 10-20 pages using the --concurrency flag in your script to ensure you stay within API rate limits while maintaining a fast build-out.
+
+
+================================================================================
+FILE: manifest-ideas\gemini-manifest-generator.txt
+================================================================================
+
+/**
+ * manifest-factory.js
+ * Generates bulk page entries for apiary-manifest.json
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const MANIFEST_PATH = path.join(__dirname, 'apiary-manifest.json');
+const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'));
+
+// ── Templates for Bulk Generation ─────────────────────────────────────────────
+
+const US_STATES = ['Maryland', 'Virginia', 'Pennsylvania', 'New York', 'Texas']; // Expand this to 50
+
+/**
+ * Generates localized "Beekeeping in [State]" pages
+ */
+function generateLocalGuides() {
+  return US_STATES.map(state => ({
+    slug: `beekeeping-in-${state.toLowerCase().replace(/ /g, '-')}`,
+    title: `Beekeeping in ${state}: A Complete Regional Guide`,
+    type: "guide",
+    pillar: "local",
+    priority: 3,
+    searchIntent: "informational",
+    notes: `Focus on ${state} specific climate, native nectar flows, and state-level registration laws. Link to ${state} beekeeping associations.`
+  }));
+}
+
+/**
+ * Generates technical "Comparison" pages
+ */
+const COMPARISONS = [
+  ['Trek Marlin 7', 'Trek Verve 2'], // Example of your interests influencing tech comparisons
+  ['Langstroth', 'Flow Hive'],
+  ['Plastic Frames', 'Beeswax Foundation']
+];
+
+function generateComparisons() {
+  return COMPARISONS.map(([itemA, itemB]) => ({
+    slug: `${itemA.toLowerCase().replace(/ /g, '-')}-vs-${itemB.toLowerCase().replace(/ /g, '-')}`,
+    title: `${itemA} vs ${itemB}: Which is Better for Your Hive?`,
+    type: "comparison",
+    pillar: "shop",
+    priority: 2,
+    searchIntent: "research",
+    notes: `Head-to-head comparison of ${itemA} and ${itemB}. Focus on durability, price, and ease of use for beginners.`
+  }));
+}
+
+// ── Execution ────────────────────────────────────────────────────────────────
+
+const newPages = [
+  ...generateLocalGuides(),
+  ...generateComparisons()
+];
+
+// Append to manifest while avoiding duplicates
+newPages.forEach(newPage => {
+  if (!manifest.pages.find(p => p.slug === newPage.slug)) {
+    manifest.pages.push(newPage);
+  }
+});
+
+fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2), 'utf8');
+console.log(`Added ${newPages.length} pages to the manifest.`);
+
+
+================================================================================
+FILE: manifest-ideas\gemini-manifest-state-lookup.txt
+================================================================================
+
+build a 100-page manifest without relying on the LLM to "hallucinate" local facts, your Manifest Generator needs a Lookup Engine.
+
+Instead of writing 50 separate notes, you feed the generator a simple data object. The generator then iterates through the states, pulls the relevant data, and "assembles" a highly specific prompt for the AI.
+
+Here is the logic for the manifest-generator.js expansion:
+
+1. The Data Lookup Table
+You only need to define this once. It acts as the "Source of Truth" for the pipeline.
+
+JavaScript
+const STATE_DATA = {
+  "Maryland": { zone: "7a-8a", honey: "Tulip Poplar, Clover", law: "Registration required with MDA" },
+  "Texas": { zone: "6b-10a", honey: "Mesquite, Tallow", law: "Managed by Texas A&M Apiary Inspection Service" },
+  "New York": { zone: "3b-7b", honey: "Basswood, Goldenrod", law: "Registration with Dept of Agriculture & Markets" },
+  // ... continue for all states
+};
+2. The Generator Logic
+This function automates the creation of the pages array entries. It transforms raw data into the "Instruction Set" that Pass 1 (Claude Sonnet) will use to build the outline.
+
+JavaScript
+function generateLocalPages() {
+  return Object.entries(STATE_DATA).map(([state, data]) => {
+    return {
+      slug: `beekeeping-in-${state.toLowerCase().replace(/ /g, '-')}`,
+      title: `Beekeeping in ${state}: A Regional Guide`,
+      type: "guide",
+      pillar: "local",
+      priority: 3,
+      // This is the CRITICAL logic: feeding the AI the "Hard Facts" 
+      notes: `Focus on ${state} specifics. 
+              Climate: USDA Zones ${data.zone}. 
+              Primary Nectar: ${data.honey}. 
+              Legal: Mention ${data.law}. 
+              Link to ${state} Beekeeping Association.`
+    };
+  });
+}
+3. Why This Works
+The AI is no longer "Fishing": In Pass 1, the AI sees: "Climate: USDA Zones 7a-8a. Primary Nectar: Tulip Poplar." It doesn't have to search its memory; it just has to explain how a beekeeper in Zone 7 should prep for winter.
+
+Consistency: Every state page follows the same high-quality structure (Intro -> Climate -> Flora -> Legal -> Local Clubs), which is excellent for SEO "Topical Authority."
+
+AEC Professionalism: This mirrors a "Standard Operating Procedure." You are providing the specifications, and the AI is acting as the technical writer.
+
+4. Integration Step
+To execute this:
+
+Run the Generator: It appends these 50 rows to your apiary-manifest.json.
+
+Run Pass 1: node pipeline-apiary-batch.js --priority 3 --pass 1. This creates 50 structured JSON outlines in data/outlines/.
+
+Run Pass 2: node pipeline-apiary-batch.js --priority 3 --pass 2. This builds the 50 HTML files using your Grok v1.1 CSS-class system.
+
+This approach ensures that "Beekeeping in Maryland" and "Beekeeping in Texas" feel like distinct, expert-led guides rather than generic AI fluff. Would you like me to provide the full code for the manifest-generator.js incorporating this logic?
+
+
+================================================================================
+FILE: manifest-ideas\gemini-manifest-thoughts-local.txt
+================================================================================
+
+so give me your thoughts on the 50 pages in a list , just return the list with dashes for indentations, page names only like -products --clothing
+
+Local Beekeeping Guides
+-- Beekeeping in Alabama
+-- Beekeeping in Alaska
+-- Beekeeping in Arizona
+-- Beekeeping in Arkansas
+-- Beekeeping in California
+-- Beekeeping in Colorado
+-- Beekeeping in Connecticut
+-- Beekeeping in Delaware
+-- Beekeeping in Florida
+-- Beekeeping in Georgia
+-- Beekeeping in Hawaii
+-- Beekeeping in Idaho
+-- Beekeeping in Illinois
+-- Beekeeping in Indiana
+-- Beekeeping in Iowa
+-- Beekeeping in Kansas
+-- Beekeeping in Kentucky
+-- Beekeeping in Louisiana
+-- Beekeeping in Maine
+-- Beekeeping in Maryland
+-- Beekeeping in Massachusetts
+-- Beekeeping in Michigan
+-- Beekeeping in Minnesota
+-- Beekeeping in Mississippi
+-- Beekeeping in Missouri
+-- Beekeeping in Montana
+-- Beekeeping in Nebraska
+-- Beekeeping in Nevada
+-- Beekeeping in New Hampshire
+-- Beekeeping in New Jersey
+-- Beekeeping in New Mexico
+-- Beekeeping in New York
+-- Beekeeping in North Carolina
+-- Beekeeping in North Dakota
+-- Beekeeping in Ohio
+-- Beekeeping in Oklahoma
+-- Beekeeping in Oregon
+-- Beekeeping in Pennsylvania
+-- Beekeeping in Rhode Island
+-- Beekeeping in South Carolina
+-- Beekeeping in South Dakota
+-- Beekeeping in Tennessee
+-- Beekeeping in Texas
+-- Beekeeping in Utah
+-- Beekeeping in Vermont
+-- Beekeeping in Virginia
+-- Beekeeping in Washington
+-- Beekeeping in West Virginia
+-- Beekeeping in Wisconsin
+-- Beekeeping in Wyoming
+
+why are we starting with local guides, that might be difficult for an LLM to fish out that information right?
+
+Actually, starting with local guides is a strategic choice for scaling, though you're right that it presents a specific challenge for an LLM.
+
+The reason we prioritize these—and how we handle the "fishing" for information—comes down to three main points:
+
+The "Why": Low Competition & Authority
+SEO Moat: Most national beekeeping sites provide generic advice, but very few have dedicated, high-quality pages for every state.
+
+Topical Authority: By covering all 50 states, you signal to search engines that you are a comprehensive authority, not just a casual blog.
+
+Navigational Intent: Local pages naturally link to your Beekeeping Clubs Directory, which is one of your most important community pillars.
+
+The "How": Overcoming LLM Limitations
+You're correct that LLMs can struggle with specific, real-time local data. We solve this by moving the "fishing" from the AI to your Manifest Generator:
+
+Structured Injection: Instead of asking the LLM to "guess" the laws in Maryland, your generator script can inject specific data points (like USDA Hardiness Zones or native flora) directly into the notes field of the manifest.
+
+Standardized Framework: Since you've already established a professional, class-based HTML system in your updated script (v1.1), the AI focuses on synthesis and writing rather than raw data retrieval.
+
+Pass 1 Strategy: Your Pass 1 (Sonnet) is specifically instructed to act as an "architect," taking the specific local notes you provide and turning them into a tailored SEO outline.
+
+The AEC Industry Parallel
+Think of this like your work with RFP development in the AEC industry:
+
+You don't just ask a writer to "guess" a firm's qualifications.
+
+You provide a structured set of "raw materials" (the manifest) and use the AI to assemble them into a polished, persuasive document (the page).
+
+By feeding the LLM the "hard facts" through your manifest, you ensure accuracy while taking advantage of its ability to write friendly, knowledgeable content at a massive scale.
+
+
+================================================================================
+FILE: manifest-ideas\manifest-generator-code-gemini.js
+================================================================================
+
+/**
+ * manifest-factory.js
+ * Generates bulk page entries for apiary-manifest.json
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+const MANIFEST_PATH = path.join(__dirname, 'apiary-manifest.json');
+const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'));
+
+// ── Templates for Bulk Generation ─────────────────────────────────────────────
+
+const US_STATES = ['Maryland', 'Virginia', 'Pennsylvania', 'New York', 'Texas']; // Expand this to 50
+
+/**
+ * Generates localized "Beekeeping in [State]" pages
+ */
+function generateLocalGuides() {
+  return US_STATES.map(state => ({
+    slug: `beekeeping-in-${state.toLowerCase().replace(/ /g, '-')}`,
+    title: `Beekeeping in ${state}: A Complete Regional Guide`,
+    type: "guide",
+    pillar: "local",
+    priority: 3,
+    searchIntent: "informational",
+    notes: `Focus on ${state} specific climate, native nectar flows, and state-level registration laws. Link to ${state} beekeeping associations.`
+  }));
+}
+
+/**
+ * Generates technical "Comparison" pages
+ */
+const COMPARISONS = [
+  ['Trek Marlin 7', 'Trek Verve 2'], // Example of your interests influencing tech comparisons
+  ['Langstroth', 'Flow Hive'],
+  ['Plastic Frames', 'Beeswax Foundation']
+];
+
+function generateComparisons() {
+  return COMPARISONS.map(([itemA, itemB]) => ({
+    slug: `${itemA.toLowerCase().replace(/ /g, '-')}-vs-${itemB.toLowerCase().replace(/ /g, '-')}`,
+    title: `${itemA} vs ${itemB}: Which is Better for Your Hive?`,
+    type: "comparison",
+    pillar: "shop",
+    priority: 2,
+    searchIntent: "research",
+    notes: `Head-to-head comparison of ${itemA} and ${itemB}. Focus on durability, price, and ease of use for beginners.`
+  }));
+}
+
+// ── Execution ────────────────────────────────────────────────────────────────
+
+const newPages = [
+  ...generateLocalGuides(),
+  ...generateComparisons()
+];
+
+// Append to manifest while avoiding duplicates
+newPages.forEach(newPage => {
+  if (!manifest.pages.find(p => p.slug === newPage.slug)) {
+    manifest.pages.push(newPage);
+  }
+});
+
+fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2), 'utf8');
+console.log(`Added ${newPages.length} pages to the manifest.`);
+
+
+================================================================================
+FILE: manifest-ideas\manifest-ideas.txt
+================================================================================
+
+
+
+
+================================================================================
+FILE: manifest-ideas\manifest-thoughts-gemini
+================================================================================
+
+
+
+
+================================================================================
+FILE: manifest-ideas\manifest-thoughts-gemini.txt
+================================================================================
+
+{
+  "slug": "best-beekeeping-smokers",
+  "title": "Best Beekeeping Smokers",
+  "type": "roundup",
+  "pillar": "shop",
+  "parentSlug": "best-beginner-beekeeping-kit",
+  "priority": 2,
+  "seo": {
+    "primaryKeyword": "best bee smokers",
+    "secondaryKeywords": ["stainless steel smoker", "smoker fuel types"],
+    "targetWordCount": 1000
+  },
+  "affiliate": {
+    "targetProducts": ["Dadant Smoker", "Mann Lake Pro Smoker"],
+    "ctaText": "Check Price on Amazon"
+  },
+  "relatedSlugs": ["best-beekeeping-suits", "how-to-inspect-a-beehive"]
+}
+
+
+================================================================================
+FILE: readme.md
+================================================================================
+
+# TheApiaryGuide.com
+==========================================
+Last updated: April 15 2026
+Repo: https://github.com/andrewwfelix/apiary
+
+---
+
+## Current Status
+- 7 pages generated and live in repo (priority 1)
+- Static HTML site — ready for Netlify deploy
+- Design system: Apex Search Co. aesthetic (Cormorant Garamond + DM Sans, forest green accent)
+- Pipeline working end to end — outlines in data/outlines/, pages at root
+- Next: generate remaining 23 pages, deploy to Netlify, add affiliate IDs
+
+---
+
+## Project Overview
+- Domain: TheApiaryGuide.com (owned)
+- Type: Affiliate + informational content site
+- Niche: Beekeeping — passionate community, recurring purchases, underserved online
+- Monetization: Amazon Associates (home & garden / outdoor — 3-4.5%)
+- Goal: Become the definitive beekeeping resource — big fish, small pond
+- Current phase: presentation build — generate all 30 pages, deploy, show stakeholders
+- Future: WordPress migration if client win or community features needed
+
+---
+
+## Stack
+- Platform: Static HTML + CSS (presentation build)
+- Hosting: Netlify (free tier) — not yet deployed
+- CSS: css/apiary.css — Apex Search design system with green accent
+- Fonts: Cormorant Garamond (display) + DM Sans (body) via Google Fonts
+- Pipeline: pipeline-apiary-batch.js — two-pass LLM batch generator
+- Config: config.json — site name, domain, model assignments (not in repo)
+- Env: .env — OPENROUTER_API_KEY (not in repo — never commit this)
+
+---
+
+## Pipeline Architecture
+
+Two-pass batch generation driven by apiary-manifest.json:
+
+- Pass 1 — Haiku/Sonnet architects each page
+  - Input: title, type, pillar, search intent, notes from manifest
+  - Output: structured JSON outline saved to data/outlines/<slug>.json
+- Pass 2 — Haiku implements the outline
+  - Input: outline JSON + HTML template in renderPage()
+  - Output: complete HTML page written to root folder
+
+Commands (run from apiary/ folder):
+- node pipeline-apiary-batch.js              (priority 1 pages — default)
+- node pipeline-apiary-batch.js --all        (all 30 pages)
+- node pipeline-apiary-batch.js --slug X     (single page)
+- node pipeline-apiary-batch.js --pass 2     (re-render from existing outlines)
+- node pipeline-apiary-batch.js --dry        (preview only, no API calls)
+
+---
+
+## Site Structure — Four Pillars
+
+- Shop      — best-of roundups, gear comparisons, buying guides (affiliate-heavy)
+- Learn     — beginner guides, how-to, seasonal calendar, science
+- Discover  — history, famous beekeepers, books, documentaries (link bait)
+- Community — clubs directory (filterable), Beekeeper Spotlight, events
+
+---
+
+## Beekeeper Spotlight
+- Profile local and notable beekeepers — community outreach driven
+- Format: Q&A (background, origin story, advice, favourite product)
+- Strategic value: featured beekeepers share and link back
+- Outreach: local clubs, beekeeping Facebook groups, Instagram
+
+---
+
+## Community Directory
+- Clubs filterable by state/region
+- National orgs: American Beekeeping Federation, Honey Bee Health Coalition
+- Submit your club form (interactive — needs JS or WordPress)
+- Biggest link bait asset on the site
+
+---
+
+## Page Inventory (apiary-manifest.json)
+30 pages across 6 types. Priority 1 (7 pages) generated:
+- best-beginner-beekeeping-kit      (roundup)
+- best-beekeeping-suits             (roundup)
+- langstroth-vs-top-bar-vs-warre    (comparison)
+- beginners-guide-to-beekeeping     (guide)
+- beekeeping-clubs-directory        (directory)
+- beekeeping-for-beginners          (guide)
+- about                             (editorial)
+
+Remaining 23 pages at priority 2-3 — run node pipeline-apiary-batch.js --all
+
+---
+
+## Design System
+- Based exactly on Apex Search Co. (style-examples/apex-search.html)
+- Forest green accent: #2d5a3d / #4a8c60
+- Cream background: #f7f5f0
+- Cormorant Garamond serif headings (lightweight, editorial)
+- DM Sans body (clean, minimal)
+- Eyebrow line pattern on all section headers
+- Index page: fixed nav with backdrop blur, hero grid, stats card
+- Inner pages: no blur, sticky sidebar, Cormorant heading, green CTA block
+
+---
+
+## Files
+- index.html                    — homepage (Apex Search layout)
+- css/apiary.css                — shared stylesheet (extracted from apex-search.html)
+- pipeline-apiary-batch.js      — batch page generator
+- apiary-manifest.json          — 30-page inventory with types and notes
+- config.json                   — site config + model assignments (not in repo)
+- .env                          — API key (not in repo — add to .gitignore)
+- data/outlines/                — Pass 1 JSON outlines (can be regenerated)
+- data/pages/                   — intermediate Pass 2 HTML (same as root pages)
+- style-examples/               — reference designs
+
+---
+
+## Next Steps
+- [ ] Remove .env from git tracking: git rm --cached .env
+- [ ] Update .gitignore to exclude data/outlines/, data/pages/, .env
+- [ ] Add Amazon affiliate ID to config.json
+- [ ] Generate remaining 23 pages: node pipeline-apiary-batch.js --all
+- [ ] Deploy to Netlify — point theapiaryguide.com
+- [ ] Submit sitemap to GSC
+- [ ] Add ConvertKit email capture
+- [ ] First Beekeeper Spotlight outreach
+- [ ] Seed clubs directory with 20-30 national/major clubs
+- [ ] Build presentation deck
+
+---
+
+## UI Notes
+- index.html looks great — Apex Search design faithfully reproduced
+- Inner pages (generated by renderPage() in pipeline-apiary-batch.js) are less polished
+  - Currently using inline styles rather than proper CSS classes
+  - Need to extend apiary.css with inner page classes (.inner-hero, .inner-layout, etc.)
+  - Then update renderPage() to use those classes instead of inline styles
+  - Goal: inner pages should feel like a continuation of index.html, not a different site
+  - This is a next-session priority before the full 30-page run
+
+## Notes
+- Discover pillar is the strategic differentiator — builds authority and earns backlinks
+- Interactive community features (filterable directory, submission forms) favor WordPress
+- Don't repeat BVM mistake — add email capture from day one
+- jsonrepair available if needed: npm install jsonrepair
+- This repo is a template for future vertical sites — swap config.json and manifest
+
+
