@@ -4,6 +4,9 @@ const path = require('path');
 const axios = require('axios'); // For downloading images
 const app = express();
 
+const cors = require('cors');
+app.use(cors()); // Add this before your routes
+
 app.use(express.json());
 app.use(express.static('public'));
 

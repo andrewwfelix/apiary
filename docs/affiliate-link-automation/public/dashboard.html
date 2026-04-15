@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Vault Curator</title>
+    <style>
+        :root {
+            --forest-green: #2d5a3d;
+            --slate: #333;
+            --light-gray: #f4f4f4;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--light-gray); margin: 0; padding: 20px; color: var(--slate); }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h2 { border-bottom: 2px solid var(--forest-green); padding-bottom: 10px; color: var(--forest-green); }
+        .search-section { margin-bottom: 20px; display: flex; gap: 10px; }
+        input, select { padding: 12px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; }
+        #productSearch { flex-grow: 1; }
+        .product-list { max-height: 200px; overflow-y: auto; border: 1px solid #eee; margin-bottom: 20px; padding: 10px; background: #fafafa; }
+        .product-item { padding: 8px; cursor: pointer; border-bottom: 1px solid #eee; transition: background 0.2s; }
+        .product-item:hover { background: #e9f5ed; }
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .form-group { display: flex; flex-direction: column; gap: 5px; }
+        .full-width { grid-column: span 2; }
+        button { background: var(--forest-green); color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; font-weight: bold; margin-top: 10px; }
+        button:hover { background: #244831; }
+        #status { margin-top: 15px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Affiliate Vault Curator</h2>
+    
+    <div class="search-section">
+        <input type="text" id="productSearch" placeholder="Search our 100-product list (e.g., Smoker, Suit, Book)..." onkeyup="filterProducts()">
+    </div>
+    
+    <div class="product-list" id="productList">
+        </div>
+
+    <form id="vaultForm">
+        <div class="form-grid">
+            <div class="form-group">
+                <label>Slug (Unique ID)</label>
+                <input type="text" id="slug" required placeholder="beekeeping-for-dummies">
+            </div>
+            <div class="form-group">
+                <label>ASIN</label>
+                <input type="text" id="asin" required placeholder="B00XXXXXXX">
+            </div>
+            <div class="form-group full-width">
+                <label>Full Product Name</label>
+                <input type="text" id="fullName" required placeholder="Exact Amazon Title">
+            </div>
+            <div class="form-group">
+                <label>Amazon Affiliate URL</label>
+                <input type="url" id="url" required placeholder="https://amzn.to/...">
+            </div>
+            <div class="form-group">
+                <label>Price String</label>
+                <input type="text" id="price" placeholder="$19.99">
+            </div>
+            <div class="form-group full-width">
+                <label>High-Res Image URL (for local download)</label>
+                <input type="url" id="imageUrl" required placeholder="https://m.media-amazon.com/...">
+            </div>
+        </div>
+        <button type="submit">VAULT PRODUCT</button>
+    </form>
+    <div id="status"></div>
+</div>
+
+<script>
+    // These are the top products from our earlier generated list
+    const masterList = [
+        { slug: "beekeeping-for-dummies-blackiston", name: "Beekeeping For Dummies by Howland Blackiston" },
+        { slug: "backyard-beekeeper-flottum", name: "The Backyard Beekeeper by Kim Flottum" },
+        { slug: "flow-hive-2-plus", name: "Flow Hive 2+ Cedar Wood" },
+        { slug: "guardian-bee-apparel-suit", name: "Guardian Bee Apparel Ventilated Suit" },
+        { slug: "dadant-stainless-smoker", name: "Dadant Stainless Steel Smoker" }
+    ];
+
+    function filterProducts() {
+        const input = document.getElementById('productSearch').value.toLowerCase();
+        const list = document.getElementById('productList');
+        list.innerHTML = '';
+        masterList.filter(p => p.name.toLowerCase().includes(input)).forEach(p => {
+            const div = document.createElement('div');
+            div.className = 'product-item';
+            div.innerText = p.name;
+            div.onclick = () => {
+                document.getElementById('slug').value = p.slug;
+                document.getElementById('fullName').value = p.name;
+            };
+            list.appendChild(div);
+        });
+    }
+    filterProducts(); // Initial load
+
+    document.getElementById('vaultForm').onsubmit = async (e) => {
+        e.preventDefault();
+        const status = document.getElementById('status');
+        status.innerText = "Processing...";
+        
+        const formData = {
+            slug: document.getElementById('slug').value,
+            asin: document.getElementById('asin').value,
+            fullName: document.getElementById('fullName').value,
+            url: document.getElementById('url').value,
+            imageUrl: document.getElementById('imageUrl').value,
+            price: document.getElementById('price').value
+        };
+
+        try {
+            const res = await fetch('http://localhost:3000/api/add-product', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            });
+            const result = await res.json();
+            status.style.color = result.success ? "green" : "red";
+            status.innerText = result.message || result.error;
+            if(result.success) document.getElementById('vaultForm').reset();
+        } catch (err) {
+            status.innerText = "Error connecting to microservice.";
+        }
+    };
+</script>
+</body>
+</html>

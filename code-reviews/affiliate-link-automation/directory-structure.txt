@@ -1,8 +1,0 @@
-/affiliate-automation
-├── server.js            # The Node.js "Receiver" (Microservice)
-├── dashboard.html       # The UI for search & link management
-├── data/                # Project-specific vault
-│   └── product-vault.json
-├── public/              # Global assets
-│   └── images/          # Downloaded product images
-└── package.json         # Independent dependencies
