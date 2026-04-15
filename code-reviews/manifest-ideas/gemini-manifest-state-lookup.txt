@@ -1,0 +1,54 @@
+build a 100-page manifest without relying on the LLM to "hallucinate" local facts, your Manifest Generator needs a Lookup Engine.
+
+Instead of writing 50 separate notes, you feed the generator a simple data object. The generator then iterates through the states, pulls the relevant data, and "assembles" a highly specific prompt for the AI.
+
+Here is the logic for the manifest-generator.js expansion:
+
+1. The Data Lookup Table
+You only need to define this once. It acts as the "Source of Truth" for the pipeline.
+
+JavaScript
+const STATE_DATA = {
+  "Maryland": { zone: "7a-8a", honey: "Tulip Poplar, Clover", law: "Registration required with MDA" },
+  "Texas": { zone: "6b-10a", honey: "Mesquite, Tallow", law: "Managed by Texas A&M Apiary Inspection Service" },
+  "New York": { zone: "3b-7b", honey: "Basswood, Goldenrod", law: "Registration with Dept of Agriculture & Markets" },
+  // ... continue for all states
+};
+2. The Generator Logic
+This function automates the creation of the pages array entries. It transforms raw data into the "Instruction Set" that Pass 1 (Claude Sonnet) will use to build the outline.
+
+JavaScript
+function generateLocalPages() {
+  return Object.entries(STATE_DATA).map(([state, data]) => {
+    return {
+      slug: `beekeeping-in-${state.toLowerCase().replace(/ /g, '-')}`,
+      title: `Beekeeping in ${state}: A Regional Guide`,
+      type: "guide",
+      pillar: "local",
+      priority: 3,
+      // This is the CRITICAL logic: feeding the AI the "Hard Facts" 
+      notes: `Focus on ${state} specifics. 
+              Climate: USDA Zones ${data.zone}. 
+              Primary Nectar: ${data.honey}. 
+              Legal: Mention ${data.law}. 
+              Link to ${state} Beekeeping Association.`
+    };
+  });
+}
+3. Why This Works
+The AI is no longer "Fishing": In Pass 1, the AI sees: "Climate: USDA Zones 7a-8a. Primary Nectar: Tulip Poplar." It doesn't have to search its memory; it just has to explain how a beekeeper in Zone 7 should prep for winter.
+
+Consistency: Every state page follows the same high-quality structure (Intro -> Climate -> Flora -> Legal -> Local Clubs), which is excellent for SEO "Topical Authority."
+
+AEC Professionalism: This mirrors a "Standard Operating Procedure." You are providing the specifications, and the AI is acting as the technical writer.
+
+4. Integration Step
+To execute this:
+
+Run the Generator: It appends these 50 rows to your apiary-manifest.json.
+
+Run Pass 1: node pipeline-apiary-batch.js --priority 3 --pass 1. This creates 50 structured JSON outlines in data/outlines/.
+
+Run Pass 2: node pipeline-apiary-batch.js --priority 3 --pass 2. This builds the 50 HTML files using your Grok v1.1 CSS-class system.
+
+This approach ensures that "Beekeeping in Maryland" and "Beekeeping in Texas" feel like distinct, expert-led guides rather than generic AI fluff. Would you like me to provide the full code for the manifest-generator.js incorporating this logic?

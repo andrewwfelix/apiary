@@ -1,0 +1,18 @@
+{
+  "slug": "best-beekeeping-smokers",
+  "title": "Best Beekeeping Smokers",
+  "type": "roundup",
+  "pillar": "shop",
+  "parentSlug": "best-beginner-beekeeping-kit",
+  "priority": 2,
+  "seo": {
+    "primaryKeyword": "best bee smokers",
+    "secondaryKeywords": ["stainless steel smoker", "smoker fuel types"],
+    "targetWordCount": 1000
+  },
+  "affiliate": {
+    "targetProducts": ["Dadant Smoker", "Mann Lake Pro Smoker"],
+    "ctaText": "Check Price on Amazon"
+  },
+  "relatedSlugs": ["best-beekeeping-suits", "how-to-inspect-a-beehive"]
+}
