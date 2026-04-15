@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Competitor Analysis Report — Apex Search Co.</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="competitor-analysis.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-brand">Apex Search Co.</a>
+  <div class="nav-meta">
+    <span class="nav-report-label">Competitor Analysis Report</span>
+    <button class="nav-print" onclick="window.print()">Download PDF</button>
+  </div>
+</nav>
+
+<!-- REPORT HEADER -->
+<div class="report-header">
+  <div>
+    <div class="report-eyebrow">Competitor analysis report</div>
+    <h1 class="report-title">Search landscape review<br>for <em>yourclient.com</em></h1>
+    <div class="report-domains">
+      <span class="domain-chip client">yourclient.com — your site</span>
+      <span class="domain-chip competitor">competitor-a.com</span>
+      <span class="domain-chip competitor">competitor-b.com</span>
+      <span class="domain-chip competitor">competitor-c.com</span>
+    </div>
+  </div>
+  <div class="report-meta-block">
+    <div class="meta-row">
+      <span class="meta-label">Prepared by</span>
+      <span class="meta-value">Apex Search Co.</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Report date</span>
+      <span class="meta-value">April 2026</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Tools used</span>
+      <span class="meta-value">Semrush · Screaming Frog · GSC</span>
+    </div>
+    <div class="meta-row">
+      <span class="meta-label">Measurement window</span>
+      <span class="meta-value">Last 90 days</span>
+    </div>
+  </div>
+</div>
+
+<!-- EXECUTIVE SUMMARY -->
+<section class="report-section" id="summary">
+  <div class="section-inner">
+    <div class="section-eyebrow">Executive summary</div>
+    <h2 class="section-heading">The headline <em>numbers.</em></h2>
+    <p class="section-sub">A snapshot of where your site stands against the competitive field — and the size of the opportunity in front of you.</p>
+
+    <div class="summary-grid">
+      <div class="summary-stat">
+        <div class="summary-stat-label">Keyword gap</div>
+        <div class="summary-stat-value negative">247</div>
+        <div class="summary-stat-note">Keywords competitors rank for that you don't</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Traffic opportunity</div>
+        <div class="summary-stat-value positive">+8,400</div>
+        <div class="summary-stat-note">Est. monthly visits if top gaps are closed</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Backlink gap</div>
+        <div class="summary-stat-value negative">61</div>
+        <div class="summary-stat-note">Referring domains linking to competitors but not you</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Your domain authority</div>
+        <div class="summary-stat-value">34</div>
+        <div class="summary-stat-note">vs. competitor avg. of 48</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Technical score</div>
+        <div class="summary-stat-value negative">71/100</div>
+        <div class="summary-stat-note">vs. competitor-a.com at 89/100</div>
+      </div>
+      <div class="summary-stat">
+        <div class="summary-stat-label">Content gaps identified</div>
+        <div class="summary-stat-value positive">12</div>
+        <div class="summary-stat-note">Topic areas competitors cover that you don't</div>
+      </div>
+    </div>
+
+    <div class="insight-box">
+      <div class="insight-icon">
+        <svg viewBox="0 0 16 16"><path d="M8 1v6l4 2" stroke-linecap="round"/><circle cx="8" cy="8" r="6.5"/></svg>
+      </div>
+      <div class="insight-text">
+        <strong>Key finding:</strong> competitor-a.com ranks for 180 of your target keywords with a domain authority only 8 points above yours — meaning the gap is closable. The primary driver is content depth: their top 10 pages average 2,100 words vs. your 780. This is an execution gap, not an authority gap.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KEYWORD GAP -->
+<section class="report-section" id="keywords" style="background: var(--white);">
+  <div class="section-inner">
+    <div class="section-eyebrow">Keyword gap analysis</div>
+    <h2 class="section-heading">Where competitors rank<br>and <em>you don't.</em></h2>
+    <p class="section-sub">High-priority keywords your competitors are capturing. Sorted by traffic opportunity and filtered to realistic difficulty for your current authority.</p>
+
+    <div class="kw-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Keyword</th>
+            <th>Monthly volume</th>
+            <th>Difficulty</th>
+            <th>Competitor ranking</th>
+            <th>Your position</th>
+            <th>Priority</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>best [service] near me</td>
+            <td>3,600</td>
+            <td><span class="difficulty-badge diff-low">Low — 28</span></td>
+            <td>competitor-a.com #3</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[service] pricing guide</td>
+            <td>2,900</td>
+            <td><span class="difficulty-badge diff-low">Low — 31</span></td>
+            <td>competitor-b.com #5</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>how to choose a [service]</td>
+            <td>2,100</td>
+            <td><span class="difficulty-badge diff-low">Low — 24</span></td>
+            <td>competitor-a.com #2</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[service] vs [alternative]</td>
+            <td>1,800</td>
+            <td><span class="difficulty-badge diff-med">Med — 44</span></td>
+            <td>competitor-c.com #4</td>
+            <td>Page 3</td>
+            <td><span class="priority-dot p-med"></span>Medium</td>
+          </tr>
+          <tr>
+            <td>top [service] companies</td>
+            <td>1,600</td>
+            <td><span class="difficulty-badge diff-med">Med — 51</span></td>
+            <td>competitor-a.com #1</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-med"></span>Medium</td>
+          </tr>
+          <tr>
+            <td>[service] reviews 2026</td>
+            <td>1,200</td>
+            <td><span class="difficulty-badge diff-low">Low — 29</span></td>
+            <td>competitor-b.com #6</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[location] [service] experts</td>
+            <td>880</td>
+            <td><span class="difficulty-badge diff-low">Low — 22</span></td>
+            <td>competitor-a.com #2</td>
+            <td>Page 4</td>
+            <td><span class="priority-dot p-high"></span>High</td>
+          </tr>
+          <tr>
+            <td>[service] cost breakdown</td>
+            <td>720</td>
+            <td><span class="difficulty-badge diff-med">Med — 38</span></td>
+            <td>competitor-c.com #7</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-med"></span>Medium</td>
+          </tr>
+          <tr>
+            <td>[service] for small business</td>
+            <td>590</td>
+            <td><span class="difficulty-badge diff-high">High — 62</span></td>
+            <td>competitor-a.com #3</td>
+            <td>Not ranking</td>
+            <td><span class="priority-dot p-low"></span>Long-term</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- BACKLINK GAP -->
+<section class="report-section" id="backlinks">
+  <div class="section-inner">
+    <div class="section-eyebrow">Backlink gap</div>
+    <h2 class="section-heading">Sites that link to competitors<br>but <em>not you.</em></h2>
+    <p class="section-sub">These referring domains are already vouching for companies in your space. Each is a warm outreach opportunity with a strong case for a link.</p>
+
+    <div class="backlink-grid">
+      <div class="backlink-item">
+        <div class="backlink-domain">industry-directory.com</div>
+        <div class="backlink-meta">DA 68 · Links to competitor-a and competitor-b</div>
+        <div class="backlink-note">A well-regarded industry listing site. Both competitors have paid directory profiles. A free listing is available; a sponsored placement is ~$120/yr.</div>
+        <div class="backlink-action">→ Submit free listing</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">localbizreview.com</div>
+        <div class="backlink-meta">DA 54 · Links to competitor-a</div>
+        <div class="backlink-note">A local business review aggregator. Competitor-a was featured in a "top 10" roundup article. Reach out to the editorial team with a pitch and case study.</div>
+        <div class="backlink-action">→ Editorial outreach</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">industryblog.net</div>
+        <div class="backlink-meta">DA 61 · Links to all three competitors</div>
+        <div class="backlink-note">Publishes weekly guest posts from practitioners. Competitor-c contributed a how-to article that now ranks for 340 keywords. Strong guest post opportunity.</div>
+        <div class="backlink-action">→ Pitch a guest post</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">stateassociation.org</div>
+        <div class="backlink-meta">DA 72 · Links to competitor-b</div>
+        <div class="backlink-note">The regional industry association member directory. Competitor-b is a paid member. Membership includes a dofollow directory link and event listings.</div>
+        <div class="backlink-action">→ Apply for membership</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">techresource.io</div>
+        <div class="backlink-meta">DA 58 · Links to competitor-a and competitor-c</div>
+        <div class="backlink-note">A curated tools and services resource. Both competitors appear in their "recommended vendors" section. Reach out with a product overview and ask to be considered.</div>
+        <div class="backlink-action">→ Submit for review</div>
+      </div>
+      <div class="backlink-item">
+        <div class="backlink-domain">newsmagazine.com</div>
+        <div class="backlink-meta">DA 81 · Links to competitor-b</div>
+        <div class="backlink-note">A high-authority trade publication. Competitor-b was quoted as an expert source in two articles. Identify their regular contributors and pitch comment/quote opportunities.</div>
+        <div class="backlink-action">→ Expert source outreach</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNICAL COMPARISON -->
+<section class="report-section" id="technical" style="background: var(--white);">
+  <div class="section-inner">
+    <div class="section-eyebrow">Technical comparison</div>
+    <h2 class="section-heading">Head-to-head <em>site health.</em></h2>
+    <p class="section-sub">A direct comparison of the technical factors that influence crawlability, indexing, and page experience scores across the competitive set.</p>
+
+    <div class="tech-compare">
+      <div class="tech-compare-header">
+        <div class="tc-head">Factor</div>
+        <div class="tc-head client-col">yourclient.com</div>
+        <div class="tc-head">competitor-a.com</div>
+        <div class="tc-head">competitor-b.com</div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Page speed (LCP)<span>Largest Contentful Paint — mobile</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">3.8s — Slow</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">1.9s — Fast</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">2.6s — OK</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Core Web Vitals<span>Google's page experience signals</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">Failing</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Passing</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Passing</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Schema markup<span>Structured data for rich results</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">Basic only</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Full — FAQ + Review</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">Partial</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Mobile usability<span>Google mobile-friendliness test</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">3 issues</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">No issues</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">No issues</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Internal linking depth<span>Avg. clicks from homepage to any page</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">4.2 clicks avg.</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">2.1 clicks avg.</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">2.8 clicks avg.</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Broken links<span>4xx errors found in crawl</span></div>
+        <div class="tc-val"><span class="tc-status tc-bad">18 found</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">0 found</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">3 found</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">HTTPS / security<span>SSL certificate status</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Valid</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Valid</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Valid</span></div>
+      </div>
+      <div class="tech-compare-row">
+        <div class="tc-factor">Sitemap & robots.txt<span>Crawl configuration</span></div>
+        <div class="tc-val"><span class="tc-status tc-warn">Sitemap outdated</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Configured</span></div>
+        <div class="tc-val"><span class="tc-status tc-good">Configured</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTENT GAPS -->
+<section class="report-section" id="content">
+  <div class="section-inner">
+    <div class="section-eyebrow">Content gaps</div>
+    <h2 class="section-heading">Topics competitors own<br>that you <em>don't cover.</em></h2>
+    <p class="section-sub">These are entire subject areas where competitors have established content — often ranking across dozens of related keywords — with no equivalent on your site.</p>
+
+    <div class="content-gap-list">
+      <div class="content-gap-item">
+        <div class="gap-num">01</div>
+        <div class="gap-content">
+          <div class="gap-topic">Pricing and cost guides</div>
+          <div class="gap-desc">Competitor-a has a dedicated pricing page with a cost estimator that ranks for 34 "how much does X cost" queries. Buyers researching price are high-intent — no pricing content means you're invisible at a critical decision point.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">34 keywords</span>
+            <span class="gap-tag">Est. 1,200 visits/mo</span>
+            <span class="gap-tag">New page needed</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-high">High impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">02</div>
+        <div class="gap-content">
+          <div class="gap-topic">FAQ and "how to" content</div>
+          <div class="gap-desc">Competitor-b has a 40-question FAQ hub that captures featured snippets for 18 queries. These are zero-click opportunities that build authority. Your site has no FAQ section, missing easy ranking chances for long-tail questions.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">22 keywords</span>
+            <span class="gap-tag">Featured snippet potential</span>
+            <span class="gap-tag">New section needed</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-high">High impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">03</div>
+        <div class="gap-content">
+          <div class="gap-topic">Comparison and alternative pages</div>
+          <div class="gap-desc">All three competitors have "[brand] vs [competitor]" landing pages targeting buyers in evaluation mode. These pages rank well because they match exact search intent. You have no comparison content — ceding high-converting traffic to rivals.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">15 keywords</span>
+            <span class="gap-tag">High conversion intent</span>
+            <span class="gap-tag">3 pages needed</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-high">High impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">04</div>
+        <div class="gap-content">
+          <div class="gap-topic">Case studies and results pages</div>
+          <div class="gap-desc">Competitor-c has 12 detailed case study pages that rank for "[industry] results" and "[service] success story" queries. These also serve as trust signals for conversion. Your testimonials page doesn't contain enough indexed content to compete.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">8 keywords</span>
+            <span class="gap-tag">Trust + SEO value</span>
+            <span class="gap-tag">Expand existing page</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-med">Medium impact</div>
+      </div>
+      <div class="content-gap-item">
+        <div class="gap-num">05</div>
+        <div class="gap-content">
+          <div class="gap-topic">Location-specific landing pages</div>
+          <div class="gap-desc">Competitor-a and competitor-b both have individual pages for each city they serve, allowing them to rank for "[city] + [service]" searches. Your single location page is indexed but too thin to rank for city-level queries.</div>
+          <div class="gap-tags">
+            <span class="gap-tag">Local SEO</span>
+            <span class="gap-tag">Est. 600 visits/mo</span>
+            <span class="gap-tag">Expand or create per-city pages</span>
+          </div>
+        </div>
+        <div class="gap-impact impact-med">Medium impact</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTION PLAN -->
+<section class="report-section action-section" id="actions">
+  <div class="section-inner">
+    <div class="section-eyebrow">Action plan</div>
+    <h2 class="section-heading">What to do <em>first.</em></h2>
+    <p class="section-sub">Prioritised by impact and effort — the quick wins that move the needle fastest, the mid-term buildouts, and the long-game plays.</p>
+
+    <div class="action-grid">
+      <div class="action-col">
+        <div class="action-col-header">Quick wins — 0 to 30 days</div>
+        <div class="action-item">
+          <div class="action-item-title">Fix 18 broken links</div>
+          <div class="action-item-desc">Redirect or restore all 4xx errors found in crawl. Immediate crawl efficiency gain.</div>
+          <span class="action-item-tool">Screaming Frog</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Update sitemap</div>
+          <div class="action-item-desc">Regenerate and resubmit sitemap to Search Console to ensure full indexing.</div>
+          <span class="action-item-tool">Search Console</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Add FAQ schema</div>
+          <div class="action-item-desc">Implement FAQ structured data on top 5 pages to qualify for rich snippets.</div>
+          <span class="action-item-tool">Search Console</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Submit free directory listings</div>
+          <div class="action-item-desc">Claim profiles on industry-directory.com and stateassociation.org for quick backlinks.</div>
+          <span class="action-item-tool">Semrush</span>
+        </div>
+      </div>
+      <div class="action-col">
+        <div class="action-col-header">Build out — 30 to 60 days</div>
+        <div class="action-item">
+          <div class="action-item-title">Create pricing guide page</div>
+          <div class="action-item-desc">Dedicated pricing page targeting 34 cost-related keywords. Include a simple estimator.</div>
+          <span class="action-item-tool">Semrush · GitHub</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Improve page speed</div>
+          <div class="action-item-desc">Address LCP issues to pass Core Web Vitals. Target under 2.5s on mobile.</div>
+          <span class="action-item-tool">Netlify · GA4</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Launch FAQ hub</div>
+          <div class="action-item-desc">Publish 20+ answers to common queries, each with structured data markup.</div>
+          <span class="action-item-tool">Semrush · GitHub</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Internal linking audit</div>
+          <div class="action-item-desc">Reduce average click depth from 4.2 to under 3 through improved navigation and linking.</div>
+          <span class="action-item-tool">Screaming Frog</span>
+        </div>
+      </div>
+      <div class="action-col">
+        <div class="action-col-header">Long game — 60 to 90 days</div>
+        <div class="action-item">
+          <div class="action-item-title">Comparison landing pages</div>
+          <div class="action-item-desc">Build 3 comparison pages targeting evaluation-stage buyers. High conversion potential.</div>
+          <span class="action-item-tool">Semrush · GitHub</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Guest post campaign</div>
+          <div class="action-item-desc">Pitch and place 2 guest articles on industryblog.net and newsmagazine.com.</div>
+          <span class="action-item-tool">Semrush</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Location pages</div>
+          <div class="action-item-desc">Create individual city landing pages for top 5 service areas to capture local queries.</div>
+          <span class="action-item-tool">GA4 · Search Console</span>
+        </div>
+        <div class="action-item">
+          <div class="action-item-title">Case study expansion</div>
+          <div class="action-item-desc">Develop 3 detailed case study pages with results data to build authority and trust.</div>
+          <span class="action-item-tool">GA4 · GitHub</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">Apex Search Co.</div>
+    <div class="footer-note">
+      Report prepared for yourclient.com · April 2026<br>
+      hello@apexsearch.co · apexsearch.co
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

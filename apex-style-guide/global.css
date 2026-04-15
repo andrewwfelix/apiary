@@ -1,0 +1,277 @@
+/* ==============================================
+   apex-search.co — Global Stylesheet
+   global.css
+   
+   Import this file on every page.
+   ============================================== */
+
+/* GOOGLE FONTS — also add this to every <head>:
+   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+*/
+
+/* -----------------------------------------------
+   RESET
+----------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+/* -----------------------------------------------
+   DESIGN TOKENS (CSS Variables)
+   Change these to retheme the entire site.
+----------------------------------------------- */
+:root {
+  /* Core palette */
+  --ink: #1a1a18;          /* Primary text */
+  --ink-mid: #4a4a46;      /* Body text */
+  --ink-light: #8a8a84;    /* Labels, muted text */
+  --cream: #f7f5f0;        /* Page background */
+  --cream-dark: #ede9e0;   /* Hover states, subtle fills */
+  --white: #ffffff;
+
+  /* Accent (green) */
+  --accent: #2d5a3d;
+  --accent-light: #4a8c60;
+  --accent-pale: #e8f2ec;
+
+  /* Borders & rules */
+  --rule: #d4cfc4;
+
+  /* Status colours */
+  --warn: #8a4e0f;
+  --warn-pale: #fdf0e4;
+  --warn-rule: #e8c99a;
+  --danger: #8a1f1f;
+  --danger-pale: #fdeaea;
+  --danger-rule: #e8aaaa;
+}
+
+/* -----------------------------------------------
+   BASE BODY
+----------------------------------------------- */
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+/* -----------------------------------------------
+   NAVIGATION
+----------------------------------------------- */
+nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(247, 245, 240, 0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--rule);
+    padding: 0 48px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+    align-items: center;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--ink-mid);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--ink); }
+
+  .nav-cta {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white) !important;
+    background: var(--accent);
+    padding: 9px 22px;
+    border-radius: 40px;
+    transition: background 0.2s !important;
+  }
+
+  .nav-cta:hover { background: var(--accent-light) !important; color: var(--white) !important; }
+
+/* -----------------------------------------------
+   BUTTONS
+----------------------------------------------- */
+.btn-primary {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--white);
+  background: var(--accent);
+  padding: 13px 28px;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.btn-primary:hover { background: var(--accent-light); transform: translateY(-1px); }
+
+.btn-ghost {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--ink-mid);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.btn-ghost:hover { color: var(--ink); border-color: var(--ink-mid); }
+
+/* -----------------------------------------------
+   BREADCRUMB  (used on child pages)
+----------------------------------------------- */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--ink-light);
+  letter-spacing: 0.04em;
+}
+
+.breadcrumb a {
+  color: var(--ink-light);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumb a:hover { color: var(--ink-mid); }
+.breadcrumb-sep { opacity: 0.4; }
+.breadcrumb-current { color: var(--accent); }
+
+/* -----------------------------------------------
+   SECTION EYEBROW  (shared heading pattern)
+----------------------------------------------- */
+.section-eyebrow {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-eyebrow::before {
+  content: '';
+  display: block;
+  width: 28px;
+  height: 1px;
+  background: var(--accent);
+}
+
+/* -----------------------------------------------
+   STATUS BADGES  (used in tables and comparisons)
+----------------------------------------------- */
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.badge-green  { background: var(--accent-pale);  color: var(--accent);  border: 1px solid #b8d9c3; }
+.badge-amber  { background: var(--warn-pale);    color: var(--warn);    border: 1px solid var(--warn-rule); }
+.badge-red    { background: var(--danger-pale);  color: var(--danger);  border: 1px solid var(--danger-rule); }
+.badge-neutral { background: var(--cream-dark); color: var(--ink-mid); border: 1px solid var(--rule); }
+
+/* -----------------------------------------------
+   FOOTER
+----------------------------------------------- */
+footer {
+    background: var(--ink);
+    padding: 64px 48px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .footer-brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--white);
+    margin-bottom: 8px;
+  }
+
+  .footer-tagline {
+    font-size: 13px;
+    font-weight: 300;
+    color: #6a6a64;
+  }
+
+  .footer-contact {
+    text-align: right;
+  }
+
+  .footer-contact a {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #9a9a94;
+    text-decoration: none;
+    margin-bottom: 6px;
+    transition: color 0.2s;
+  }
+
+  .footer-contact a:hover { color: var(--white); }
+
+/* -----------------------------------------------
+   ANIMATIONS
+----------------------------------------------- */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* -----------------------------------------------
+   RESPONSIVE BASE
+----------------------------------------------- */
+@media (max-width: 900px) {
+  nav { padding: 0 24px; }
+
+  .footer-inner {
+    flex-direction: column;
+    gap: 28px;
+    align-items: flex-start;
+  }
+
+  .footer-contact { text-align: left; }
+}
