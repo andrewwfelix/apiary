@@ -1,201 +1,142 @@
-[//]: # (Destination: apiary/README.md)
-
 # TheApiaryGuide.com
 ==========================================
 Last updated: April 15 2026
+Repo: https://github.com/andrewwfelix/apiary
 
 ---
 
 ## Current Status
-- Domain: TheApiaryGuide.com (owned)
-- Git repo: separate from BooksVersusMovies
-- First 7 pages generated via pipeline-apiary-batch.js
-- Static HTML site running locally, ready for Netlify deploy
-- Stack: static HTML + CSS (presentation build) — WordPress later if client/revenue warrants
+- 7 pages generated and live in repo (priority 1)
+- Static HTML site — ready for Netlify deploy
+- Design system: Apex Search Co. aesthetic (Cormorant Garamond + DM Sans, forest green accent)
+- Pipeline working end to end — outlines in data/outlines/, pages at root
+- Next: generate remaining 23 pages, deploy to Netlify, add affiliate IDs
 
 ---
 
 ## Project Overview
+- Domain: TheApiaryGuide.com (owned)
 - Type: Affiliate + informational content site
 - Niche: Beekeeping — passionate community, recurring purchases, underserved online
-- Monetization: Amazon Associates (home & garden / outdoor — 3-4.5% commission)
+- Monetization: Amazon Associates (home & garden / outdoor — 3-4.5%)
 - Goal: Become the definitive beekeeping resource — big fish, small pond
-- Current phase: presentation build — generate all 30 pages fast, deploy, show stakeholders
+- Current phase: presentation build — generate all 30 pages, deploy, show stakeholders
+- Future: WordPress migration if client win or community features needed
 
 ---
 
-## Stack — Current (Presentation Build)
-- Platform: Static HTML + CSS
-  - Reason: fastest to build, full design control, zero hosting complexity
-  - Pipeline generates all pages in minutes at minimal cost
-- Hosting: Netlify (free tier)
-- CSS: apiary.css — custom design system (honey/hive palette, Playfair Display + Source Serif 4)
+## Stack
+- Platform: Static HTML + CSS (presentation build)
+- Hosting: Netlify (free tier) — not yet deployed
+- CSS: css/apiary.css — Apex Search design system with green accent
+- Fonts: Cormorant Garamond (display) + DM Sans (body) via Google Fonts
 - Pipeline: pipeline-apiary-batch.js — two-pass LLM batch generator
-  - Pass 1 (Sonnet/Haiku): generates structured outline per page
-  - Pass 2 (Haiku): implements outline into full HTML
-  - Driven by apiary-manifest.json — 30 pages defined
-  - Est. cost for all 30 pages: ~$0.50 total
-- Config: config.json — site name, domain, model assignments
-- Env: .env — OPENROUTER_API_KEY (same key as BooksVersusMovies)
-
----
-
-## Stack — Future (If Project Moves Forward)
-- Platform: WordPress
-- Hosting: SiteGround (~$2.99/mo intro)
-- Affiliate plugin: AAWP (~$49/year)
-  - Live Amazon pricing, product images, star ratings, compliance
-- SEO plugin: Rank Math (free)
-- Theme: Astra or Kadence (free)
-- Email: ConvertKit — capture from day one
-- Transition trigger: client win, revenue milestone, or community features needed
-
----
-
-## Site Structure — Four Pillars
-
-- Shop
-  - Best-of roundups (best beginner kit, best smoker, best suit under $100)
-  - Gear comparisons (X vs Y)
-  - Single product reviews
-  - Seasonal buying guides
-
-- Learn
-  - Beginner's complete guide (highest search volume)
-  - How-to content (how to inspect a hive, how to harvest honey)
-  - Science and biology of bees
-  - Common problems and solutions
-
-- Discover
-  - History of beekeeping (long-form, evergreen, shareable)
-  - Famous beekeepers (Langstroth, etc.)
-  - Books about beekeeping (affiliate links to Amazon)
-  - Movies and documentaries about bees (affiliate links)
-  - The science of honey
-
-- Community
-  - Local clubs directory (filterable by state/region) — link bait
-  - Beekeeper Spotlight (interview profiles — outreach driven)
-  - Events and workshops
-  - Submit your club form (interactive)
-
----
-
-## Beekeeper Spotlight
-- Profile local and notable beekeepers — community outreach driven
-- Builds relationships and natural backlinks
-- Format: short Q&A profile
-  - Who are you / how long beekeeping?
-  - What got you started?
-  - Best advice for beginners?
-  - Favorite product?
-- Strategic value: featured beekeepers and clubs share and link back
-- Outreach: local clubs, beekeeping Facebook groups, Instagram
-
----
-
-## Community Directory
-- Filterable by state/region
-- Links to club websites, Facebook groups, associations
-- National orgs: American Beekeeping Federation, Honey Bee Health Coalition
-- State-level extensions and agriculture departments
-- Submit your club form
-- Massive link bait — clubs link back when listed
-
----
-
-## Page Inventory (apiary-manifest.json)
-30 pages defined across 6 types:
-- roundup (7) — affiliate-heavy best-of lists
-- guide (7) — how-to and beginner content
-- editorial (4) — history, science, cultural — authority building
-- comparison (2) — X vs Y direct comparisons
-- directory (3) — clubs, associations, regulations
-- spotlight (1) — beekeeper profiles hub
-
-Priority 1 (8 pages) — launch set:
-- best-beginner-beekeeping-kit
-- best-beekeeping-suits
-- langstroth-vs-top-bar-vs-warre
-- beginners-guide-to-beekeeping
-- beekeeping-clubs-directory
-- beekeeping-for-beginners
-- about
-- (best-beginner-beekeeping-kit — roundup)
+- Config: config.json — site name, domain, model assignments (not in repo)
+- Env: .env — OPENROUTER_API_KEY (not in repo — never commit this)
 
 ---
 
 ## Pipeline Architecture
 
-Two-pass batch generation:
-- Pass 1 — Sonnet/Haiku architects each page
+Two-pass batch generation driven by apiary-manifest.json:
+
+- Pass 1 — Haiku/Sonnet architects each page
   - Input: title, type, pillar, search intent, notes from manifest
-  - Output: structured JSON outline (sections, headings, affiliate placement)
-  - Saved to: data/outlines/<slug>.json
+  - Output: structured JSON outline saved to data/outlines/<slug>.json
 - Pass 2 — Haiku implements the outline
-  - Input: outline JSON + shared HTML template
-  - Output: complete HTML page
-  - Written to: apiary root folder
+  - Input: outline JSON + HTML template in renderPage()
+  - Output: complete HTML page written to root folder
 
-Commands:
-- node pipeline-apiary-batch.js          (priority 1 pages)
-- node pipeline-apiary-batch.js --all    (all 30 pages)
-- node pipeline-apiary-batch.js --slug X (single page)
-- node pipeline-apiary-batch.js --pass 2 (re-render from existing outlines)
-- node pipeline-apiary-batch.js --dry    (preview only)
-
----
-
-## Design System (apiary.css)
-- Honey amber (#f5a623) — accent, CTAs, logo, borders
-- Hive brown (#1e1208) — header, footer, hero backgrounds
-- Cream/parchment — content area backgrounds
-- Playfair Display — headings (authoritative, editorial)
-- Source Serif 4 — body text (clean, readable)
-- Inter — UI elements, nav, badges, labels
-- Green buy buttons — matches BooksVersusMovies Book Wins style
+Commands (run from apiary/ folder):
+- node pipeline-apiary-batch.js              (priority 1 pages — default)
+- node pipeline-apiary-batch.js --all        (all 30 pages)
+- node pipeline-apiary-batch.js --slug X     (single page)
+- node pipeline-apiary-batch.js --pass 2     (re-render from existing outlines)
+- node pipeline-apiary-batch.js --dry        (preview only, no API calls)
 
 ---
 
-## Pipeline Clone Strategy
-- This project IS the clone proof of concept
-- What changes per vertical:
-  - config.json (site name, domain, colors)
-  - apiary-manifest.json (page inventory)
-  - css/<site>.css (design system)
-  - Prompt tone in Pass 1/2 system prompts
-- What stays the same:
-  - pipeline-apiary-batch.js architecture
-  - Two-pass Sonnet/Haiku pattern
-  - HTML template structure
-  - deploy.js workflow
-- Other potential verticals:
-  - Aquarium planted tanks
-  - Van life / car camping
-  - Home fermentation and brewing
-  - Adaptive and accessible gear
-  - Amateur radio (ham radio)
+## Site Structure — Four Pillars
+
+- Shop      — best-of roundups, gear comparisons, buying guides (affiliate-heavy)
+- Learn     — beginner guides, how-to, seasonal calendar, science
+- Discover  — history, famous beekeepers, books, documentaries (link bait)
+- Community — clubs directory (filterable), Beekeeper Spotlight, events
+
+---
+
+## Beekeeper Spotlight
+- Profile local and notable beekeepers — community outreach driven
+- Format: Q&A (background, origin story, advice, favourite product)
+- Strategic value: featured beekeepers share and link back
+- Outreach: local clubs, beekeeping Facebook groups, Instagram
+
+---
+
+## Community Directory
+- Clubs filterable by state/region
+- National orgs: American Beekeeping Federation, Honey Bee Health Coalition
+- Submit your club form (interactive — needs JS or WordPress)
+- Biggest link bait asset on the site
+
+---
+
+## Page Inventory (apiary-manifest.json)
+30 pages across 6 types. Priority 1 (7 pages) generated:
+- best-beginner-beekeeping-kit      (roundup)
+- best-beekeeping-suits             (roundup)
+- langstroth-vs-top-bar-vs-warre    (comparison)
+- beginners-guide-to-beekeeping     (guide)
+- beekeeping-clubs-directory        (directory)
+- beekeeping-for-beginners          (guide)
+- about                             (editorial)
+
+Remaining 23 pages at priority 2-3 — run node pipeline-apiary-batch.js --all
+
+---
+
+## Design System
+- Based exactly on Apex Search Co. (style-examples/apex-search.html)
+- Forest green accent: #2d5a3d / #4a8c60
+- Cream background: #f7f5f0
+- Cormorant Garamond serif headings (lightweight, editorial)
+- DM Sans body (clean, minimal)
+- Eyebrow line pattern on all section headers
+- Index page: fixed nav with backdrop blur, hero grid, stats card
+- Inner pages: no blur, sticky sidebar, Cormorant heading, green CTA block
+
+---
+
+## Files
+- index.html                    — homepage (Apex Search layout)
+- css/apiary.css                — shared stylesheet (extracted from apex-search.html)
+- pipeline-apiary-batch.js      — batch page generator
+- apiary-manifest.json          — 30-page inventory with types and notes
+- config.json                   — site config + model assignments (not in repo)
+- .env                          — API key (not in repo — add to .gitignore)
+- data/outlines/                — Pass 1 JSON outlines (can be regenerated)
+- data/pages/                   — intermediate Pass 2 HTML (same as root pages)
+- style-examples/               — reference designs
 
 ---
 
 ## Next Steps
-- [ ] Finish generating all 7 priority 1 pages
-- [ ] Review pages locally: npx serve .
+- [ ] Remove .env from git tracking: git rm --cached .env
+- [ ] Update .gitignore to exclude data/outlines/, data/pages/, .env
+- [ ] Add Amazon affiliate ID to config.json
 - [ ] Generate remaining 23 pages: node pipeline-apiary-batch.js --all
-- [ ] Point theapiaryguide.com at Netlify — deploy
+- [ ] Deploy to Netlify — point theapiaryguide.com
 - [ ] Submit sitemap to GSC
-- [ ] Add Amazon affiliate ID to config.json and links
 - [ ] Add ConvertKit email capture
+- [ ] First Beekeeper Spotlight outreach
+- [ ] Seed clubs directory with 20-30 national/major clubs
 - [ ] Build presentation deck
-- [ ] Community outreach — first beekeeper spotlight target
-- [ ] Clubs directory — seed with 20-30 national/major clubs
 
 ---
 
 ## Notes
-- "Discover" pillar is the strategic differentiator — most affiliate sites
-  skip cultural content, this is what builds authority and earns backlinks
-- Interactive community features favor WordPress — keep in mind for transition
+- Discover pillar is the strategic differentiator — builds authority and earns backlinks
+- Interactive community features (filterable directory, submission forms) favor WordPress
 - Don't repeat BVM mistake — add email capture from day one
-- jsonrepair library available in node_modules from BooksVersusMovies — copy
-  package.json or run npm install jsonrepair in apiary/ if needed
+- jsonrepair available if needed: npm install jsonrepair
+- This repo is a template for future vertical sites — swap config.json and manifest
