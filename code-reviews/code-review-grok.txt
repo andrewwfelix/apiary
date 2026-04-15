@@ -1,0 +1,159 @@
+This keeps source separate from output — much better for maintenance, especially as you generate the remaining 23 pages.
+Where We Should Start the Code Review
+Start here: pipeline-apiary-batch.js
+This is the core of your entire system. Everything else (generated pages, outlines, design consistency) flows from it. Reviewing this file first will give the highest impact.
+Why prioritize this file?
+
+It drives the two-pass architecture (Pass 1: outline generation, Pass 2: HTML rendering via renderPage()).
+The README explicitly calls out that inner pages feel less polished because renderPage() currently uses inline styles instead of CSS classes.
+Fixing/improving the pipeline now prevents technical debt when you run --all for the remaining pages.
+Common LLM-pipeline risks (inconsistent HTML output, malformed markup, poor separation of content vs presentation) usually live in the rendering logic.
+
+Suggested Code Review Focus Areas (in order):
+
+Overall Structure & Readability
+How the script parses arguments (--all, --slug, --pass, --dry).
+Error handling and logging (especially around API calls and JSON parsing).
+Use of jsonrepair if mentioned.
+
+Pass 1 (Outline Generation)
+Prompt quality for the architect model (Haiku/Sonnet).
+How it saves structured JSON to data/outlines/.
+
+Pass 2 (HTML Rendering) — Highest Priority
+The renderPage() function: This is where design inconsistency lives.
+How it consumes the outline JSON.
+Current use of inline styles vs. classes from apiary.css.
+HTML template quality (head, meta, navigation, sidebar, footers, etc.).
+Placeholder insertion for affiliate links, internal links, CTAs.
+
+Internal Linking & Reusability
+Any existing logic for adding related links or cross-pillar navigation (currently a gap noted in reviews).
+
+Configuration & Environment
+How it loads config.json, manifest, and .env.
+Model assignments and API key handling.
+
+Output & Side Effects
+Writing files to root vs. data/pages/.
+Any duplication or cleanup logic.
+
+
+Next files to review after the pipeline:
+
+apiary-manifest.json (structure, priorities, notes — ensures good input quality).
+apiary.css (or the root version) — to define the reusable classes needed for inner pages.
+index.html — as the design reference / gold standard.
+
+Quick Action Recommendations Before Full Review
+
+Add a proper .gitignore (exclude .env, data/outlines/, data/pages/ if they're intermediate, and all generated root HTML if you move to a public/ folder).
+Create package.json if missing (with scripts like "generate": "node pipeline-apiary-batch.js", dependencies for any libs like jsonrepair).
+Consider moving generated HTML to a public/ or dist/ folder to clean the root.
+
+Would you like me to:
+
+Provide a detailed code review checklist tailored specifically for pipeline-apiary-batch.js?
+Suggest specific improvements to renderPage() for better CSS class usage?
+Help refactor the folder structure with exact move commands?
+
+Just paste the content of pipeline-apiary-batch.js (or relevant sections) and we can dive straight into a line-by-line style review. This is the highest-leverage place to start.1.2sFastpipeline-apiary-batch.jsRefer to the following content:Here's a focused, high-impact code review of pipeline-apiary-batch.js (the core of your two-pass LLM pipeline for TheApiaryGuide.com).
+I prioritized the areas that most directly affect your current pain points (design inconsistency on inner pages, scalability for the remaining 23 pages, maintainability, and SEO/affiliate readiness) while covering security, robustness, and best practices for a Node.js static site generator.
+1. Critical Issues (Fix These First)
+Inline styles in renderPage() — This is the #1 blocker
+The README and previous reviews correctly flagged this. The function hard-codes a lot of style="" attributes (hero, grid layout, sidebar cards, buttons, footer, etc.). This:
+
+Duplicates effort with apiary.css
+Makes inner pages look inconsistent with index.html
+Creates massive cleanup debt when you generate the remaining pages
+
+Recommendation:
+Move all layout/presentation into CSS classes in css/apiary.css (or the root version). Update renderPage() to output clean, class-based HTML like:
+HTML<div class="inner-hero">
+  <div class="inner-hero-content">
+    <span class="section-eyebrow">${page.pillar}</span>
+    <h1 class="page-h1">${outline.h1}</h1>
+    ...
+  </div>
+</div>
+
+<div class="page-layout">
+  <main class="page-main">...</main>
+  <aside class="page-sidebar">...</aside>
+</div>
+Add classes such as .inner-hero, .page-layout, .page-main, .sidebar-widget, .cta-button, etc. Then make inner pages visually match the homepage.
+Hard-coded navigation & links
+The <nav>, sidebar CTAs, and footer contain many hardcoded links (e.g., best-beginner-beekeeping-kit.html, beginners-guide-to-beekeeping.html, history-of-beekeeping.html which may not even exist yet). This will break or look incomplete as you add pages.
+Fix: Pull navigation/sidebar/footer data from config.json or the manifest. Make renderPage() accept (or load) a shared nav config so links stay in sync.
+Output paths inconsistency
+
+Outlines go to data/outlines/
+Intermediate pages to data/pages/
+Final deploy copies to root (DEPLOY_DIR = __dirname)
+But the comment at the top mentions data/apiary/outlines and data/apiary/pages (mismatch with actual code).
+
+Clean this up. Consider a proper build output folder (e.g., dist/ or public/) for Netlify deployment, and keep root for source only.
+2. High-Impact Improvements (Do Next)
+Internal linking is missing
+The Pass 1 prompt asks for "internalLinks": [string] (good!), but:
+
+processPage() and renderPage() completely ignore this field.
+Pass 2 prompt doesn't instruct the writer to actually insert the links.
+
+Fix:
+In Pass 2 system prompt, add: "Naturally incorporate the suggested internalLinks where they fit contextually (e.g., 'You might also like...', 'Related guide:')."
+Then in renderPage(), after the main content, add a "Related Pages" section using outline.internalLinks.
+Affiliate placeholders
+Pass 2 prompt tells the model to use <a href="AFFILIATE_PLACEHOLDER_slug" class="affiliate-link">. But renderPage() does nothing to replace these. Same for future Amazon IDs.
+Add post-processing in processPage() after getting content:
+JavaScriptcontent = content.replace(/AFFILIATE_PLACEHOLDER_(\w+)/g, (match, slug) => {
+  // lookup real affiliate URL from config or manifest
+  return `https://amazon.com/...?tag=YOURTAG-20`;
+});
+Error handling & robustness
+
+JSON parsing is decent (strips fences, fallback to jsonrepair), but failures are silent-ish in some paths.
+No validation that the outline actually matches the expected schema.
+API calls can fail silently on network issues; consider retries (simple exponential backoff).
+
+Security / Production notes
+
+API key loading from .env is basic but functional.
+No input sanitization on model output before writing HTML (risk of malformed or malicious-looking HTML from the LLM, though low here).
+Consider adding a simple HTML sanitizer if you ever let user-submitted content in.
+
+3. Good Things (Strengths)
+
+Clean argument parsing and flexible flags (--slug, --all, --pass, --priority, --dry, --concurrency).
+Two-pass separation is excellent.
+Dry-run mode and cost estimation are thoughtful.
+.env loading, config fallback, and site constants are solid.
+Concurrency batching with pause is smart for rate limits/cost control.
+Use of semantic HTML instructions in Pass 2 prompt.
+
+4. Medium/Lower Priority Suggestions
+
+Add package.json with scripts ("generate": "node pipeline-apiary-batch.js", "generate:all": "node ... --all") and dependencies (add jsonrepair explicitly if used).
+Consider splitting renderPage() into a separate module (or even a simple template file) for easier maintenance.
+Add basic logging or a --verbose flag.
+For future: generate a sitemap.xml automatically at the end.
+Update paths in comments/header to match reality.
+The accent color in SITE is set to #f5a623 (orange) but README mentions forest green (#2d5a3d). Align them.
+
+Where to Start Implementing Changes (Recommended Order)
+
+Today / This session: Refactor renderPage() to use CSS classes only (no inline styles except maybe dynamic ones). Extend apiary.css accordingly. Test with one existing page.
+Next: Make navigation/sidebar/footer data-driven (from config or manifest).
+Then: Wire up internalLinks from outline into rendered HTML + update Pass 2 prompt.
+Then: Handle affiliate placeholders and any other dynamic replacements.
+After that: Generate the remaining pages with --all (or --priority 2).
+
+This order prevents you from creating 23 more pages with the current styling debt.
+Would you like me to:
+
+Provide a refactored version of the renderPage() function using proper classes?
+Suggest specific CSS class names and structure to add to apiary.css?
+Give an updated Pass 2 system prompt that better enforces internal linking and affiliate handling?
+Or review another file next (e.g., apiary-manifest.json or apiary.css)?
+
+Just say the word and paste more code if needed. This pipeline is already quite capable — a few targeted fixes will make it much more professional and scalable.1.6sFast

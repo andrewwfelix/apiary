@@ -1,0 +1,21 @@
+CSS is  still not good enough
+1. title is indented too much
+2. text color dossn't match the text color of index.tnml
+3. too much space between these tow lines:
+
+	have distinct advantages, maintenance requirements, and honey yields. This guide breaks down exactly how they compare so you can pick the right hive for your goals, experience level, and backyard setup.
+
+	Quick Comparison: Langstroth vs Top Bar vs Warre
+
+
+4. the text isn't the full witdth of the page, 
+5. I don't want to use bullet points, index.html doesnt' 
+
+
+6. too much space between thiee linesl
+
+	values standardization and ease of troubleshooting.
+
+	Complete 10-Frame Langstroth Starter Kit with Frames and Foundation
+
+	Top Bar Hive: The Low-Intervention Option
