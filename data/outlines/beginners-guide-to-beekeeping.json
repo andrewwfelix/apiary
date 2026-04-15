@@ -1,0 +1,98 @@
+{
+  "slug": "beginners-guide-to-beekeeping",
+  "pageTitle": "The Complete Beginner's Guide to Beekeeping in 2024",
+  "metaDesc": "Start beekeeping with confidence. Learn equipment needs, hive setup, bee care basics, and first-year expectations. Everything beginners need to succeed.",
+  "h1": "The Complete Beginner's Guide to Beekeeping",
+  "intro": "Starting beekeeping feels overwhelming, but thousands of beginners successfully launch their first hive every year with the right guidance. This comprehensive guide walks you through everything you need to know before getting your first bees—from essential equipment and costs to hive placement, seasonal care, and realistic first-year expectations. Whether you're drawn to beekeeping for honey production, pollination, or the fascinating biology of honeybees, you'll find actionable steps to start your journey safely and successfully.",
+  "sections": [
+    {
+      "id": "why-start-beekeeping",
+      "heading": "Why Start Beekeeping? Benefits Beyond the Honey",
+      "summary": "Covers the main motivations people have for beekeeping: honey production, pollination benefits for gardens, environmental impact, therapeutic aspects, and community connection. Sets realistic expectations about time commitment (5-10 hours per month during active season) and addresses common misconceptions about difficulty level.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "is-beekeeping-right-for-you",
+      "heading": "Is Beekeeping Right for You? Honest Self-Assessment",
+      "summary": "Helps readers evaluate if they're ready: physical requirements (lifting 40-60 lbs), allergy considerations, local regulations and HOA restrictions, space requirements (minimum yard size), and neighbor relations. Includes a checklist format for quick self-assessment and links to finding local beekeeping associations.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "startup-costs-breakdown",
+      "heading": "Beekeeping Startup Costs: What You'll Really Spend",
+      "summary": "Provides transparent cost breakdown for first-year beekeeping: hive equipment ($300-500), protective gear ($100-200), tools ($50-100), bees ($150-200), and optional items. Compares budget vs. premium approaches and discusses ongoing annual costs. Emphasizes that quality equipment is a multi-year investment.",
+      "hasAffiliate": true,
+      "affiliateNote": "Link to beginner beekeeping kit comparison page and individual equipment category pages"
+    },
+    {
+      "id": "essential-equipment-explained",
+      "heading": "Essential Beekeeping Equipment: What You Actually Need",
+      "summary": "Breaks down must-have equipment before your bees arrive: hive components (bottom board, boxes, frames, inner cover, outer cover), protective gear (suit/jacket, gloves, veil), hive tool, smoker, and bee brush. Explains the function of each item and why it matters. Distinguishes between day-one essentials and items you can acquire later.",
+      "hasAffiliate": true,
+      "affiliateNote": "Link to specific product recommendations for starter hive kits, bee suits, and smokers"
+    },
+    {
+      "id": "choosing-hive-type",
+      "heading": "Langstroth vs. Top Bar vs. Warre: Choosing Your Hive Type",
+      "summary": "Compares the three main hive types with honest pros and cons for beginners. Strongly recommends Langstroth for first-time beekeepers due to equipment availability, mentor support, and expansion flexibility. Explains why alternative hives appeal to some beekeepers but present learning curve challenges when community resources are Langstroth-focused.",
+      "hasAffiliate": true,
+      "affiliateNote": "Link to Langstroth hive reviews and comparison page"
+    },
+    {
+      "id": "where-to-place-your-hive",
+      "heading": "Hive Placement: Location Secrets for Healthy Bees",
+      "summary": "Covers critical placement factors: sun exposure (morning sun priority), wind protection, water source proximity (within 200 yards), entrance direction, ground levelness, and accessibility for inspections. Discusses urban vs. rural considerations and how to work with small spaces. Includes common placement mistakes to avoid.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "getting-your-first-bees",
+      "heading": "Getting Your First Bees: Packages vs. Nucs vs. Swarms",
+      "summary": "Explains three ways to acquire bees with specific recommendations for beginners (nucs are best but packages are fine). Covers ordering timeline (January-February for spring delivery), what to expect when bees arrive, and installation day procedures. Discusses local vs. shipped bees and why genetics matter for your climate.",
+      "hasAffiliate": true,
+      "affiliateNote": "Link to where to buy bees guide and recommended bee suppliers"
+    },
+    {
+      "id": "first-hive-inspection",
+      "heading": "Your First Hive Inspection: Step-by-Step Walkthrough",
+      "summary": "Provides detailed first-inspection guide: when to inspect (7-10 days after installation), how to light and use a smoker, frame-by-frame inspection process, what to look for (eggs, larvae, capped brood, queen), and how long it should take. Emphasizes calm, deliberate movements and managing beginner nervousness.",
+      "hasAffiliate": true,
+      "affiliateNote": "Link to hive tool and smoker product recommendations"
+    },
+    {
+      "id": "seasonal-beekeeping-calendar",
+      "heading": "Beekeeping Through the Seasons: Your First-Year Calendar",
+      "summary": "Breaks down beekeeping tasks by season: spring buildup and swarm prevention, summer honey flow and super management, fall harvest and winter prep, winter cluster monitoring. Provides month-by-month checklist for beginners and explains how tasks vary by climate zone. Sets expectations for time commitment in each season.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "basic-bee-biology",
+      "heading": "Bee Biology Basics: Understanding Your Colony",
+      "summary": "Explains essential biology concepts beginners need: the three castes (queen, workers, drones) and their roles, colony lifecycle and population dynamics, how bees make honey and wax, and the concept of superorganism. Focuses on practical knowledge that informs management decisions rather than academic detail.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "common-beginner-mistakes",
+      "heading": "7 Mistakes Every Beginner Beekeeper Makes (And How to Avoid Them)",
+      "summary": "Lists frequent beginner errors: over-inspecting, poor record-keeping, ignoring varroa mites, adding supers too early, not joining a bee club, buying cheap equipment that fails, and expecting huge honey harvests year one. Each mistake includes why it happens and specific prevention strategies.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "pest-and-disease-overview",
+      "heading": "Bee Health 101: Pests and Diseases to Watch For",
+      "summary": "Introduces major threats beginners should recognize: varroa mites (the #1 killer), small hive beetles, wax moths, American foulbrood, and nosema. Focuses on identification and when to seek help rather than detailed treatment protocols. Emphasizes that healthy, strong colonies resist most problems and that integrated pest management starts day one.",
+      "hasAffiliate": true,
+      "affiliateNote": "Link to varroa mite treatment comparison and monitoring tools"
+    },
+    {
+      "id": "first-honey-harvest",
+      "heading": "Your First Honey Harvest: When and How to Extract",
+      "summary": "Sets realistic expectations (many beekeepers don't harvest year one), explains when honey is ready (capped frames, moisture content), and overviews extraction methods from crush-and-strain to extractor rental. Covers how"
+    }
+  ]
+}

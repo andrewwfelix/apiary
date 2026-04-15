@@ -1,0 +1,106 @@
+{
+  "slug": "beekeeping-for-beginners",
+  "pageTitle": "Beekeeping for Beginners: What to Know Before You Start",
+  "metaDesc": "Thinking about keeping bees? Learn the real costs, time commitment, legal requirements, and neighbor considerations before you buy your first hive.",
+  "h1": "Beekeeping for Beginners: The Honest Guide to Getting Started",
+  "intro": "Starting beekeeping isn't just about buying a hive and bees. Before you invest time and money, you need to understand zoning laws, startup costs, weekly time commitments, and how to handle neighbor concerns. This guide walks you through every pre-start decision so you can begin beekeeping with confidence and realistic expectations.",
+  "sections": [
+    {
+      "id": "is-beekeeping-right-for-you",
+      "heading": "Is Beekeeping Right for You? 5 Questions to Ask First",
+      "summary": "Cover the reality check questions: Do you have allergies? Can you lift 50+ pounds? Are you comfortable with stings? Do you have outdoor space? Are you willing to commit 3-5 hours per week during peak season? This section sets honest expectations and helps readers self-assess before they invest.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "legal-requirements-and-zoning",
+      "heading": "Legal Requirements: Zoning Laws, Permits, and Registration",
+      "summary": "Explain how to check local ordinances (city, county, HOA). Cover setback requirements, hive limits, and state registration. Include tips for urban beekeepers and how to approach municipalities that don't have clear rules. Mention liability insurance considerations.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "real-startup-costs",
+      "heading": "The Real Cost of Starting Beekeeping (Budget Breakdown)",
+      "summary": "Provide a detailed cost breakdown: basic hive setup ($300-500), protective gear ($100-200), tools ($50-100), bees ($150-200), and first-year maintenance. Compare budget vs. premium options. Include a realistic first-year total and ongoing annual costs.",
+      "hasAffiliate": true,
+      "affiliateNote": "Link to beginner hive kits and starter tool sets from affiliate partners"
+    },
+    {
+      "id": "time-commitment-by-season",
+      "heading": "Time Commitment: How Much Work Is Beekeeping Really?",
+      "summary": "Break down time requirements by season: spring (weekly inspections, 1-2 hours), summer (weekly checks, swarm prevention, 2-3 hours), fall (harvest and prep, 3-4 hours total), winter (minimal, monthly checks). Address the learning curve in year one and how it gets easier.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "space-requirements",
+      "heading": "Space Requirements: Urban, Suburban, and Rural Beekeeping",
+      "summary": "Define minimum space needs for different settings. Urban: rooftop and small yard considerations. Suburban: typical backyard setup with flight path management. Rural: advantages and predator concerns. Include diagrams or descriptions of ideal hive placement relative to property lines.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "talking-to-neighbors",
+      "heading": "How to Talk to Your Neighbors About Keeping Bees",
+      "summary": "Provide a script and strategy for proactive neighbor communication. Cover common concerns (stings, swarms, property values) and how to address them. Suggest offering honey as goodwill. Discuss when to inform neighbors vs. when it's not required. Include tips for handling objections.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "choosing-your-first-hive-type",
+      "heading": "Choosing Your First Hive: Langstroth vs. Top Bar vs. Warre",
+      "summary": "Compare the three main hive types for beginners. Langstroth: industry standard, most resources, best for honey production. Top Bar: easier inspections, less lifting, lower honey yield. Warre: hands-off approach, natural comb. Recommend Langstroth for most beginners due to available support and equipment.",
+      "hasAffiliate": true,
+      "affiliateNote": "Link to recommended Langstroth starter kits and comparison of top beginner hive models"
+    },
+    {
+      "id": "essential-gear-checklist",
+      "heading": "Essential Gear Checklist: What You Actually Need (and What You Don't)",
+      "summary": "List must-haves: veil, gloves, hive tool, smoker, bee brush. Nice-to-haves: full suit, frame grip, uncapping knife. Skip-for-now: electric extractors, queen excluders (first year). Emphasize starting minimal and adding gear as you learn your comfort level.",
+      "hasAffiliate": true,
+      "affiliateNote": "Link to recommended beginner protective gear bundles and essential tool kits"
+    },
+    {
+      "id": "where-to-get-bees",
+      "heading": "Where to Get Your First Bees: Packages, Nucs, or Swarms?",
+      "summary": "Explain the three sources. Packages: affordable, available, slower start. Nucs: established colony, faster production, higher cost, limited availability. Swarms: free but unpredictable and requires experience. Recommend nucs for beginners who can afford them, packages as solid alternative. Discuss timing and how to order.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "finding-local-support",
+      "heading": "Finding Local Beekeeping Support and Mentorship",
+      "summary": "Emphasize the value of local beekeeping associations, mentorship programs, and hands-on workshops. Explain how to find clubs, what to expect from meetings, and why local knowledge matters more than YouTube. Mention online communities as supplements, not replacements.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "common-beginner-mistakes",
+      "heading": "7 Common Beginner Mistakes (and How to Avoid Them)",
+      "summary": "List pitfalls: opening hives too often, not feeding when needed, ignoring varroa mites, harvesting too much honey first year, poor hive placement, skipping inspections, not having a mentor. Provide quick fixes and prevention strategies for each.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    },
+    {
+      "id": "next-steps-timeline",
+      "heading": "Your First 90 Days: A Beginner's Timeline",
+      "summary": "Provide a week-by-week or month-by-month roadmap from decision to first inspection. Month 1: research and legal checks. Month 2: order equipment and bees. Month 3: install bees and first inspections. Give readers a clear action plan to follow.",
+      "hasAffiliate": false,
+      "affiliateNote": ""
+    }
+  ],
+  "faqQuestions": [
+    "Can I keep bees in my backyard?",
+    "How much does it cost to start beekeeping?",
+    "Do I need a permit to keep bees?",
+    "How much time does beekeeping take per week?",
+    "Will my neighbors complain about my bees?",
+    "What happens if I'm allergic to bee stings?"
+  ],
+  "internalLinks": [
+    "complete-beekeeping-guide",
+    "best-beehives-for-beginners",
+    "beekeeping-equipment-checklist"
+  ]
+}

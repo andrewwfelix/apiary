@@ -1,0 +1,25 @@
+{
+  "_destination": "apiary/config.json",
+  "site": {
+    "name": "The Apiary Guide",
+    "domain": "theapiaryguide.com",
+    "url": "https://theapiaryguide.com",
+    "tagline": "Everything You Need to Start and Grow Your Hive",
+    "affiliateId": "TBD",
+    "gaId": "TBD"
+  },
+  "models": {
+    "pass1": {
+      "model": "anthropic/claude-haiku-4-5",
+      "maxTokens": 2000,
+      "temperature": 0.4,
+      "notes": "Architect pass — generates page outline and structure"
+    },
+    "pass2": {
+      "model": "anthropic/claude-haiku-4-5",
+      "maxTokens": 6000,
+      "temperature": 0.5,
+      "notes": "Builder pass — implements outline into full HTML"
+    }
+  }
+}

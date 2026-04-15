@@ -1,0 +1,345 @@
+{
+  "_description": "Affiliate site project manifest — defines site config, page inventory, and prompt strategy for rapid buildout",
+  "_version": "1.0",
+  "_created": "2026-04-15",
+
+  "site": {
+    "name": "The Apiary Guide",
+    "domain": "theapiaryguide.com",
+    "tagline": "Everything You Need to Start and Grow Your Hive",
+    "niche": "beekeeping",
+    "affiliateId": "TBD",
+    "affiliateProgram": "Amazon Associates",
+    "gaId": "TBD",
+    "accentColor": "#f5a623",
+    "platform": "wordpress",
+    "hosting": "siteground",
+    "stack": {
+      "affiliatePlugin": "AAWP",
+      "seoPlugin": "Rank Math",
+      "theme": "Astra",
+      "email": "ConvertKit"
+    }
+  },
+
+  "promptStrategy": {
+    "pass1Model": "anthropic/claude-sonnet-4-5",
+    "pass1Role": "architect — generates structured outline: sections, subheadings, angles, affiliate placement",
+    "pass1MaxTokens": 2000,
+    "pass1Temperature": 0.4,
+    "pass2Model": "anthropic/claude-haiku-4-5",
+    "pass2Role": "builder — implements the outline into full HTML following the shared template",
+    "pass2MaxTokens": 6000,
+    "pass2Temperature": 0.5,
+    "estimatedCostPerPage": "$0.03",
+    "estimatedTotalCost": "$0.90"
+  },
+
+  "pageTypes": {
+    "roundup": {
+      "description": "Best-of affiliate list — 5-10 products with pros/cons and buy links",
+      "sections": ["intro", "quick-picks", "reviews", "buying-guide", "faq"],
+      "affiliateDensity": "high"
+    },
+    "comparison": {
+      "description": "X vs Y — direct comparison of two products or approaches",
+      "sections": ["intro", "overview", "head-to-head", "verdict", "faq"],
+      "affiliateDensity": "medium"
+    },
+    "guide": {
+      "description": "How-to or beginner guide — educational with soft affiliate placement",
+      "sections": ["intro", "what-you-need", "step-by-step", "tips", "products", "faq"],
+      "affiliateDensity": "low"
+    },
+    "editorial": {
+      "description": "History, science, cultural — authority content, minimal affiliate",
+      "sections": ["intro", "main-sections", "significance", "further-reading"],
+      "affiliateDensity": "minimal"
+    },
+    "directory": {
+      "description": "Clubs, associations, resources — link bait, community building",
+      "sections": ["intro", "national", "by-state", "how-to-join", "submit-your-club"],
+      "affiliateDensity": "none"
+    },
+    "spotlight": {
+      "description": "Beekeeper profile — community outreach, interview format",
+      "sections": ["intro", "background", "qa", "their-setup", "advice-for-beginners"],
+      "affiliateDensity": "minimal"
+    }
+  },
+
+  "pages": [
+
+    {
+      "slug": "best-beginner-beekeeping-kit",
+      "title": "Best Beginner Beekeeping Starter Kit",
+      "type": "roundup",
+      "pillar": "shop",
+      "priority": 1,
+      "searchIntent": "buyer",
+      "notes": "Highest buyer intent page on the site. Cover complete kits vs build-your-own. Include hive, suit, smoker, tools, feeder."
+    },
+    {
+      "slug": "best-beekeeping-suits",
+      "title": "Best Beekeeping Suits and Protective Gear",
+      "type": "roundup",
+      "pillar": "shop",
+      "priority": 1,
+      "searchIntent": "buyer",
+      "notes": "Full suits vs jackets vs veils. Budget picks vs premium. Size and fit guidance."
+    },
+    {
+      "slug": "best-beekeeping-smokers",
+      "title": "Best Beekeeping Smokers",
+      "type": "roundup",
+      "pillar": "shop",
+      "priority": 2,
+      "searchIntent": "buyer",
+      "notes": "Size, fuel type, ease of use. Must-have for every beekeeper."
+    },
+    {
+      "slug": "best-beekeeping-hive-tools",
+      "title": "Best Hive Tools for Beekeepers",
+      "type": "roundup",
+      "pillar": "shop",
+      "priority": 2,
+      "searchIntent": "buyer",
+      "notes": "J-hook vs standard vs frame grip. Budget picks. Bundle suggestions."
+    },
+    {
+      "slug": "best-honey-extractors",
+      "title": "Best Honey Extractors",
+      "type": "roundup",
+      "pillar": "shop",
+      "priority": 2,
+      "searchIntent": "buyer",
+      "notes": "Manual vs electric. 2-frame vs 4-frame vs radial. First extractor vs upgrade."
+    },
+    {
+      "slug": "langstroth-vs-top-bar-vs-warre",
+      "title": "Langstroth vs Top Bar vs Warre Hive — Which Should You Choose?",
+      "type": "comparison",
+      "pillar": "shop",
+      "priority": 1,
+      "searchIntent": "research",
+      "notes": "Most-searched beekeeping comparison. Clear verdict for beginners. Link to all three hive types on Amazon."
+    },
+    {
+      "slug": "best-beekeeping-books",
+      "title": "Best Books About Beekeeping",
+      "type": "roundup",
+      "pillar": "discover",
+      "priority": 2,
+      "searchIntent": "buyer",
+      "notes": "Beginner books vs advanced. Field guides vs narrative. All Amazon affiliate links."
+    },
+    {
+      "slug": "beekeeping-documentaries-movies",
+      "title": "Best Documentaries and Movies About Bees",
+      "type": "roundup",
+      "pillar": "discover",
+      "priority": 3,
+      "searchIntent": "informational",
+      "notes": "Queen of the Sun, More Than Honey, etc. Amazon Prime links where available."
+    },
+    {
+      "slug": "beginners-guide-to-beekeeping",
+      "title": "The Complete Beginner's Guide to Beekeeping",
+      "type": "guide",
+      "pillar": "learn",
+      "priority": 1,
+      "searchIntent": "informational",
+      "notes": "Highest-volume informational query. Comprehensive. Links to product pages throughout. Hub for the Learn pillar."
+    },
+    {
+      "slug": "how-to-inspect-a-beehive",
+      "title": "How to Inspect a Beehive (Step by Step)",
+      "type": "guide",
+      "pillar": "learn",
+      "priority": 2,
+      "searchIntent": "informational",
+      "notes": "Practical how-to. Links to hive tools, smokers, suits. Seasonal timing guidance."
+    },
+    {
+      "slug": "how-to-harvest-honey",
+      "title": "How to Harvest Honey from Your Hive",
+      "type": "guide",
+      "pillar": "learn",
+      "priority": 2,
+      "searchIntent": "informational",
+      "notes": "Step by step. Links to extractors, uncapping tools, storage jars. When and how often."
+    },
+    {
+      "slug": "common-beekeeping-problems",
+      "title": "Common Beekeeping Problems and How to Fix Them",
+      "type": "guide",
+      "pillar": "learn",
+      "priority": 2,
+      "searchIntent": "informational",
+      "notes": "Varroa mites, hive beetles, swarming, queenlessness. Links to treatments and tools."
+    },
+    {
+      "slug": "history-of-beekeeping",
+      "title": "The History of Beekeeping — From Ancient Egypt to Modern Hives",
+      "type": "editorial",
+      "pillar": "discover",
+      "priority": 2,
+      "searchIntent": "informational",
+      "notes": "Long-form evergreen. Ancient Egypt, Greece, Rome, Langstroth's invention of the modern hive. Highly shareable. Link bait."
+    },
+    {
+      "slug": "science-of-honey",
+      "title": "The Science of Honey — How Bees Make It",
+      "type": "editorial",
+      "pillar": "discover",
+      "priority": 3,
+      "searchIntent": "informational",
+      "notes": "Biology, chemistry, antimicrobial properties. Shareable. Links to honey storage, testing equipment."
+    },
+    {
+      "slug": "famous-beekeepers",
+      "title": "Famous Beekeepers Throughout History",
+      "type": "editorial",
+      "pillar": "discover",
+      "priority": 3,
+      "searchIntent": "informational",
+      "notes": "Langstroth, Huber, Dzierzon, Leo Tolstoy, Leo Tolstoy, Sherlock Holmes (fictional). Fun, shareable."
+    },
+    {
+      "slug": "types-of-bees",
+      "title": "Types of Bees — A Guide to Bee Species",
+      "type": "editorial",
+      "pillar": "learn",
+      "priority": 3,
+      "searchIntent": "informational",
+      "notes": "Honeybees vs bumblebees vs mason bees vs carpenter bees. Which to keep, which to encourage."
+    },
+    {
+      "slug": "beekeeping-clubs-directory",
+      "title": "Beekeeping Clubs and Associations Directory",
+      "type": "directory",
+      "pillar": "community",
+      "priority": 1,
+      "searchIntent": "navigational",
+      "notes": "By state. National orgs. Submit your club form. Massive link bait — clubs link back when listed. Most important community page."
+    },
+    {
+      "slug": "beekeeper-spotlight",
+      "title": "Beekeeper Spotlight — Meet the Community",
+      "type": "spotlight",
+      "pillar": "community",
+      "priority": 2,
+      "searchIntent": "informational",
+      "notes": "Hub page linking to individual beekeeper profiles. Outreach-driven. Builds relationships and backlinks."
+    },
+    {
+      "slug": "beekeeping-associations",
+      "title": "National Beekeeping Associations and Organizations",
+      "type": "directory",
+      "pillar": "community",
+      "priority": 2,
+      "searchIntent": "navigational",
+      "notes": "ABF, AHPA, state extensions. Links to membership, resources, events."
+    },
+    {
+      "slug": "beekeeping-for-beginners",
+      "title": "Beekeeping for Beginners — Everything You Need to Know Before You Start",
+      "type": "guide",
+      "pillar": "learn",
+      "priority": 1,
+      "searchIntent": "informational",
+      "notes": "Slightly different angle from the complete guide — focused on pre-start decisions. Zoning, cost, time commitment, neighbors."
+    },
+    {
+      "slug": "how-much-does-beekeeping-cost",
+      "title": "How Much Does Beekeeping Cost? A Complete Budget Breakdown",
+      "type": "guide",
+      "pillar": "learn",
+      "priority": 2,
+      "searchIntent": "informational",
+      "notes": "Startup costs vs ongoing. Links to all the products naturally. High buyer intent disguised as informational."
+    },
+    {
+      "slug": "beekeeping-laws-and-regulations",
+      "title": "Beekeeping Laws and Regulations by State",
+      "type": "directory",
+      "pillar": "learn",
+      "priority": 3,
+      "searchIntent": "informational",
+      "notes": "Can I keep bees in my backyard? Zoning, HOA, registration. High search volume for urban beekeepers."
+    },
+    {
+      "slug": "urban-beekeeping-guide",
+      "title": "Urban Beekeeping — A Guide to Keeping Bees in the City",
+      "type": "guide",
+      "pillar": "learn",
+      "priority": 2,
+      "searchIntent": "informational",
+      "notes": "Growing trend. Rooftop hives, small spaces, neighbor relations, city regulations. Links to compact equipment."
+    },
+    {
+      "slug": "beekeeping-seasonal-calendar",
+      "title": "The Beekeeping Year — A Seasonal Calendar and Checklist",
+      "type": "guide",
+      "pillar": "learn",
+      "priority": 2,
+      "searchIntent": "informational",
+      "notes": "What to do each month. Spring buildup, summer honey, fall prep, winter survival. Links to seasonal products."
+    },
+    {
+      "slug": "varroa-mite-treatment",
+      "title": "Varroa Mite Treatment — Best Options and How to Use Them",
+      "type": "roundup",
+      "pillar": "shop",
+      "priority": 2,
+      "searchIntent": "buyer",
+      "notes": "Biggest pest problem in modern beekeeping. Oxalic acid, formic acid, Apivar. All available on Amazon."
+    },
+    {
+      "slug": "honey-bee-biology",
+      "title": "Honey Bee Biology — Understanding Your Colony",
+      "type": "editorial",
+      "pillar": "learn",
+      "priority": 3,
+      "searchIntent": "informational",
+      "notes": "Queen, workers, drones. Life cycle, communication, waggle dance. Builds authority. Links to educational books."
+    },
+    {
+      "slug": "best-beekeeping-courses",
+      "title": "Best Beekeeping Courses and Classes Online",
+      "type": "roundup",
+      "pillar": "learn",
+      "priority": 3,
+      "searchIntent": "buyer",
+      "notes": "Online courses, local extensions, YouTube channels. Links to books and courses on Amazon."
+    },
+    {
+      "slug": "honey-varieties-guide",
+      "title": "A Guide to Honey Varieties — Flavors, Origins, and Uses",
+      "type": "editorial",
+      "pillar": "discover",
+      "priority": 3,
+      "searchIntent": "informational",
+      "notes": "Manuka, buckwheat, clover, raw vs processed. Links to specialty honeys and tasting sets on Amazon."
+    },
+    {
+      "slug": "beekeeping-gifts",
+      "title": "Best Gifts for Beekeepers",
+      "type": "roundup",
+      "pillar": "shop",
+      "priority": 3,
+      "searchIntent": "buyer",
+      "notes": "Seasonal traffic spike around holidays. Easy affiliate page. Covers all price ranges."
+    },
+    {
+      "slug": "about",
+      "title": "About The Apiary Guide",
+      "type": "editorial",
+      "pillar": "site",
+      "priority": 1,
+      "searchIntent": "navigational",
+      "notes": "Mission, who we are, affiliate disclosure. Trust signal. Keep it genuine."
+    }
+
+  ]
+}

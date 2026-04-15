@@ -1,0 +1,63 @@
+{
+  "slug": "about",
+  "pageTitle": "About The Apiary Guide - Your Trusted Beekeeping Resource",
+  "metaDesc": "Learn about The Apiary Guide's mission to help beekeepers thrive. Honest reviews, expert guidance, and transparent affiliate partnerships since day one.",
+  "h1": "About The Apiary Guide",
+  "intro": "The Apiary Guide exists to help beekeepers at every level make confident decisions about their hives. We're beekeepers first, writers second—and we only recommend products and practices we'd use in our own apiaries. Here's our story and how we operate.",
+  "sections": [
+    {
+      "id": "our-mission",
+      "heading": "Our Mission: Real Beekeeping Guidance, No Fluff",
+      "summary": "Explain that beekeeping information online is often outdated, overly technical, or sales-driven. Our mission is to bridge that gap with practical, tested advice that respects both bees and beekeepers. We prioritize bee health, sustainable practices, and helping people avoid costly beginner mistakes.",
+      "hasAffiliate": false,
+      "affiliateNote": null
+    },
+    {
+      "id": "who-we-are",
+      "heading": "Who We Are",
+      "summary": "Introduce the team as experienced beekeepers with combined decades managing hives in different climates and contexts. Mention that we're not academics or commercial operators—we're hobbyists and sideliners who understand the challenges of backyard beekeeping. Emphasize hands-on experience and ongoing learning.",
+      "hasAffiliate": false,
+      "affiliateNote": null
+    },
+    {
+      "id": "how-we-review",
+      "heading": "How We Test and Review Products",
+      "summary": "Detail the review process: we purchase or field-test equipment ourselves, consult with other beekeepers, and evaluate durability, ease of use, and value. We don't accept payment for positive reviews. Explain that we update reviews as products evolve or better options emerge. Transparency is key.",
+      "hasAffiliate": false,
+      "affiliateNote": null
+    },
+    {
+      "id": "affiliate-disclosure",
+      "heading": "Affiliate Disclosure: How We Keep the Lights On",
+      "summary": "Clearly state that The Apiary Guide earns commissions when readers purchase through our affiliate links, primarily Amazon Associates and select beekeeping suppliers. Emphasize that this doesn't influence our recommendations—we only link to products we genuinely recommend. Explain that affiliate income allows us to keep content free and ad-light.",
+      "hasAffiliate": false,
+      "affiliateNote": null
+    },
+    {
+      "id": "our-values",
+      "heading": "What We Stand For",
+      "summary": "Outline core values: bee-first practices, beginner-friendly education, environmental stewardship, and honest commerce. Mention opposition to exploitative beekeeping methods and commitment to promoting treatments that minimize harm. Position the site as a resource that respects both the craft and the insects.",
+      "hasAffiliate": false,
+      "affiliateNote": null
+    },
+    {
+      "id": "get-in-touch",
+      "heading": "Get in Touch",
+      "summary": "Invite readers to reach out with questions, corrections, or product suggestions. Provide an email contact and mention response time expectations. Encourage community engagement and feedback to improve the site. Reinforce that we're here to help, not just sell.",
+      "hasAffiliate": false,
+      "affiliateNote": null
+    }
+  ],
+  "faqQuestions": [
+    "Does The Apiary Guide sell beekeeping products directly?",
+    "How does The Apiary Guide make money?",
+    "Are your product reviews biased because of affiliate links?",
+    "Can I trust the beekeeping advice on this site?",
+    "Who writes the content for The Apiary Guide?"
+  ],
+  "internalLinks": [
+    "best-beekeeping-starter-kits",
+    "how-to-start-beekeeping",
+    "contact"
+  ]
+}
